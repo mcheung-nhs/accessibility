@@ -1,0 +1,147 @@
+/* Scorecard comparison view slider headers */
+.scorecard-results .comparison-view caption {width:auto;}
+/* CHQ most popular carousel */
+.list-box .padding ul.carousel-list-js {margin-left:-51em;}
+/* Action button */
+/* East print (default) */
+p.printable-version a {background-position:left 1px;}
+p.printable-version a:hover {background-position:0 -49px;}
+/* IP */
+p.printable-version.ip a {background-position:0 -98px;}
+p.printable-version.ip a:hover {background-position:0 -147px;}
+/* Save */
+p.printable-version.save a  {background-position:0 -196px;}
+p.printable-version.save a:hover {background-position:0 -246px;}
+/* Save as PDF */
+p.printable-version.savepdf a  {background-position:0 -296px;}
+p.printable-version.savepdf a:hover {background-position:0 -346px;}
+/* Email */
+p.printable-version.email a  {background-position:0 -396px;}
+p.printable-version.email a:hover {background-position:0 -446px;}
+/* Health A-Z - Scorecard 100 results */
+.healthaz .sc100-results .results-list li a {margin-left:0;}
+.healthaz .sc100-results .results-list li .distance {margin-left:-0.2em;}
+/* Google search results */
+.search-pane ul.pagination {margin-bottom:1em;}
+.search-pane.row.pad.clear .speciality .submit {margin-top:-1.8em;}
+.search-pane.google .link-url {word-wrap:break-word;}
+/* find services hub */
+.fs .hub-box.scripted .urgent-care fieldset#main-search {float:left; padding:3em 0 0 15em;}
+.fs .hub-box.scripted .urgent-care fieldset#main-search legend {padding:0 0 0 0;}
+/* Health Explorer */
+.health-explorer-previous ul li {margin-left:0;}
+.health-explorer-previous ul li a {padding-left:1em;}
+/* bookmarking and star ratings */
+.bookmark-wrap .save-choices {margin-right:1.2em;} 
+.bookmark-wrap .save-choices input {padding:.2em 0 0 .2em;}
+.bookmark-wrap .easy-print .printable-version a span, .bookmark-wrap .easy-print .printable-version a:hover span {top:0;}
+/* search results filters */
+.column-main-left ul.tabs li.inactive input {padding:0 .5em .3em .5em;}
+/* carers edit mode */
+.carers	.three-sm .carers-article .article .radeditor {padding-bottom:6.5em;}
+/*medicine hub*/
+.healthaz.med-hub .tabs-nav.full-width ul.tabs li {bottom:-2px;}
+.healthaz .tabs-nav.full-width ul.tabs li.active {bottom:-1px}
+/* find and choose services homepage module */
+.columns .module-findchooseservices .find-services .box .submit-container .submit input {padding:0 1em;}
+/* self assessment */
+.self-assess #progress li span.tl, .self-assess #progress li.last span.tr {top:0;}
+.self-assess .gradient ul.tabs li {bottom:-6px;}
+/*CCCP*/
+.fs #hub-hospital-consultant-toggle input{vertical-align:middle; padding-bottom:0.2em}
+.scorecard-results .refine-predictive .refine-consultant-sub p {zoom:1}
+.scorecard-results .consultant-view .organisation-wrapper ul li  {padding-left:0.9em}
+.scorecard-results .filter-submit .submit input {padding-right:1.8em;}
+.scorecard-results .refine-predictive label#for-lblTreatment {margin-left:.1em;}
+/*.fs .consultant-search label{ margin-bottom:-1em}*/
+.fs .consultant-search input.chk-postcode { margin:0; }
+.scorecard-results .refine-predictive .refine-consultant-sub #yesJS input{position:absolute; }
+.fs .consultant-search .row { margin-bottom:1em !important}
+.fs .consultant-search .row select#lstDisambiLocationsID{display:block; margin-top:1em}
+.fs .consultant-search #noJS label {margin:0}
+.scorecard-results .refine-predictive .refine-consultant-sub select#lstAwardsID {margin-top:0.3em}
+/*scorecard hospital search*/
+.scorecard-results .scorecard-views .key-facts .shortlist-wrap {min-height:3em;}
+/* Media Library R17 */
+.media-library .transcript-trig a.active {background-position:left -1em;}
+/* embed this tool */
+.tool-embed input {background-position:0 -39px; padding-left:14px;}
+.tool-embed input.show-embed {background-position:2px 2px;}
+/* create account */
+.prsnl legend {left:0;}
+/* scorecard comparison view */
+.scorecard-results .comparison-view td.highlight, .scorecard-results .comparison-view td.ae-onsite-comparison {background-image:none; border-right:1px dotted #585858; padding:0;}
+.scorecard-results .comparison-view td.last-highlight, .scorecard-results .comparison-view td.ae-onsite-comparison.last {border-right:0;}
+.scorecard-results .comparison-view td.shortlist-button {border-bottom:1px dotted #585858;}
+.scorecard-results .comparison-view td.shortlist-button .highlight-content {border-right:0;}
+.scorecard-results .comparison-view .highlight-content {margin-right:0;}
+/* consultant results */
+.scorecard-results .refine-consultant .refine-predictive input {position:absolute;}
+/* health a-z ip */
+.healthaz .printMod fieldset.prtd-select fieldset legend.sub-legend {margin-top:1em;}
+.healthaz #ctl00_PlaceHolderMain_PrintControl1_medicinesFieldset legend.sub-legend {margin-top:0;}
+/* Social Sharing - April 2011 */
+
+ul.personal-header {float:left;}
+
+.blur {filter:alpha(opacity=70);}
+
+/* treatment option tables */
+.o-table thead th {border-left:1px dotted #d3d3d3; border-right:1px dotted #d3d3d3;}
+
+/* guides */
+.guides .mmenu .items-1 li {width:79.55em;}
+.guides .videosearch fieldset input.videosearchtext {padding:.8em 1em .8em .5em;}
+.guides .three-sm .video-panel p {margin-right:-0.01em;}
+
+/*Urgent Care Finder*/
+.findcompare.urgent-care .urgent-care-search-filter fieldset ul li.last input.fcsubmit {margin-left:2em}
+
+/* Visual Search Results (AKA Magic Tags) */
+/* Edit mode */
+.visual-results #edit-mode .result {border-top-color:transparent;}
+.visual-results #edit-mode .result h2 {font-size:1.4em;}
+.visual-results #edit-mode .result input {font-size:1.2em;}
+.visual-results #edit-mode .result .visibility input {border:0;}
+.visual-results #edit-mode .submit {font-size:1.2em;}
+
+/* CCG map */
+/* popup */
+#ccg-popup.compact .inner {width:180px;}
+
+/* comments/share experience webpart */
+.share-container .share-step-2 p.share-text {padding-bottom:0;}
+.three-sm .share-step-2 p {padding-bottom:0;}
+.healthaz .three-sm .share-container .share-buttons, .guides .three-sm .share-container .share-buttons {margin-top:1.1em;}
+.three-sm .share-step-2 select, .three-sm .share-step-2 input.location  {width:16em;}
+
+/*Accountability*/
+.accountability-hub .accountability-search-container .accountability-org .accountability-location-search .submit-container input {width: 4em; padding-left:1.4em}
+.accountability-results .fcdetails h2 a {text-align:center !important;}
+
+/* refresh */
+/* livewell */
+.header input#q  {width:288px;}
+.live-well .row .lastchild {float:right; margin-right:0; width:37.6em;}
+.signup-form .name-row input.lastnametext {margin-right:0;}
+.live-well .lastchild span ol li {border-bottom:1px solid #e2e2e2; color:#00649b; font-size:1.2em; padding:.5em; position:relative;}
+.live-well .lastchild span ol li strong {font-weight:normal;}
+.live-well .lastchild span ol a {left:2.3em; position:absolute; text-decoration:none;}
+/* health az */
+#haz-mod1 ul li {width:31px;}
+.med-hub .five .browse-meds .med-hub-az {margin-right:2%; width:30%;}
+.med-hub #ctl00_PlaceHolderMain_Webpart .browse-meds .med-hub-az, #haz-mod5 .index-section > ul {width:31%;}
+.med-hub .med-hub-medsaz {width:46%;}
+/* homepage */
+.row-bg {padding-bottom:2em !important;}
+.row-bg .box-findservices label.checked, .row-bg .box-findservices label.checked:hover {background:#47515e; color:#fff;}
+.row-bg .box-findservices label.checked span {border-left:15px solid transparent; border-right:15px solid transparent; border-top:10px solid #47515e; height:0; left:0; margin:0 auto; position:absolute; right:0; top:100%; width:0;}
+.row-bg .box-short a {height:134px; min-height:1px !important;}
+.row-bg .box-doitonline {height:293px; min-height:1px !important;}
+#homepageteasers .box-tall {margin-left:2.5%; margin-right:0;}
+#homepageteasers .box-tall:first-child {margin-left:0;}
+/* carers */
+.carousel-text {width:18em;}
+/*Consultants*/
+.findcompare-results-consultants.consultants-profiles .consultant-results-header .fcfilters .inner {float:left}
+.findcompare-results-consultants.consultants-profiles .consultant-results-header .fcfilters #ClearLocationLink, .findcompare-results-consultants.consultants-profiles .consultant-results-header .fcfilters #ClearConsultantNameLink  {margin-left:-25px;}

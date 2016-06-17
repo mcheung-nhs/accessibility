@@ -1,0 +1,1548 @@
+﻿.page-wrap {padding-bottom:1em;}
+.clear, .panel {height:1%;}
+.wrap {z-index:106;}
+/* Typography */
+ul.tick-list li {height:21px;}
+ul.link-list {position:relative;}
+/* Buttons */
+.submit input {behavior:url('/includes/IEButtonFixes.htc'); padding:1px 1.2em 0 .5em;}
+.submit input.hover {text-decoration:underline;}
+/* Tabs */
+ul.tabs li a {behavior:url('/includes/link-focus.htc');}
+ul.tabs li a.ie-focus {text-decoration:underline;}
+ul.tabs li.active { padding:.46em .8em .46em .8em;}
+.column-main {width:93.5em;}
+.column-main-left {width:244px;}
+.column-main-left ul.tabs li.active .active-text {margin-top:0.6em;}
+.column-main-left ul.tabs li.inactive input {bottom:-5px; padding-bottom:.4em; padding-left:.4em; padding-right:.4em;}
+.column-main-left ul.tabs li.inactive .tl {left:-2px; top:-2px;}
+.all-results-list {margin:0px 0 20px 0;}
+.search-filter input {border-bottom:0;text-decoration:underline;}
+.column-main-right .submit input, .no-results-pane .submit input {padding-right:2em;}
+.postcode-search-panel-50 {width:294px;margin-right:0px;}
+.postcode-search-panel-50 .search-pane {width:299px;}
+.postcode-search-panel-50 .speciality .hub-search input {width:285px;}
+.postcode-search-panel-50 .hub-search-box {width:282px;}
+.postcode-search-panel-50 .speciality .remember-postcode {margin-top:5px;}
+.postcode-search-panel-50 .services-near  {height:141px;}
+.postcode-search-panel-50 .remember-postcode label {font-size:1.1em;}
+.health-explorer-teaser-50 .health-explorer-teaser-cap {width:332px;}
+.health-explorer-teaser-50 .health-explorer-teaser-content {height:128px;}
+.health-explorer-teaser-cap h2 {margin:0.3em 0 0 0.35em;}
+.health-explorer-previous {padding-top:0.5em; padding-bottom:0.5em;}
+.health-explorer-previous ul li {margin-left:-.5em;}
+.health-explorer-previous ul li a {margin-left:-.8em;}
+.services-near {height:6em;}
+.healthaz .tabs-nav{width:75.4em;}
+.carers .tabs-nav {width:94.5em;}
+.carers .sub-nav {width:95.3em;}
+.carers .five {width:94.4em;}
+.carers .five .three-sm{margin-right:0.8em;}
+.carers ul.tabs li {bottom:-6px;}
+.carers ul.tabs li.active {bottom:-1px;}
+.healthaz .four, .carers .five, .about .four  {padding:0;}
+.four .sub-nav {width:74em;}
+.healthaz .sub-nav, .about .sub-nav { width:76.2em;}
+.about .sub-nav {margin-bottom:0;}
+.fs .results-panel .tabs-nav {width:53.9em;}
+.fs .also-provide ul.tabs li {bottom:-6px;}
+.fs ul.tabs li.active {bottom:-1px;}
+.fs ul.tabs li {bottom:-6px;}
+.results-panel ul.tabs li,.healthaz ul.tabs li {bottom:-6px;}
+.results-panel ul.tabs li.active {bottom:-1px;}
+.one .video-menu li {display:inline ; clear:right;} 
+.about ul.tabs li .tr, ul.tabs li.active .tr, .prsnl ul.tabs li.inactive .tr, .fs ul.tabs li.active .tr, .healthaz ul.tabs li.active .tr,.advsearch ul.tabs li.active .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-2px' : '-1px');}
+.carers .tabs-nav .tr, .fs ul.tabs li .tr, .healthaz ul.tabs li .tr,.advsearch ul.tabs li .tr,.ips .ips ul.tabs li .tr, .ips .manage-ips .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : '0');}
+.ips .manage-ips .tl {left:-17.3em;}
+.ips .manage-ips .bl {left:-17.3em;}
+.one .sub-nav li.selected a, .sub-nav li strong {background-color:#669900;}
+.fs .results-panel .tabs-nav ul.tabs li,.advsearch ul.tabs li {bottom:-6px;}
+.fs .results-panel .tabs-nav ul.tabs li.active {bottom:-1px;}
+.prsnl ul.tabs li.inactive {bottom:-.4em; padding-bottom:0; padding-top:.2em;}
+.prsnl ul.tabs li.inactive input {line-height:normal;}
+/* Header */
+.tab-login .personal-header {line-height:normal; list-style:none; list-style-position:outside; white-space:nowrap; width:31.5em;}
+.anonymous-login .personal-header {width:20em;}
+ul.translate {padding-top:.7em !important;}
+ul.translate li {display:inline; height:1em;}
+ul.personal-header {float:none;}
+.header .tl, .header .tr {position:relative;}
+.header .tr {float:right; margin-top:-10px;}
+.header {z-index:105;}
+.header h1, p.choices-logo {margin-top:1em;} 
+.header .main-nav ul li {behavior:url('/includes/ieHeaderFix.htc');}
+.header .main-nav ul li a {padding-bottom:0.5em;}
+.header .main-nav ul li.iehover a {color:#fff;}
+.header .main-nav ul li.iehover div, .header .main-nav ul li div.menufocus {background:#fff; border:1px solid #cdcdcd; font-size:1em; left:-.1em; margin-top:-.1em; padding:0; width:235px;}
+.header .main-nav ul li div.menufocus {border:0}
+.header .main-nav ul li.iehover ul li, .header .main-nav ul li div.menufocus ul li {border:0; border-bottom:1px dotted #e3e3e3 !important; color:#585858; display:block; float:none; font-size:.85em; font-weight:normal; list-style-type:none; list-style:outside; width:235px;}
+.header .main-nav ul li.iehover ul li a, .header .main-nav ul li div.menufocus ul li a {background:none !important; color:#585858; display:block; padding:.4em 1em; text-align:left; text-decoration:none;}
+.header .main-nav ul li.iehover ul li a:hover {text-decoration:underline;}
+.header .main-nav ul li.iehover ul li.last {border-bottom:0 !important;}
+.header .main-nav ul li.iehover ul li.bold a {font-weight:bold;}
+.header .main-nav ul li.iehover ul li.first, .header .main-nav ul li div.menufocus ul li.first {border-bottom:0 !important; color:#fff !important; font-size:1.2em !important; font-weight:bold !important;}
+.header .main-nav ul li.iehover ul li.first span {display:block; padding:.3em 1em;}
+.header .main-nav ul li#medical-advice-topnav .first {background:#053e78 !important;}
+.header .main-nav ul li#health-az-topnav .first {background:#069 !important;}
+.header .main-nav ul li#livewell-topnav .first {background:#74a80d !important;}
+.header .main-nav ul li#carers-topnav .first {background:#309 !important;}
+.header .main-nav ul li#news-topnav .first {background:#585858 !important;}
+.header .main-nav ul li#medical-advice-topnav.iehover a, .header .main-nav ul li#medical-advice-topnav a.menufocus {background:#053e78 url(/img/header/nav-bg.gif) left top repeat-x; color:#fff;}
+.header .main-nav ul li#health-az-topnav.iehover a, .header .main-nav ul li#health-az-topnav a.menufocus {background:#005f8f url(/img/header/nav-bg.gif) 0 -60px repeat-x; color:#fff;}
+.header .main-nav ul li#livewell-topnav.iehover a, .header .main-nav ul li#livewell-topnav a.menufocus  {background:#64920b url(/img/header/nav-bg.gif) 0 -120px repeat-x; color:#fff;}
+.header .main-nav ul li#carers-topnav.iehover a, .header .main-nav ul li#carers-topnav a.menufocus {background:#2b0081 url(/img/header/nav-bg.gif) 0 -180px repeat-x; color:#fff;}
+.header .main-nav ul li#news-topnav.iehover a, .header .main-nav ul li#news-topnav a.menufocus {background:#4d4d4d url(/img/header/nav-bg.gif) 0 -240px repeat-x; color:#fff;}
+.header .main-nav ul li#find-services-topnav.iehover a, .header .main-nav ul li#find-services-topnav a.menufocus {background:#b00808 url(/img/header/nav-bg.gif) 0 -320px repeat-x; color:#fff;}
+.header .main-nav ul li#find-services-topnav.iehover div {left:0;}
+.header .main-nav ul li#find-services-topnav.iehover .find-services-first {background:#f7f7f7 url(/img/header/find-services-nav-bg.gif) bottom left repeat-x !important; border-bottom:0 !important; margin-bottom:0.2em; width:289px}
+.header .main-nav ul li#find-services-topnav.iehover li {width:289px}
+.header .main-nav ul li#find-services-topnav .services-link a {border:0; height:1%;}
+.header .main-nav ul li#find-services-topnav div.menufocus {background:none;}
+.header .main-nav ul li.iehover ul li a {border:0; color:#585858 !important;}
+.header .main-nav ul .topnav-first .topnav-link {background:url(/img/chevron-grey.gif) 0 4px no-repeat; margin-left:1em;}
+.header .main-nav ul .topnav-first .topnav-link a {background:none; padding-left:0 !important;}
+ul.info-nav li {margin:.5em 0 -1.4em 0;}
+.header .searchbar {margin-top:0; z-index:10003}
+.header .searchbar, .header .searchbar .search-inner {width:40em;}
+.header .searchbar .crnr {clear:both; position:absolute;}
+.header .searchbar .tr {margin:0;}
+.header .searchbar .search-inner .tr, .header .searchbar .search-inner .br {right:expression((this.offsetParent.clientWidth % 2) ? '-6px' : '-5px'); margin:0;}
+.header .searchbar .search-inner .bl, .header .searchbar .search-inner .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-6px' : '-5px');}
+.header .searchbar .submit-container .tr, .header .searchbar .submit-container .br {right:expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.header .searchbar .submit-container .bl, .header .searchbar .submit-container .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.header .searchbar label {margin-top:.6em;}
+.header .searchbar .submit-container {width:7em;}
+.header .searchbar .submit input {behavior:url('/includes/IEButtonFixes.htc');}
+.skiptranslate iframe {top:-40px;}
+.header .searchbar #results {padding-bottom:1em;}
+.header .searchbar #results ul li {clear:left; float:left; width:100%;}
+.header .searchbar #results p {padding-bottom:0; position:relative; width:3.4em;}
+/* Alerts */
+.emergency-container .alert-header h1 {width:27em;}
+/* Homepage */
+.blur {height:2200px;}
+/* Carousel */
+.carousel-text {float:none; position:relative;}
+.bx-carousel .bx-in .pad {padding:.5em .4em .9em .5em;}
+/* Carers */
+.carers ul.tabs {margin-top:1em;} /* Fix jumping tabs - 07/07/09 shudson */
+.carers .carers-intro p {margin-bottom:0;}
+.carers .box-page-nav ul li.next-page a {margin-right:1em;}
+.carers-home .three .WebPartZone-Vertical {float:left;}
+.carers .panel .panel-top {height:auto;}
+/* Health A-Z */
+#haz-mod1 #selected-letter:link, #haz-mod1 #selected-letter:visited {position:absolute; width:1.8em;}
+.healthaz-index .bodymap-wrap .bodymap {height:1%;}
+.healthaz-index .bodymap-wrap .bodymap .body-parts-list ul {padding-bottom:28px;}
+.healthaz-index .bodymap-wrap-large .bodymap .body-parts-list ul {padding-bottom:128px;}
+.healthaz-index .four-lrg .border {padding:0;}
+#haz-mod1 ul li a#selected-letter:link span, #haz-mod1 ul li a#selected-letter:visited span {position:static;}
+.healthaz-index .four-lrg .one.bodymap-height .border {height:34.3em;}
+.healthaz-index .four-lrg .one.bodymap-height .border h3 {margin-bottom:.5em;}
+.healthaz-index #haz-mod3 ul, .healthaz-index #haz-mod4 ul {padding-bottom:0;}
+.which-text {font-size:1em; padding:0 !important;}
+.healthaz .last .panel .tr {right:-1px;}
+.healthaz .last .panel .br {bottom:-1px; right:-1px;}
+.healthaz .last .panel .bl {bottom:-1px;}
+.healthaz-print legend {color:#585858;}
+.healthaz .compare-hospitals {margin-bottom:1em;}
+.healthaz .nd_rnd_box .tr {right:3px;}
+.healthaz .nd_rnd_box .simple_list li {margin-bottom:0;}
+.healthaz .nd_rnd_box .bl {float:left; position:relative;}
+.healthaz .nd_rnd_box .br {float:right; position:relative;}
+.healthaz .four .pad .one-sm .border {padding:0;}
+.healthaz .four .pad .one-sm .pad {padding:0.9em;}
+.healthaz .four .pad .one-sm.last .border.pad {padding:0.9em;}
+.healthaz .four .pad .last .border {position:relative}
+.healthaz .four .one-sm .border .col-one-image {font-size:0;}
+.healthaz.temp-a .four h2, .healthaz.temp-b .four h2, .healthaz.temp-c .four h2, .healthaz.medicine-info .four h2, .healthaz.healthaz-news .four h2 {margin-top:1em;}
+.healthaz.temp-a .tabs-nav, .healthaz.temp-b .tabs-nav, .healthaz.temp-c .tabs-nav, .healthaz.medicine-info .tabs-nav, .healthaz.healthaz-news .tabs-nav {width:75.2em;}
+.healthaz.temp-a .sub-nav, .healthaz.temp-b .sub-nav, .healthaz.temp-c .sub-nav, .healthaz.medicine-info .sub-nav, .healthaz.healthaz-news .sub-nav  {margin-bottom:0; padding-bottom:.8em; width:76em;}
+.healthaz .healthaz-content, .healthaz .med-info {border-top:0;}
+.healthaz-index .four-lrg .one .featured-article p {padding-bottom:.4em;}
+.healthaz-index #haz-mod5 .index-section ul li {clear:left; float:left;}
+.healthaz-index #haz-mod5 .index-section ul li a {width:24.3em;}
+.healthaz-index #haz-mod5 .index-section ul li li a {width:21.8em;}
+#haz-mod1 ul li .tr, #haz-mod1 ul li .br {right:expression((this.offsetParent.clientWidth  % 2) ? '-2px' : '-1px')};
+#haz-mod1 ul li a:hover .br, #haz-mod1 ul li a:focus .br, #haz-mod1 ul li a:active .br {background:none;} 
+/* health a-z print */
+.healthaz-print p.submit {margin-bottom:0;}
+/* panel */
+.panel ul {list-style:outside; margin:0; padding:0; list-style-type:none;}
+.panel .panel-top {height:50px;}
+/* GP Pages - PBE */
+.gp-main-content .staff-block img {margin-left:-196px;}
+.gp-main-content .topicContentText {word-wrap:break-word;}
+/* Personalisation */
+.prsnl .pad .five-sm {margin-right:0;}
+.prsnl .box.create-intro {height:38px;}
+.personal-footer .info-box-mid {height:15em;}
+.personal-footer input.enable {behavior:url('/includes/IEButtonFixes.htc');}
+.personal-footer input.enable.hover {text-decoration:none;}
+.prsnl.account .submit.reset {margin-left:0;}
+.prsnl.account h2 {height:26px;}
+.prsnl.account fieldset.personal-details .row {height:2.5em;}
+.prsnl.account fieldset.personal-details .row .clear {height:auto;}
+.prsnl.account .five-sm {margin-right:0;}
+.prsnl .two-sm.logd {padding-top:2em;}
+.prsnl #update-password #password-strength-indicator {height:1em; overflow:hidden;}
+.prsnl #update-password ul li {line-height:.5em;}
+.prsnl .personal-details .row {margin-bottom:.5em; padding-bottom:0.5em;}
+.tool-box .bl, .tool-box .br {bottom:11px !important;}
+.prsnl .pims-permissions ul li, .prsnl .pims-other-links ul li {margin:0; line-height:1em;}
+.prsnl .pims-permissions.pims-superuser ul li {margin-bottom:1em;}
+.prsnl.account .message {width:100%;}
+.prsnl .pims-permissions, .prsnl .pims-other-links {padding-left:.5em;}
+/* personalisation popup */
+.blur {filter:alpha(opacity=70); position:absolute;}
+#personalisation-popup.info-box {position:absolute;}
+/* Find services */
+.fs {height:34em;}
+.fs .hub-box.scripted fieldset.search-services label {width:98%;}
+.fs .compare-box .middle {float:left;}
+.fs .urgent-care label {position:relative; top:.75em;}
+.fs ul.results li h3 a, .fs ul.results li h3 {font-size:1em;}
+.fs ul.fs-a-z li, .fs ul.fs-a-z li a, .fs ul.fs-a-z li span {width:1.64em;}
+.info-box {float:left; position:relative; width:18.1em;}
+.info-box .tr, .fs .info-box .br, .fs.result-listings .info-box .tr {right:-2px;}
+.info-box .br, .fs .info-box .bl, .fs.result-listings .info-box .br {bottom:-2px}
+.fs .results-panel .three-sm {margin-right:-3px;}
+.fs .results-panel .tr, .fs .results-panel .br, .fs .panel .tr {right:-1px;}
+.fs.profile fieldset.plan-route legend {margin:0 0 .5em -.7em;}
+.fs.result-listings .col.one {height:5em;}
+.fs.result-listings .col.one.last {margin-right:-1px;}
+.fs.result-listings .tr, .fs.result-listings .useful-links .br {right:-1px;} 
+.fs.result-listings .br, .fs.result-listings .useful-links .bl {bottom:-1px;}
+.fs.profile .trust-hospitals ul.results li ul li img {display:block;}
+.fs.profile .no-tabs-panel .pad {padding:0;}
+.fs.profile .patient-comment .hospital-reply {padding:1em;}
+.fs.profile .patient-comment .hospital-reply .tr {right:-1px;}
+.fs.profile .patient-comment .hospital-reply .bl {bottom:-1px;}
+.fs.profile .patient-comment .hospital-reply .br {bottom:-1px; right:-1px;}
+.fs.result-listings ul.results li ul li.services, .fs.result-listings ul.results li ul li.services dl, .fs.result-listings ul.results li ul li.services dl dt, .fs.result-listings ul.results li ul li.services dl dd {width:100%;}
+.fs ul.tick-list li img, .fs ul.results li img {display:block;}
+.fs ul.results li ul li {width:100%;}
+.fs ul.results li ul li.submit {width:auto;}
+.fs.profile .trust-hospitals ul.results li li {width:26em;}
+.fs.maternity .scorecard .info-panel {height:36px;}
+.fs.maternity .scorecard ul.link-list a {text-indent:91%;}
+.fs.profile .patient-comment {width:100%;}
+.fs.profile .patient-comment .tl, .fs.profile .patient-comment .tr {top:-2px;}
+.fs.profile .patient-comment .crnr.bl {bottom:-19px;}
+.fs.profile .patient-comment .br {bottom:-3px;}
+.comments .contentbg.white {height:7em;}
+.fs.profile .panel .box.also-provide ul.results {padding:1em 0 0 0;}
+.fs.profile .panel .box.also-provide ul.results li {width:42.25em; padding:0; left:0;}
+.fs.profile .panel .box.also-provide ul.results li ul {padding:0 1em 1em 0;}
+.fs.profile .panel .box.also-provide ul.link-list {padding-bottom:.5em;}
+.fs.profile .panel .box.also-provide ul.link-list {padding:.5em 0;}
+.fs.profile .box.also-provide ul.results li h3 {font-size:1em;}
+.fs .predictive {margin-top:-1.35em;}
+.fs .predictive.with-error {margin-top:4.2em; left:1.2em;}
+.fs .hub-search-box {width:43.3em;}
+.fs .hub-submit {padding-right:17px;}
+.fs input.service-search {margin-top:0;}
+.fs .urgent-care input.service-search {margin-top:0;}
+.speciality .hub-submit input, .directory .search-form .submit input {padding:.3em 1.6em .2em .5em;}
+.fs .aside .help-finding, .fs .aside .help-finding img {position:relative;}
+.fs fieldset#main-search legend {padding:2em 0 0 7em;}
+.fs .compare-box fieldset#main-search legend {padding:2em 0 0 0; margin:0 0 -1em -.5em;}
+.fs .urgent-care fieldset#main-search legend {padding:2em 0 0 6.1em;}
+.fs .hub-box .hub-submit {margin-top:-2.1em;}
+.fs .urgent-care .hub-submit {margin-top:-2.2em;}
+.fs .hub-box .hub-submit .submit-container {margin:0;}
+.fs .hub-box .hub-submit .submit {margin:0; float:right;}
+.fs .compare-box input.hospital-service-search {margin:.5em 1em 0 -.5em;}
+.fs .remember-postcode {margin:0 0 0 -.2em;}
+.fs.profile .authorities-trusts {height:21em;}
+.fs #hub-indicator {bottom:0; clear:left;}
+/* A-Z Listings */
+.fs ul.fs-a-z {height:2.9em;}
+.fs ul.fs-a-z li.active span {position:absolute}
+/* Adv search */
+.advsearch .four fieldset legend, .advsearch .four fieldset.opt-more legend {margin-left:-7px;}
+.advsearch .four opt-more .fieldwrap input {position:relative; top:0; vertical-align:bottom;}
+/* Planner */
+.planner-nav li span.users-step {margin-bottom:0;}
+.two-sm .panel fieldset .panel-search-radio-buttons input {margin:0;}
+.two-sm .panel fieldset .indent {margin-left:12em;}
+.three-sm .panel fieldset .indent {margin-left:12em;}
+.list-box .padding ul.carousel-list-js {margin-left:-51em;}
+#irbirthtofive {background-image:url(/planners/birthtofive/publishingimages/photo_homepage_01.jpg) !important;}
+#irnhshealthcheck {background-image:url(/planners/nhshealthcheck/publishingimages/photo_homepage_01.jpg) !important;}
+#irpregnancycareplanner {background-image:url(/planners/pregnancycareplanner/publishingimages/photo_homepage_01.jpg) !important;}
+/* Pathways */
+.print-prescription #prescription-select-info fieldset input {margin-top:.2em;}
+.print-prescription ul.steps-nav li input {padding:0 0 2.3em .6em;}
+.print-prescription .panel-shdw .ip-box {position:static;}
+.print-prescription .three .panel-shdw {height:1%;}
+/*useful-links*/
+.tomedia .alphabeticPagination li {margin:0.25em; padding:0;}
+/* Content surfacer */
+.content-surfacer .panel .blog-bubble-tl {left:-16px !important;}
+.content-surfacer .panel .blog-bubble-tr {right:10px !important;}
+.carers .content-surfacer .panel .blog-bubble-tr {right:18px !important;}
+.content-surfacer .panel .blog-bubble-bl {bottom:13px !important;}
+.content-surfacer .panel .blog-bubble-br {bottom:28px !important; right:-10px !important;}
+/* GSC */
+.about .four ul.faq{list-style:outside; margin:0; padding:0; list-style-type:none;}
+.about fieldset.contactForm legend {margin-left:-.7em}
+.about .contactus {width:54.9em;}
+.about fieldset.contactForm label span {padding-left:2em;}
+.about .box h3.key-facts {font-weight:bold; padding-bottom:1em;}
+.about .border.pad-rbl {position:relative;}
+.about .web-services .terms label {position:relative; top:.2em;}
+.about .border.pad-rbl ol, .about .box ol{list-style-position:outside; margin-left:2.5em;}
+.about .one-sm .image-wrap h3 {margin-bottom:-1px}
+.carers-article-landing .featured-article-wrap .three {width:56.7em;}
+.carers-article-landing .featured-article-wrap .three .pad {width:auto;}
+.carers-article-landing .col3 {margin-right:.8em;}
+.carers-article-landing .three .bx-shd .bx-in {left:-1px;}
+/* Search */
+.search-pane ul.tick-list li {height:21px;}
+.speciality .remember-postcode {top:.7em;}
+/*Site wide*/
+legend {color:#585858 !important;}
+.save-choices-account {padding-left:28px;}
+/* Tools*/
+.tomedia div.mediaToggles h2.toggler {margin-bottom:3px; line-height:1.6em;}
+.tomedia div.media {padding-top:10px;}
+.tomedia .rnd-button-list .mid h2 {font-size:1.5em;}
+.media .video-panel .tr {float:right; position:relative;}
+.video-panel .bl {float:left; position:relative; margin-top:-10px;}
+.video-panel .br {float:right; position:relative; margin-top:-10px;}
+.video-panel .video-container .bl {margin-top:-5px;}
+.video-panel .video-container .br{margin-top:-5px;}
+.tomedia .thold h2 {font-size:1.4em}
+/* NHS Direct and CHQ */
+.nhsdirect .tr {float:right; position:relative;}
+.nhsdirect .bl {float:left; position:relative;}
+.nhsdirect .br {float:right; position:relative;}
+/*syndication*/
+.about .web-services input.large {width:31.5em;}
+.about .web-services legend {margin-left:-7px;}
+.about .web-services .representative input {margin-top:-.3em;}
+/* livewell */
+.live-well .other-articles {clear:left;}
+.live-well .other-articles ul.link-list {position:static;}
+.live-well .article ol li {margin: 0.3em 1em 0.3em 2.5em;}
+/* comments */
+.comments-wrap .comment p {word-wrap:break-word;}
+.report-abuse .info-box {width:37.4em;}
+.report-abuse .info-box .tr {right:-1px;}
+.report-abuse .info-box .bl {bottom:-2px;}
+
+/* scorecard */
+.scorecard-results .filter-content {margin-bottom:.2em;}
+.scorecard-results .filter-content input {margin-top:-.2em;}
+.scorecard-results #refine-results span {behavior:url('/includes/IEButtonFixes.htc'); cursor:pointer;}
+.scorecard-results #refine-results span.hover {text-decoration:underline;}
+.scorecard-results .refine-predictive .predictive {left:22.5em; top:3em; z-index:1;}
+.scorecard-results .refine-predictive label#for-lblTreatment {clear:both;}
+.scorecard-results .filter-submit {width:9.5em; position:absolute; bottom:0; right:0; padding-right:0;}
+.scorecard-results .filter-submit .submit {float:right; clear:left;}
+.scorecard-results .filter-submit .submit input {padding-right:1.8em;} 
+.scorecard-results .filter-submit .new-search {width:10em; word-spacing:-.1em;}
+.scorecard-results .filter-facilities {padding:0; margin:0;}
+.scorecard-results .filter-content input {margin-top:.2em;}
+.scorecard-results .filter-content label {margin-top:.4em;}
+.scorecard-results .hospital-scorecard .map {width:99.8%;}
+.scorecard-results .hospital-scorecard .nhs-map-icon {background:url(/img/scorecards/map-icon-hospital.gif) top left no-repeat; height:47px; width:47px;}
+.scorecard-results .hospital-scorecard .VEAPI_Pushpin div a:hover .nhs-map-icon, .scorecard-results .hospital-scorecard .VEAPI_Pushpin:hover .nhs-map-icon, .hospital-scorecard .VEAPI_Pushpin div:hover .nhs-map-icon {background:url(/img/scorecards/map-icon-hospital-selected.gif) top left no-repeat;}
+.scorecard-results .results-within .tr {right:-2px !important;}
+.scorecard-results .one-sm .panel .other-services ul {padding-bottom:1px;}
+.scorecard-results .one-sm .panel {word-wrap:break-word;}
+.scorecard-results .scorecard-list-view a.about-these-facts {behavior:url('/includes/IEButtonFixes.htc');}
+.scorecard-results .scorecard-list-view a.hover {text-decoration:underline !important;}
+.scorecard-results .scorecard-views .organisation .address {width:72.7em;}
+.scorecard-results .scorecard-views .organisation .metric {height:11em;}
+.scorecard-results .scorecard-views .one-sm {width:17.2em;}
+.scorecard-results .map-view {position:relative; z-index:-1;}
+.scorecard-results .comparison-view {background:none;}
+.scorecard-results .comparison-view .comparison-table-nextsteps {background:none; margin-top:0;}
+.scorecard-results .comparison-view table colgroup {display:block;}
+.scorecard-results .comparison-view table col {background:#f3f3f3; width:100%;}
+.scorecard-results .comparison-view table td {width:100% !important;}
+.scorecard-results .comparison-view table.col-count-2 col {width:50%;}
+.scorecard-results .comparison-view table.col-count-3 col {width:34%;}
+.scorecard-results .comparison-view table.col-count-4 col {width:25%;}
+.scorecard-results .comparison-view table.col-count-5 col {width:20%;}
+.scorecard-results .comparison-view table tr.hidden th {display:none;}
+.scorecard-results .comparison-view .top-table td.hospital-info {border-bottom:0;}
+.scorecard-results .comparison-view caption span {width:63em;}
+.scorecard-results .comparison-view table.next-steps-header {margin-top:.5em;}
+.scorecard-results .results-within .filter-toplevel input {margin-top:-.3em;}
+.scorecard-results .scorecard-views .key-facts, .scorecard-results .scorecard-views .key-facts .metric-group {position:relative; z-index:1;}
+.scorecard-results .scorecard-views .key-facts .metric-group .fact-compare-link {background:#f3f3f3;}
+.scorecard-results .scorecard-views .scorecard-list-view .organisation .metric-image a {background:none; font-size:1em; padding:0; text-decoration:none;}
+.scorecard-results .comparison-view caption span {width:82%;}
+.scorecard-results .comparison-view caption span.hide-content {behavior:url('/includes/IEButtonFixes.htc'); width:9%;}
+.scorecard-results .comparison-view caption span.hide-content.hover {text-decoration:underline;}
+.scorecard-results .comparison-view td, .scorecard-results .comparison-view th {background:#fff url(/img/scorecards/cell-bg-dotted-ie6.gif) top right repeat-y;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .list-dropdown-icon {padding-top:.4em !important;}
+.scorecard-results .comparison-view .shortlist-links .submit {padding-left:1px;}
+.scorecard-results .comparison-view td.shortlist-button {background-image:url(/img/scorecards/cell-bg-dotted-ie6-horizontal.gif);}
+.scorecard-results .comparison-view td.rich-address {background:#fff url(/img/scorecards/cell-bg-dotted-ie6.gif) top right repeat-y; padding-right:1px;}
+.scorecard-results .comparison-view td.image {border-top:0;}
+.scorecard-results .comparison-view td.rich-address-last {background-image:none;}
+.scorecard-results .comparison-view td.ae-onsite-comparison .standard-container {background:#fff url(/img/scorecards/cell-bg-dotted-ie6-horizontal.gif) top left repeat-x;}
+.scorecard-results .comparison-view td.big-value-left .no-data {position:fixed;}
+.scorecard-results .scorecard-views .one-sm .panel {z-index:-1;}
+.scorecard-results .comparison-view .feedback-rating .standard-content {width:72%}
+/* find services hub */
+.fs #hub-compare {float:left; margin-bottom:1em;}
+.fs #compare-link .rounded-box .tl {left:-13px;}
+.fs #compare-link .rounded-box .br {bottom:19px;}
+.fs #compare-link .rounded-box .bl {bottom:19px; left:-13px;}
+.fs .compare-box .hospital-hub-search {padding:1em;}
+.fs .hub-box.scripted #hub-search-parent {width:74em;}
+.fs.interstitial .hub-search-box .hub-submit {padding-right:15px;}
+.fs .urgent-care .chk-postcode label {top:.3em;}
+/* did you know */
+.fs .compare-box .tr, .fs .compare-box .br {right:-1px;}
+/* find and choose hospital panel */
+.one .compare-hospitals #divColWidgets .panel, .two #divColWidgets .panel {padding-bottom:0;}
+#divColWidgets .panel .panel-top h2 {font-size:1.4em; font-weight:bold;}
+#divColWidgets .panel fieldset .chk-postcode input, #divColWidgets .panel fieldset .filter-toplevel input {margin-top:-.3em; width:1.4em !important;}
+#divColWidgets .panel fieldset .submit {margin-bottom:1em;}
+#divColWidgets .panel fieldset .submit input {margin-bottom:0; padding-right:1.7em;}
+#divColWidgets .panel .panel-top {height:auto;}
+#divColWidgets .panel .panel-top ul {margin-top:1em;}
+#divColWidgets .panel .predictive {margin-top:-.2em;}
+#divColWidgets .panel .predictive iframe {display:none !important;}
+#divColWidgets .panel .panel-bottom-crnrs {height:10px; position:relative;}
+#divColWidgets .panel .panel-bottom-crnrs .bl {margin-bottom:1px; left:-10px;}
+#divColWidgets .panel .panel-bottom-crnrs .br {margin-bottom:1px; right:-11px !important;}
+.two #divColWidgets .panel .panel-bottom-crnrs .bl, .two #divColWidgets .panel .panel-bottom-crnrs .br {margin-bottom:0;}
+.scorecard-results #refine-search-panel {z-index:104;}
+.scorecard-results .refine-treatment {z-index:103;}
+.scorecard-results .#divTreatment {z-index:102;}
+.scorecard-results .refine-predictive .predictive {margin-left:-21.5em; margin-top:2.5em;}
+.scorecard-results .refine-predictive .predictive #predictive-list {position:relative;}
+.find-hospital.two-col .hub-search-box .hub-search {margin-bottom:.6em;}
+.scorecard-results .panel.find-hospital .br {bottom:-2px;}
+.scorecard-results .panel.find-hospital .bl {bottom:-2px;}
+.scorecard-results #refine-search-panel .promo-content {height:auto !important; height:60px;}
+.scorecard-results #refine-search-panel .promo-content p.tooltip-image {margin-top:-.7em;}
+.scorecard-results #refine-search-panel .promo-content p.tooltip {margin-top:-.7em;}
+/* scorecard list views */
+.scorecard-results .results-within .new-search {padding-top:.6em;}
+/* dropdown list */
+.scorecard-results .results-info-wrapper.list-dropdown-enabled {width:35%;}
+.scorecard-results .list-dropdown-enabled .list-dropdown, 
+.scorecard-results .list-dropdown-enabled .list-dropdown-first,
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option {display:inline; float:left; position:relative;}
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .tl,
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .tr {top:-1px;}
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .bl,
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .br {bottom:-1px;}
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .tl,
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .top-option .bl {left:-1px;}
+.scorecard-results .list-dropdown .list-dropdown-main {display:inline;}
+.scorecard-results .list-dropdown .list-dropdown-main ul{display:inline;}
+.scorecard-results .list-dropdown .list-dropdown-main ul li a {white-space:nowrap;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .list-dropdown-main ul{display:block;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .list-dropdown-main ul li a {white-space:normal;}
+.scorecard-results .list-dropdown-enabled .list-dropdown-first .list-dropdown-main, .scorecard-results .shortlist-dropdown-enabled .shortlists-panel-other .shortlist-dropdown-main {clear:left; width:100%;}
+.scorecard-results .list-dropdown-enabled .list-dropdown-results {width:27%;}
+.scorecard-results #your-shortlists-panel {position:relative; z-index:1;} 
+.scorecard-results .shortlist-dropdown-enabled .shortlist-dropdown-main,
+.scorecard-results .shortlist-dropdown-enabled .shortlist-dropdown-main ul,
+.scorecard-results .shortlist-dropdown-enabled .shortlist-dropdown-main ul li {z-index:2}
+.scorecard-results .shortlist-dropdown-enabled .shortlists-panel-other .shortlist-dropdown-first {font-size:1.2em; line-height:1.4em; width:13em;}
+.scorecard-results .shortlist-dropdown-enabled .current-shortlist, .scorecard-results .shortlist-dropdown-enabled .shortlist-dropdown-main ul li {font-size:1em;}
+/* shortlist limits */
+.shortlist-message .three {width:75.2em;}
+.shortlist-message .panel ul.shortlists-list li span {width:auto;}
+.shortlist-message .panel ul.shortlists-list li span.shortlist-title {width:20em;}
+.shortlist-message .panel ul.shortlists-list li span input {overflow:visible; width:20em;}
+/* Find Services widget as WebPart */
+.find-services .box .tab-content input, .find-services .panel .tab-content input {border:1px solid #b7b7b7; font-size:1.2em; margin-top:0.3em; padding:0.3em; width:17em;}
+.find-services .box .tab-content .row, .find-services .panel .tab-content .row {margin-top:1em; width:26em; }
+.find-services .box .tab-content .row label, .find-services .panel .tab-content .row label {float:none;}
+.find-services .box .chk-postcode input, .find-services .box .filter-toplevel input, .find-services .panel .chk-postcode input, .find-services .panel .filter-toplevel input {border:0; float:left; margin-top:0.1em; width:auto;}
+.find-services .box ul.services-tabs li a {cursor:pointer; padding:0.6em 0;}
+.find-services .box ul.services-tabs li a.iehover{text-decoration:underline;}
+.find-services .box ul li div {display:inline;}/* Double margin bug fix */
+.find-services .box ul li.gp-tab {width:6.5em;}
+.find-services .box ul li.gp-tab div {width:6.3em;} 
+.find-services .box ul li.hospital-tab {width:9.5em;}
+.find-services .box ul li.hospital-tab div {width:9.5em;}
+.find-services .box ul li.dentist-tab {width:8.2em;}
+.find-services .box ul li.dentist-tab div {width:8em;}
+.find-services .box ul li.services-tab {width:8em;}
+.find-services .box ul li.services-tab div {padding-left: 0.4em; width:8.8em;}
+.find-services .box .tab-container .content-bl {float:left; position:relative;}
+.find-services .box .tab-container .content-br {float:right; position:relative;}
+.find-services .box .chk-postcode input {border:0; margin-top:-0.2em;}
+.find-services .box ul span.icon {margin-left:0.3em; margin-right:0;}
+.find-services .box .tab-content-container {padding-bottom:0;}
+.find-services .box .tab-content .message {margin-top:0.8em; word-wrap:break-word;}
+.find-services .box .predictive {float:left; margin-top:-.2em;}
+.find-services .box .predictive ul li {behavior:url('/includes/ieHeaderFix.htc');}
+.find-services .box .predictive ul li.iehover a {text-decoration:none;}
+.find-services .box .chk-postcode input, .find-services .box .filter-toplevel input, .find-services .panel .chk-postcode input, .find-services .panel .filter-toplevel input {margin-right:.1em; margin-top:-.2em;}
+.carers-subcategory .find-services .box ul li.gp-tab {width:6.3em;}
+.carers-subcategory .find-services .box ul li.gp-tab div {width:6.1em;}
+.carers-subcategory .find-services .box ul li.dentist-tab {width:8em;}
+.carers-subcategory .find-services .box ul li.dentist-tab div {width:7.8em;}
+.carers-subcategory .find-services .box ul li.services-tab {width:9.1em;}
+.carers-subcategory .find-services .box ul li.services-tab div {width:8.9em;}
+.carers-subcategory .find-services .box ul li.services-tab a {padding-left:0.1em;}
+.carers-subcategory .find-services .box ul.services-tabs span.tab-tr {right:-2px;}
+/* scorecard about the facts */
+.about-facts .video-panel {width:37.6em;}
+.about-facts .video-panel .br {position:absolute;}
+.about-facts .video-panel .tr {right:-1px;}
+/*RCGP interstitial page */
+.add-comment-search .five {width:auto; margin:0;}
+.add-comment-search .comments legend {margin-left:-.5em;}
+.add-comment-search .comments .hub-submit {margin-top:1em;}
+.add-comment-search .comments .hub-search .service-search {margin-left:0;}
+/* RCGP rounded corner fixes */
+.rc-content .two .rc-comments {width:34em;}
+.rc-content .crnr-1 .bl, .rc-content .crnr-1 .br {bottom:-2px;}
+.rc-content .rc-wrap .two .crnr-1 .tl {left:-11px; top:0.5px;}
+.rc-content .rc-wrap .two .crnr-1 .tr {right:-0.5px; top:0.5px;}
+.rc-content .rc-main .opening-times dl {width:37.4em;}
+.rc-content .rc-sub-1 ul.pbe-menu li a:hover, .rc-content .rc-sub-1 ul.pbe-menu li a.selected {color:#fff!important; font-weight:bold !important;}
+.rc-content .one .patient-rating .br, .rc-content .one .panel .br, .rc-content .one .patient-rating .tr, .rc-content .one .panel .tr {right:-5px;}
+.rc-content .one .patient-rating, .rc-content .one .panel {margin-left:1em;}
+.rc-content .rc-main .user-comment {width:auto;}
+.rc-content .two .rc-comments .rc-comments-container .tr {right:10px;top:0;}
+.rc-content .two .tl {left:-1px!important;top:-1px!important;}
+.rc-content .two .tr {right:-1px!important;top:-1px!important;}
+.rc-content .three {margin:0 ;padding:0; width:57.4em; }
+.rc-content .three .crnr-1 {margin-right:1em;}
+.rc-content .three .crnr-1 .add-your-view-hdr, .rc-content .three .crnr-1 .add-your-view {width:54.9em;}
+.rc-content .two .rc-comments .rc-comments-container{height:100%}
+.about-facts .video-panel .br {position:absolute;}
+.rc-content .two .rc-comments .rc-comments-container,.comments .contentbg {height:100%}
+.comments .contentbg .bl , .comments .contentbg .br { bottom:-1px;}
+.rc-content .two .rc-comments .rc-comments-container .tl {left:-3px!important; top:-3px!important;}
+.rc-content .two .rc-comments .rc-comments-container .tr {right:-3px!important; top:-3px!important;}
+.rc-content .two .rc-comments .rc-comments-container .bl {bottom:-16px!important;}
+.rc-content .two .rc-comments .rc-comments-container .br {bottom:-3px!important;}
+.rc-content .one .rating {height: 2.5em;}
+.add-comment-search .chk-postcode label {margin-top:0.4em;}
+.add-comment-search .hub-search input {margin-left:0.5em;}
+.rc-content .rc-main .user-comment .comment-details h4{margin:0; padding:0;}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown, 
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown-first,
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown-first .top-option {display:inline; float:left;}
+.rc-content .rc-main .list-dropdown .list-dropdown-main {display:inline;}
+.rc-content .rc-main .list-dropdown .list-dropdown-main ul {display:inline;}
+.rc-content .rc-main .list-dropdown .list-dropdown-main ul li a {white-space:nowrap;}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown .list-dropdown-main ul {display:block; float:none;}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown .list-dropdown-main ul li a {white-space:normal;}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown-first .list-dropdown-main {background:#fff; clear:left; width:100%;}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown-results {width:32%;}
+.rc-content .crnr-1 .tl {top:0;}
+.rc-content .crnr-1 .tr {right:9px; top:0;}
+.rc-content .rc-header .crnr-1 .tl {top:-1px;}
+.rc-content .rc-header .crnr-1 .tr {right:-1px; top:-1px;}
+.rc-content .rc-main .optional-comment p label{width:100%;}
+.rc-content .rc-main .optional-comment .add-comment-textbox p span {width:40%;}
+.rc-content .rc-main .optional-comment .add-comment-textbox p span span {width:100%; text-align:right;}
+.rc-content .rc-main .optional-comment .add-a-comment label {width:40%;}
+.rc-content .rc-main .boxed legend {position:relative; left:-7px;}
+.rc-content .rc-main .add-your-view .display-name .annon-checkbox input {margin:0 0.5em 1em 0.5em;}
+.rc-content .one .patient-rating .bl{bottom:-4px;}
+.rc-content .one .patient-rating .bl{bottom:-4px;}
+.rc-content .one .panel .br{bottom:-5px;}
+.rc-content .one .panel .bl{bottom:-5px;}
+.add-comment-search .hub-submit {padding-top:0.1em;}
+.rc-content .rc-main .overall-rating input {margin-top:-0.2em;}
+.rc-content .rc-header {float:left; margin-top:2em; padding-top:0;}
+.rc-content .rc-main .rc-details .two {margin-right:0;}
+.rc-content .two .rc-comments .rc-comments-container .user-recommendation h4 {width:26.3em;}
+.rc-content .rc-main .user-comment .org-reply {padding-top:.5em;}
+.rc-content .rc-sub-2 .overall-patient-rating .filter-value .percentage-wrap {font-size:.8em; width:14em;}
+/* GP comments */
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown .top-option .tr, .rc-content .rc-main .list-dropdown-enabled .list-dropdown .top-option .br {right:expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);}
+.rc-content .rc-main .list-dropdown-enabled .list-dropdown .list-dropdown-main ul {margin-top:-1px;}
+/* gp scorecard map view */
+.scorecard-results .gp-scorecard .nhs-map-icon {background:url(/img/scorecards/map-icon-gp.gif) top left no-repeat; height:47px; width:47px;}
+.scorecard-results .gp-scorecard .VEAPI_Pushpin div a:hover .nhs-map-icon, .scorecard-results .gp-scorecard .VEAPI_Pushpin:hover .nhs-map-icon, .gp-scorecard .VEAPI_Pushpin div:hover .nhs-map-icon {background:url(/img/scorecards/map-icon-gp-selected.gif) top left no-repeat;}
+/* RandC comments form */
+.rc-content .rc-main .add-your-view-hdr legend {margin-bottom:0;}
+.rc-content .rc-main .add-your-view-hdr .display-name .annon-checkbox input {margin-top:-.2em;}
+
+/* IE6 gets absolute positioning wrong. In our panels, if the pixel height is an even number, then fine.
+If an odd number, then your get the corners out of line by 1px. Therefore, have to put the following dodgy hack in place. */
+
+.planner .two-sm .bl,
+.planner .two-sm .br,
+.planner .slider .bl,
+.planner .slider .br,
+.carers .two .panel .bl,
+.carers .two .panel .br,
+.about-facts .video-panel .br,
+.scorecard-results .panel-bordered .bl,
+.scorecard-results .panel-bordered .br,
+.live-well .two .panel .bl,
+.live-well .two .panel .br,
+.med-hub .last .panel-one .bl,
+.med-hub .last .panel-one .br
+{
+	bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);
+}
+
+.homepage .bl,
+.homepage .br,
+.planner .article .panel-search .bl,
+.planner .article .panel-search .br,
+.planner .article .panel-shdw .bl,
+.planner .article .panel-shdw .br,
+.planner .questionnaire .panel-shdw .bl,
+.planner .questionnaire .panel-shdw .br,
+.about-facts .three .panel .bl,
+.about-facts .three .panel .br
+{
+	bottom: expression((this.offsetParent.clientHeight % 2) ? '-2px' : 0);
+}
+
+.planner .two-sm .tr,
+.planner .two-sm .br,
+.planner .slider .tr,
+.planner .slider .br,
+.carers .two .panel .tr,
+.carers .two .panel .br,
+.scorecard-results .panel-bordered .tr,
+.scorecard-results .panel-bordered .br,
+.add-comment-search .five .contentbg .tr,
+.add-comment-search .five .contentbg .br,
+.bfc ul.tabs li .tr
+{
+	right:  expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);
+}
+
+.scorecard-results .list-dropdown-enabled .list-dropdown .top-option .tr,
+.scorecard-results .list-dropdown-enabled .list-dropdown .top-option .br
+{
+	right:  expression((this.offsetParent.clientWidth  % 2) ? '-2px' : '-1px');
+}
+
+.planner .slider .shadow-box .shadow-box-tr,
+.planner .slider .shadow-box .shadow-box-br,
+.planner .article .two .panel-shdw .tr,
+.planner .article .two .panel-shdw .br,
+.about-facts .three .panel .tr,
+.about-facts .three .panel .br
+{
+	right: -2px;
+}
+
+.planner .article .panel-search .bl,
+.planner .article .panel-search .br,
+.shortlist-message .three .bowel cpanel .bl,
+.shortlist-message .three .panel .br
+{
+	bottom: expression((this.offsetParent.clientHeight % 2) ? '-2px' : '-1px');
+}
+
+/***** lambeth *****/
+.lambeth .panel-search .bl, .lambeth .panel-search .br {bottom:-1px;}
+
+/* header */
+.lambeth .lambeth-head {margin-top:-1.6em;}
+.lambeth .lambeth-head h1 {margin-top:-0.2em;}
+.lambeth.lambeth-home .lambeth-head h1 {margin-top:1.2em;}
+/* main feature - hub */
+.lambeth .main-feature .box .feature-image {float:left; margin:0 1em -.3em 0;}
+.lambeth .main-feature .box .feature-content {float:left; width:16.5em; padding:2em 0 0 0.5em;}
+/* Featured articles */
+.lambeth .one .bx-shd.featured-article .bx-in {height:26em;}
+/* blogs */
+.lambeth .panel-blog .blog-bubble-tl {left:-1px; top:-1px; margin-left:-5px;}
+.lambeth .panel-blog .blog-bubble-tr {background-position:top right !important; right:-1px; top:0; margin-right:9px;}
+.lambeth .panel-blog .blog-bubble-bottom .blog-bubble-br {background-position:bottom right !important; right:-1px; bottom:29px; margin-right:9px;}
+/* Find services widget */
+.lambeth.lambeth-home .find-services .panel {padding-bottom:0.5em;}
+.lambeth.lambeth-home .find-services .panel .bl {float:left; position:relative; left:-10px; bottom:-5px;}
+.lambeth.lambeth-home .find-services .panel .br {float:right; position:relative; right:-10px; bottom:-5px;}
+.lambeth .find-services .panel ul.services-tabs li a {padding:0.6em 0;}
+.lambeth .find-services .panel ul li div {display:inline;}/* Double margin bug fix */
+.lambeth.lambeth-home .find-services .panel ul li.gp-tab {width:6.4em;}
+.lambeth.lambeth-home .find-services .panel ul li.gp-tab div {width:6.2em;} 
+.lambeth.lambeth-home .find-services .panel ul li.hospital-tab {width:9.4em;}
+.lambeth.lambeth-home .find-services .panel ul li.hospital-tab div {width:9.4em;}
+.lambeth.lambeth-home .find-services .panel ul li.dentist-tab {width:8em;}
+.lambeth.lambeth-home .find-services .panel ul li.dentist-tab div {width:7.9em;}
+.lambeth.lambeth-home .find-services .panel ul li.services-tab {width:8.4em;}
+.lambeth.lambeth-home .find-services .panel ul li.services-tab div {padding-left: 0.8em; width:9.2em;}
+.lambeth.lambeth-home .find-services .panel .tab-container .content-bl {float:left; position:relative;}
+.lambeth.lambeth-home .find-services .panel .tab-container .content-br {float:right; position:relative;}
+.lambeth.lambeth-home .find-services .panel .tab-container .submit input {margin-left:-1em;}
+
+.lambeth .video-panel ul li {margin-left:-1.5em;}
+
+/* PCT promo */
+.panel.pct-promo .panel-top h3 {font-size:1.3em;}
+.panel.pct-promo .bl {bottom:-1px;}
+.panel.pct-promo .br {right:-1px;}
+
+.tooltip-top span, .tooltip-bottom span {background-image:url(/img/tooltip-crnrs.gif);}
+.tooltip-bottom-wrap {background:url(/img/tooltip-bg.gif) bottom left repeat-x; height:16px;}
+.tooltip-middle {background:url(/img/tooltip-bg.gif) top left no-repeat; padding-left:32px;}
+.tooltip-content {background:url(/img/tooltip-bg.gif) top right repeat-y; padding-right:15px;}
+.scorecard-results .scorecard-views .comparison-view .tooltip-content {margin-right:1px;}
+.scorecard-results .scorecard-views #shortlist-rollover-panel .tooltip {padding:0;}
+.scorecard-results .scorecard-views #shortlist-rollover-panel .tooltip p {margin:0;}
+.last .tooltip-top span, .last .tooltip-bottom span {background-image:url(/img/tooltip-crnrs-opposite.gif);}
+.last .tooltip-middle {background:url(/img/tooltip-bg-opposite.gif) top right no-repeat;}
+.last .tooltip-content {background:url(/img/tooltip-bg-opposite.gif) top left repeat-y;}
+.tomedia .video-panel .bl, .tomedia .video-panel .br{ bottom:-20px;}
+.tomedia .video-panel .video-container .bl, .tomedia .video-panel .video-container .br {bottom:0;}
+
+.bth-hub .one .sub-nav li.selected a, .bth .one .sub-nav li.selected a {background-color:#069;}
+.print-prescription ul.tabs li.inactive input {color:#fff;}
+.print-prescription ul.tabs li.inactive,.print-prescription .ip-box ul.tabs li.inactive  {bottom:-4px; padding:0;}
+.print-prescription ul.tabs li.inactive .tr,.print-prescription .ip-box ul.tabs li.inactive .tr  {right:  expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);}
+.print-prescription .panel-shdw input {padding: 0 .3em;}
+/*trusts*/
+.fs.profile .trusts .our-rules {width:55.9em;}
+.fs.profile .trusts .our-rules a {float:right;}
+
+/* Health A-Z - Medicine Info*/
+.healthaz .med-info ul {margin-left:-1.5em;}
+
+/* Health A-Z - Template C */
+.healthaz .col.two-sm .pad-b .slider h3 {padding-left:0;}
+.healthaz .col.two-sm .pad-b .slider h3 span {padding-left:1.7em;}
+#webZoneRight div div.panel .panel-text p, #webZoneRightC div.teaser-picker .panel-text h2 {height:1%}
+.healthaz .one.usefulpanel .panel-top {height:auto;}
+
+/* Find services widget */
+.healthaz .four .two-sm .find-services .panel .bl {float:left; position:relative; left:-10px; bottom:-10px;}
+.healthaz .four .two-sm .find-services .panel .br {float:right; position:relative; right:-10px; bottom:-10px;}
+.healthaz .four .two-sm .find-services .panel ul li div {display:inline;}/* Double margin bug fix */
+.healthaz .four .two-sm .find-services .panel ul.services-tabs li a {padding:0.6em 0.2em;}
+.healthaz .four .two-sm .find-services .panel ul li.gp-tab {width:6.3em;}
+.healthaz .four .two-sm .find-services .panel ul li.gp-tab div {width:6.1em;} 
+.healthaz .four .two-sm .find-services .panel ul li.hospital-tab {width:9.3em;}
+.healthaz .four .two-sm .find-services .panel ul li.hospital-tab div {width:9.1em;}
+.healthaz .four .two-sm .find-services .panel ul li.dentist-tab {width:7.9em;}
+.healthaz .four .two-sm .find-services .panel ul li.dentist-tab div {width:7.8em;}
+.healthaz .four .two-sm .find-services .panel ul li.services-tab {width:8.4em;}
+.healthaz .four .two-sm .find-services .panel ul li.services-tab div {padding-left: 0.6em; width:9.4em;}
+.healthaz .four .two-sm .find-services .panel .tab-container .content-bl {float:left; position:relative;}
+.healthaz .four .two-sm .find-services .panel .tab-container .content-br {float:right; position:relative;}
+/* FS webpart */
+.healthaz .panel.find-hospital .cartoon, .healthaz .panel.find-gp .cartoon {float:right;}
+.healthaz .panel.find-hospital .panel-bottom-crnrs {clear:right;}
+.healthaz .panel.find-gp, .healthaz .panel.find-hospital {padding-bottom:0;}
+.healthaz .panel.find-gp .panel-bottom-crnrs {width:100%;}
+/* Services near you  - intro panel */
+.healthaz.temp-c .two-sm .tempc-intro-zone .panel.panel-search h2 {margin-left:-3.3em;}
+.healthaz.temp-c .two-sm .tempc-intro-zone .panel.panel-search .btm-bdr {height:auto;}
+.healthaz.temp-c .two-sm .tempc-intro-zone .panel.panel-search .submit {margin:0 4.5em 0 0;}
+
+/* Action button */
+/* Easy print (default) */
+.healthaz p.printable-version {margin:0 0.5em 0 0; height:4em; float:right; clear:right; width:15.6em; cursor:pointer; line-height:1em;}
+.healthaz p.printable-version a, #PageWrapper p.printable-version a {background-position:left 0; padding-bottom:0;}
+.healthaz p.printable-version a:hover, #PageWrapper p.printable-version a:hover {background-position:0 -50px;}
+.healthaz p.printable-version a:hover span, #PageWrapper p.printable-version a:hover span {background-position:-462px -49px;}
+/* IP */
+.healthaz p.printable-version.ip a, #PageWrapper p.printable-version.ip a {background-position:0 -99px;}
+.healthaz p.printable-version.ip a:hover, #PageWrapper p.printable-version.ip a:hover {background-position:0 -148px;}
+/* Save */
+.healthaz p.printable-version.save a, #PageWrapper p.printable-version.save a {background-position:0 -197px;}
+.healthaz p.printable-version.save a:hover, #PageWrapper p.printable-version.save a:hover {background-position:0 -247px;}
+/* Save as PDF */
+.healthaz p.printable-version.savepdf a, #PageWrapper p.printable-version.savepdf a {background-position:0 -297px;}
+.healthaz p.printable-version.savepdf a:hover, #PageWrapper p.printable-version.savepdf a:hover {background-position:0 -347px;}
+/* Email */
+.healthaz p.printable-version.email a, #PageWrapper p.printable-version.email a {background-position:0 -397px;}
+.healthaz p.printable-version.email a:hover, #PageWrapper p.printable-version.email a:hover {background-position:0 -447px;}
+
+/* Social bookmarks */
+.bookmarks-help-trig a {border:0;}
+
+/* Health A-Z - Scorecard results */
+.healthaz .sc-results .report-info {float:left;}
+.healthaz .sc-results .report-info .change-success {padding-left:0;}
+.healthaz .sc-results .report-info fieldset {margin-top:-1.7em;}
+.healthaz .sc-results .report-info fieldset label {margin-top:0;}
+.healthaz .sc-results .report-info fieldset .submit {margin-top:-1.7em;}
+.healthaz .sc-results .report-info fieldset select {margin-top:0;}
+.healthaz .sc-results .report-info .org-name {margin-top:-1em;}
+.healthaz .sc-results .report-info .change-success {margin-left:-1.5em; padding:0.5em 0 1em 0; display:inline-block;}
+.healthaz .four.sc-results .slider h3 a.show {background-position:5px 12px;}
+.healthaz .four.sc-results .slider h3 a.hide {background-position:2px 14px;}
+.healthaz .sc-results .slider-content-wrap .two-smaller {width:34.5em;}
+
+/* Health A-Z - Scorecard 100 results */
+.healthaz .sc100-results h3 {font-size:1.2em;}
+.healthaz .sc100-results .results-list li {float:left; padding-top:0; margin-top:-0.5em;}
+.healthaz .sc100-results .results-list li a {margin-left:0.2em;}
+.healthaz .sc100-results .results-list li .distance {margin-left:0.2em;}
+.healthaz .sc100-results .results-list li .submit {margin-top:-2.5em;}
+.healthaz .sc100-results .services-pagination-wrap {padding:2em 0;}
+
+/* IP print - add useful addresses */
+.pathways.print-prescription .disambig {margin-top:-4em;}
+.pathways.print-prescription .inner h2 {height:1%;}
+.pathways.print-prescription .inner fieldset.primary legend {color:#069 !important; margin-left:-.5em;}
+.pathways.print-prescription .inner fieldset.secondary legend {color:#585858 !important;}
+.pathways.print-prescription .inner fieldset.secondary input {border:0; margin-left:-.2em;}
+
+/* Health A-Z print preview */
+.printhead h1 {color:#069;}
+.normalprint {width:50%; margin:0 auto;}
+#Logohead img {float:right;}
+#Logohead .date-created {clear:right; margin-top:0; float:left;}
+#PageWrapper hr {display:none;}
+/* IP print preview */
+#PageWrapper .service-details-item {width:20%;}
+#PageWrapper .service-details {clear:left;}
+
+/* Google search results */
+.column-main {overflow:hidden;}
+.one h2 {margin-left:-0.1em;}
+.search-form .submit {margin:0.3em 0 0 0;}
+.no-results div {margin:0;}/*{margin:0 14em 0 12em;}*/
+.directory .search-filter {position:relative;}
+.search-filter input {float:left;}
+.search-pane.google .link-url {word-wrap:break-word;}
+.search-pane .tr {right:0px;}
+.search-pane .br {right:0px;}
+.true-results {width:64em; z-index:102;}
+.true-results .details {width:auto;}
+.true-results .results-children .details {width:auto;}
+.true-results ul li {width:49.2em;}
+.deselect-cross {margin-top:0.35em;margin-right:0.25em;}
+.search-filter-1 input {border-bottom: 0;text-decoration: underline;}
+.postcode-search-panel-50 .speciality .remember-postcode label {margin-top:0;}
+/* No Results */
+.no-res-health-list-1 .tr, .no-res-health-list-1 .br {right:-1px;}
+.no-res-health-ex-2 {margin:1em 0 0 0! important;}
+.search-no-results-parent #results {width:20.8em;}
+
+/* HealthAZ Find Services */
+.healthaz.temp-a .two-sm .panel.panel-search .btm-bdr {height:auto;}
+.healthaz.temp-a .two-sm .panel.panel-search fieldset .submit {margin-top:-2em;}
+.healthaz.temp-c .two-sm .tempc-intro-zone .panel.panel-search fieldset .submit {margin-top:0;}
+.search-pane.row.pad.clear .speciality .submit {margin-top:0;}
+.search-pane.row.pad.clear.postcode-search select {margin:0;}
+.search-pane.row.pad.clear.postcode-search .submit {margin-top:2.5em;}
+.postcode-search-panel-100 .postcode-search .submit {margin-left:-2em; margin-top:3.2em;}
+
+/* IPG */
+.ips legend {margin:0 0 .5em -.7em; color:#184C71;}
+.ips .form-action input.btn-action {padding:0;}
+.ips ul.tabs li.active .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-2px' : '-1px');}
+.ips ul.tabs li .tr {right: 0;}
+.ips ul.tabs li .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : '0');}
+.ips .manage-content .conditions-outer h3 a, .ips .manage-content .conditions-outer h4 a {height:1em; overflow:hidden; display:block; background-position:0 2px;}
+.ips .manage-content .conditions-outer h3 a.active, .ips .manage-content .conditions-outer h4 a.active {height:1em; overflow:hidden; display:block; background-position:0 2px;}
+.ips .manage-content .conditions-outer h3 a span, .ips .manage-content .conditions-outer h4 a span {display:inline; position:relative; top:-16px;}
+.ips .manage-content .conditions-outer .conditions-inner .manage-content {padding:1em; width:50em;}
+.ips .manage-content .doc-review {width:49em;}
+.ips legend {margin:0 0 .5em -.7em; color:#184C71;}
+.ips .form-action input.btn-action {padding:0;}
+.ips ul.tabs li .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : '0');}
+.ips .tabs-nav .crnr {overflow:hidden;}
+.ips .manage-content .doc-review .doc-btn {margin:0;}
+.ips .tabs-nav {height:2.9em;}
+.ips ul.tabs {height:2.6em;}
+.ips ul.tabs li {bottom:-5px;} 
+
+/* Health A-Z webparts */
+.healthaz .two-sm #divColWidgets .panel-bottom-crnrs {height:1%;}
+
+/* CMS fixes */
+.ms-MenuUIPopupBody {z-index:999 !important;}
+.healthaz.temp-c .two-sm table .ms-WPBody .panel .panel-text {width:13.6em;}
+.healthaz.temp-c .two-sm table .ms-WPBody .panel .image img {width:17.3em !important;}
+
+/* Health A-Z Print Options IP */
+.healthaz .printMod fieldset.prtd-select legend {padding-left:.4em !important;}
+.healthaz .printMod fieldset.select-tab .nrml-legend {margin-left:-.4em;}
+.healthaz .printMod fieldset.select-tab legend {margin-left:-.5em; padding-left:0 !important;}
+.healthaz .printMod fieldset.select-tab legend.sub-legend input {margin-left:-.2em;}
+
+/* Health A-Z webparts */
+.healthaz .two-sm #divColWidgets .panel-bottom-crnrs {height:1%;}
+
+/* CMS fixes */
+.ms-MenuUIPopupBody {z-index:999 !important;}
+.healthaz.temp-c .two-sm table .ms-WPBody .panel .panel-text {width:13.6em;}
+.healthaz.temp-c .two-sm table .ms-WPBody .panel .image img {width:17.3em !important;}
+
+/* article page, GSC */
+.article div.left-align {margin-right:0;}
+
+/* treatment options */
+.treatment-options h2 {float:left;}
+.treatment-options .tot-outer .tot-drop-left, .treatment-options .tot-outer .tot-drop-right {height: 3000px;}
+.treatment-options .tot-outer .tot-drop-bot {width:74em;}
+.tot-content ul, .tot-content p {position:relative;}
+.tot-content ul li, .healthaz .tot-content ul li {padding-left:0;}
+.tot-content p {width:100%;}
+.clinical-trials .clinical-trials-filter fieldset.filter-inner legend {color:#006699!important; margin-left:-7px;}
+/* Treatment Options summary WP */
+.healthaz .one.last .panel-tot .tot-link {padding:0 0 0 0.7em;}
+.healthaz .one.last .panel-tot .tot-img {margin-top:1em;}
+.healthaz .four .panel-tot .tot-content {width:50%;}
+.healthaz .four .panel-tot .tot-img {margin-top:0;}
+.healthaz .four .panel-tot .tot-link {padding:0.6em 0 0.7em 0.7em;}
+.healthaz .four .panel-tot .tot-link span {padding:0.6em 1.3em 0.8em 0.5em; background-position:right -15.7em;}
+.healthaz .four .panel-tot .tot-content ul li {padding-left:1em;}
+.healthaz.treatment-options .row.pad-tbl .tot-link {background-position:right -249px; padding-bottom:0.3em;}
+.healthaz.treatment-options .row.pad-tbl .tot-link a {background-position:0 -283px; padding-bottom:0.8em;}
+
+/* clinical trials */
+.clinical-trials .four {width:75.5em;}
+.clinical-trials .four .one-sm {width:16.1em;}
+.clinical-trials .clinical-trials-filter fieldset legend.filter-outer {width:7em; margin-left:-7px;}
+.clinical-trials .clinical-trials-filter fieldset legend.filter-outer {margin-left:-7px;}
+.clinical-trials .trials-list table {border-bottom: 1px solid #ccc; }
+.clinical-trials .clinical-trials-filter fieldset.filter-inner ul li label {width:8.6em;}
+.clinical-trials .clinical-trials-filter fieldset.filter-inner ul li {width:11em;}
+.ac_results { width:29.4em!important;}
+.clinical-trials .trials-list ul.search-terms li {display:inline;}
+#nyroModalBg {z-index:9997!important;}
+#nyroModalFull {z-index:9996!important;}
+#nyroModalIframeHideIe {z-index:9995!important;}
+#nyroModalWrapper {z-index:9998!important;}
+#nyroModalLoading {z-index:9999!important;}
+#nyroModalWrapper #nyroModalContent .treatment-opt-centres ul {list-style-position:outside;}
+#light2 {display:block; position:relative;}
+.clinical-trials .one-sm .clinical-trials-filter fieldset .pad { clear:both; height:490px;}
+.clinical-trials .one-sm .clinical-trials-filter fieldset .pad .submit {margin-right:-10px;}
+#nyroModalContent a.VEAPI_Pushpin img {height:32px !important; width:32px !important;}
+#nyroModalContent {height:auto !important;}
+/*Clinical trials summary WP edit mode width fix */
+.healthaz.clinical-trials .trials-list table.ms-SPZone {width:60%;}
+.healthaz.clinical-trials .trials-list table.ms-SPZone #MSOZoneCell_WebPart table {width:50%;}
+/* Find Services hub 05/10 */
+.fs .scripted fieldset.search-services .label-wrap .crnr {position:relative;}
+.fs .scripted fieldset.search-services .label-wrap {display:block; height:140px; overflow:hidden;}
+.fs .scripted fieldset.search-services .label-wrap .bl {display:block!important; width:100px!important;  z-index:1000!important; left:0; bottom:70px;}
+.fs .scripted fieldset.search-services .label-wrap .br {display:block!important; width:100px!important;  z-index:100!important; right:0; bottom:144px;}
+.fs .hub-box.scripted fieldset.search-services label {z-index:10000000;}
+.fs .hub-box.scripted fieldset#main-search legend {padding:2em 0 0 2em;}
+.fs .hub-box.scripted .urgent-care fieldset#main-search legend {padding:2em 0 0 0; margin-left:-0.5em;}
+.fs .hub-box.scripted .hub-submit {float:right; margin:0.2em 9em 0 -.5em; padding:0 2em 0 0;}
+.fs .hub-box.scripted .urgent-care .hub-submit {float:right; margin:.2em 9em 0 -.5em;}
+.fs .hub-submit .submit-container {width:auto;}
+.fs .hub-box.scripted .urgent-care .hub-submit .submit-container .submit {margin:0 1em 0 0;}
+.fs .hub-box.scripted .urgent-care fieldset#main-search legend {padding:2em 0 0 0;}
+.fs .border.fs-services {padding:0;}
+.fs .hub-search-box span.chk-postcode, .fs .hub-search-box span.filter-toplevel {width:30em;}
+.fs.interstitial .hub-box .hub-search-box .hub-submit {margin-right:9.5em;}
+.fs .hub-box.scripted .urgent-care .hub-submit {margin-top:0; position:relative; left:0;}
+.fs .hub-box.scripted #hub-search-parent #urgent-care {padding:0;}
+.fs .hub-box .hub-submit  {clear:both;}
+.fs #hub-compare {width:74em;}
+.fs .compare-box {margin-top:0;}
+.fs .compare-box .error {margin-top:1.5em; margin-bottom:-1em;}
+.fs .compare-box .hospital-hub-search {margin-left:-.2em;}
+/* bookmarking and star ratings */
+.bookmark-wrap .share-this div p, .bookmark-wrap .save-choices p, .bookmark-wrap .printable-version p {float:left;}
+.bookmark-wrap .save-choices input {behavior:url('/includes/IEFixes.htc');}
+.bookmark-wrap .save-choices input.hover {text-decoration:underline;}
+/*.bookmark-wrap .easy-print .printable-version a span, .bookmark-wrap .easy-print .printable-version a:hover span {top:0;}*/
+.bookmark-wrap .facebook-like {margin-top:0;}
+.bookmark-wrap .facebook-like object {width:100px;}
+.bookmark-wrap .facebook-like iframe {width:100px;}
+.live-well-article .bookmark-wrap .facebook-like iframe {margin-top:0;}
+.health-explorer-link {height:61px;}
+textarea#at_msg, #ateml {display:none !important;}
+/* treatment options webpart on healthaz treatment pages*/
+.healthaz .one .panel-tot {float:left;}
+.healthaz .one .panel-tot h2 {margin-left:0;}
+.healthaz .one .panel-tot .tot-content ul li {padding-left:10px;}
+.healthaz .one .panel-tot .tot-content p {float:none; width:auto;}
+.healthaz .one .panel-tot .tot-content p span {float:none;}
+.healthaz .one .panel-tot .tot-img {width:162px;}
+/* search results */
+.health-explorer-teaser-content {margin-top:5em;}
+.health-explorer-teaser-100 .health-explorer-teaser-cap {width:65.7em;}
+.health-explorer-teaser-100 .health-explorer-teaser-cap h2 {margin:.2em 0 0 .6em !important;}
+.health-explorer-teaser-100 .tr, .health-explorer-teaser-100 .br {right:-2px;}
+/* syndication management */
+.about .web-services .requestde textarea {width:45em;}
+.about .web-services .termc {width:52em;}
+
+.healthaz .panel-tot .tot-link {margin:0 0 1em 0;}
+.healthaz .one.last .panel-tot .tot-link {margin-left:-.2em;}
+.healthaz .one.last .panel-tot .tot-link p a {background-position:0 -604px;}
+.healthaz .four .panel-tot .tot-link p a {background-position:0 -605px;}
+.healthaz .four .slider-content-wrap .panel-tot .tot-link {margin-left:-.5em;}
+.healthaz .four .slider-content-wrap .panel-tot .tot-link p a {background-position:-151px -605px;}
+.healthaz .row.pad-tbl .tot-link {width:15em; margin:0 0.5em 1em 0;}
+.healthaz .row.pad-tbl .tot-link.back-to-treatment p {background-position:-151px bottom; padding-bottom:0.2em;}
+.healthaz .row.pad-tbl .tot-link.back-to-treatment p a {background-position:-151px -605px;}
+/*GSA search results*/
+.true-results .fs-result .metric.first { clear:both }
+.true-results .fs-result.organisation .metric ul li{ width:14em; list-style:disc inside none; word-wrap:break-word; float:none }
+/* edge case of italicised text overlapping the available space, which IE6 gets wrong */
+.carers-article .article p em {font-size:.9em; line-height:1.6em;}
+/* new homepage modules */
+/* feature panel */
+.feature-announcement .preferences .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.thumbnail-wrap ul li a .tl {left:0; top:2px}
+.thumbnail-wrap ul li a .tr {right:1px; top:2px;}
+.thumbnail-wrap ul li a .bl {bottom:8px;}
+.thumbnail-wrap ul li a .br {right:1px; bottom:8px;}
+.thumbnail-wrap ul li.thumb-active a .tl, 
+.thumbnail-wrap ul li.thumb-active a:hover .tl, 
+.thumbnail-wrap ul li a:hover .tl {top:0 !important;}
+.thumbnail-wrap ul li.thumb-active a .tr, 
+.thumbnail-wrap ul li.thumb-active a:hover .tr, 
+.thumbnail-wrap ul li a:hover .tr {right:-1px !important; top:0 !important;}
+.thumbnail-wrap ul li.thumb-active a .bl, 
+.thumbnail-wrap ul li.thumb-active a:hover .bl, 
+.thumbnail-wrap ul li a:hover .bl {bottom:6px !important;}
+.thumbnail-wrap ul li.thumb-active a .br, 
+.thumbnail-wrap ul li.thumb-active a:hover .br, 
+.thumbnail-wrap ul li a:hover .br {right:-1px !important; bottom:6px  !important;}
+.thumbnail-wrap ul li.thumb-active a:hover .thumb-wrap {border:2px solid #fff;}
+.thumbnail-wrap ul li.thumb-active a:hover img {border:1px solid #fff;}
+.thumbnail-wrap ul li.thumb-active a:hover .tl {background-position:0 -8px; left:-2px; top:-2px; }
+.thumbnail-wrap ul li.thumb-active a:hover .tr {background-position:-6px -8px; right:-2px; top:-2px;}
+.thumbnail-wrap ul li.thumb-active a:hover .bl {background-position:0 -14px; bottom:-2px; left:-2px;}
+.thumbnail-wrap ul li.thumb-active a:hover .br {background-position:-6px -14px; bottom:-2px; right:-2px;}
+.thumbnail-wrap ul li a .tooltip .bl, .thumbnail-wrap ul li a .tooltip .br {margin-bottom:-7px;} 
+.thumbnail-wrap ul li a .tooltip .tl, .thumbnail-wrap ul li a .tooltip .bl {margin-left:2px;}
+.thumbnail-wrap ul li a .tooltip .tr, .thumbnail-wrap ul li a .tooltip .br {margin-right: expression((this.offsetParent.clientWidth % 2) ? 0 : '1px');}
+/* column modules */
+.column .module {display:inline; float:left;}
+.column .module .module-content {float:left; width:27.6em;}
+.module .module-edit-wrap {float:left;}
+.module .module-edit-content {display:inline; float:left; width:25.6em;}
+.module .module-edit-content .module-edit-buttons ul, .modal-content .modal-buttons ul {display:inline; zoom:1.0;}
+.module .module-edit-content ul li input, .modal-content .modal-row .modal-col1 fieldset input {margin-left:.2em; margin-top:-.2em; position:relative;}
+.module .module-edit-content .module-edit-buttons li a .bl, .module .module-edit-content .module-edit-buttons li a .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.modal-top, .modal-bottom {float:left; font-size:0;}
+.modal-content h1 {float:left; position:relative;}
+.modal-content p {clear:left;}
+.modal-row .modal-box .tl, .modal-row .modal-box .bl {left:-16px;}
+.modal-row .modal-reset p {position:relative; width:100%;}
+.modal-row .modal-reset p .tl, .modal-row .modal-reset p .tr {top:-10px;} 
+.modal-row .modal-reset p .tl, .modal-row .modal-reset p .bl {left:-10px;} 
+.modal-row .modal-reset p .bl, .modal-row .modal-reset p .br {bottom:-10px;} 
+.modal-row .modal-reset p .tr, .modal-row .modal-reset p .br {right:-10px;} 
+.ui-dialog .dialog-preferences .modal-content-wrap {float:none;}
+/* health az module */
+.module-healthaz .module-list {margin-top:.7em;}
+.module-healthaz .module-buttons {margin-bottom:.1em; margin-top:-1.5em;}
+.module-healthaz .module-buttons .module-list-items ul li {margin-top:.7em; width:21.2em;}
+.module-healthaz .module-buttons .module-list-items ul li .bl, .module-healthaz .module-buttons .module-list-items ul li .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-2px' : '-1px');}
+.module-healthaz .module-buttons .module-list-items ul li .tr, .module-healthaz .module-buttons .module-list-items ul li .br {right:expression((this.offsetParent.clientWidth % 2) ? '-2px' : '-1px');}
+.module-healthaz .module-buttons .module-list-items ul li a .tr, .module-healthaz .module-buttons .module-list-items ul li a .br {right:expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.module-healthaz .module-buttons .module-list-items ul li a .bl, .module-healthaz .module-buttons .module-list-items ul li a .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+/* video module */
+.module-videos .module-video-list {padding-bottom:1em;}
+.module-videos .module-video-list li a .tl, .module-videos .module-video-list li a .bl {left:-6px;}
+.module-videos .module-video-list li a .tr, .module-videos .module-video-list li a .br {right:-1px;}
+.module-videos .module-video-browse {margin-top:.8em;}
+.module-videos .module-video-desc a {bottom:47px;}
+.js-enabled .module-videos .module-video-desc a {bottom:-1px;}
+/* find and choose services module */
+.columns .module-findchooseservices .find-services .box .tab-container {width:26.4em;}
+.columns .module-findchooseservices .find-services .box .tab-content .row {width:25.4em;}
+.columns .module-findchooseservices .find-services .box .hub-submit .submit-wrap {margin-left:1em;}
+.columns .module-findchooseservices .find-services .box .submit-container .submit input {padding:0 1em;}
+.columns .module-findchooseservices .find-services .content-br {right:-11px;}
+.columns .module-findchooseservices .find-services .box .hub-submit .submit-wrap .tr,
+.columns .module-findchooseservices .find-services .box .hub-submit .submit-wrap .br,
+.columns .module-findchooseservices .find-services .box .submit-container .submit .tr,
+.columns .module-findchooseservices .find-services .box .submit-container .submit .br {right:expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.columns .module-findchooseservices .find-services .box .hub-submit .submit-wrap .bl, .columns .module-findchooseservices .find-services .box .hub-submit .submit-wrap .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);} 
+.columns .module-findchooseservices .find-services .box ul.services-tabs li.active a.iehover {text-decoration:none;}
+.columns .module-findchooseservices .find-services .box ul.services-tabs li.active {padding-top:2px;}
+.columns .module-findchooseservices .find-services .box ul.services-tabs li a {padding-left:.4em;}
+.columns .module-findchooseservices .find-services .box .tab-content .hub-search input, .columns .module-findchooseservices .find-services .box #compare-box input {width:20.3em;}
+.columns .module-findchooseservices .find-services .box .tab-content #compare-box #predictive {margin-top:-2px;}
+.columns .module-findchooseservices .other-services .other-services-link p {margin-left:.8em;}
+.columns .module-findchooseservices .other-services a {padding-top:.3em;}
+.columns .module-findchooseservices .other-services a .bl, .columns .module-findchooseservices .other-services a .br {bottom:9px;}
+.columns .module-findchooseservices .other-services a .tl, .columns .module-findchooseservices .other-services a .bl {left:-14px;}
+.columns .module-findchooseservices .other-services a .tr, .columns .module-findchooseservices .other-services a .br {right:expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+/* blogs module */
+.module-blog h4 a {font-size:.8em;}
+.comment-holder .forward, .comment-holder .forward:link, .comment-holder .forward:visited {right:9px;}
+.comment-holder .back, .comment-holder .back:link, .comment-holder .back:visited {left:-24px;}
+/* comments module */
+.homepage .comment-holder .comment-container, .homepage .comment-holder .comment-container .comments  {height:11.5em;}
+.comment-holder .your-comments .bl {bottom:expression((this.offsetParent.clientHeight % 2) ? '-25px' : '-24px');}
+.comment-holder .your-comments .br {bottom:expression((this.offsetParent.clientHeight % 2) ? '-6px' : '-5px');}
+/* .homepage .share-container .share-link .tl {left:-14px;}
+.homepage .share-container .share-link .bl {bottom:8px; left:-14px;}
+.homepage .share-container .share-link .br {bottom:8px;} */
+.homepage .share-container .share-buttons ul {display:inline;}
+/* footer */
+.footer .footer-content {margin-top:-.5em;}
+.footer .footer-content .footer-tab1 {float:left; margin-left:2em;}
+.footer .footer-tabs li .tr {right:expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);}
+.footer .footer-content ul {margin-left:1.5em;}
+.footer .footer-box-wrap {display:inline;}
+.footer .footer-box-wrap .bl, .footer .footer-box-wrap .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-2px' : '-1px');}
+.footer .footer-box-wrap .tr, .footer .footer-box-wrap .br {right: expression((this.offsetParent.clientWidth % 2) ? '-2px' : 0);}
+.footer .footer-box-button {padding:1em;}
+.footer .footer-box-button p span {float:left; padding:1em 0 0 .1em;}
+.footer .footer-box-button p a {float:left;}
+.footer .footer-box-button .bl, .footer .footer-box-button .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-2px' : 0);}
+.footer .footer-box-button a .bl, .footer .footer-box-button a .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.footer .footer-box-button .tr, .footer .footer-box-button .br {right:expression((this.offsetParent.clientWidth  % 2) ? 0 : '-1px');} 
+.footer .footer-box-button a .tr, .footer .footer-box-button a .br {right:expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);}
+.footer .your-pages-personal .footer-box-wrap .tr, .footer .your-pages-personal .footer-box-wrap .br {right:expression((this.offsetParent.clientWidth  % 2) ? '-2px' : '-1px');} 
+.footer .your-pages-personal .footer-box-wrap {height:23.5em;}
+.footer .your-pages .footer-box-button-wrap {width:17.2em;}
+.footer .your-pages .footer-box-button-wrap .footer-box-button {padding-bottom:0;}
+
+/*Medicine Hub*/
+.healthaz.med-hub .tabs-nav.full-width { width:100%; height:7.2em;  padding:1em 0 0.2em 0;  margin:0 0 1.5em 0;}
+.healthaz.med-hub .tabs-nav.full-width ul.tabs li {bottom:-6px;}
+.healthaz .tabs-nav.full-width ul.tabs li.active { bottom:-1px}
+.healthaz.med-hub .four .sub-nav {margin:0;}
+.healthaz.med-hub .panel.panel-one ul {list-style:outside disc}
+.healthaz.med-hub .med-hub .panel.panel-docs {height:1%}
+.healthaz.med-hub .panel.panel-docs ul li {height:1%}
+.healthaz.med-hub ul.overview-links li{ padding-bottom:0.1em;}
+.browse-meds .med-hub-medsaz { width:34em}
+.selectshowdialog .tl { left:0;}
+.selectshowdialog .bl { bottom:-1px; left:0;}
+.selectshowdialog .br { bottom:-1px;}
+.medicineList_EasyPrint input { margin-bottom:15px}
+
+.healthaz.med-hub .hub-wrap .col.clear {clear:both;}
+.healthaz.med-hub .hub-wrap .four .bx-shd .bx-in {margin-bottom:0;}
+.healthaz.med-hub .hub-wrap .four .feature .one {width:17.9em;}
+.healthaz.med-hub .hub-wrap .four .featured-article.feat-wide {margin-left:-1em;}
+.healthaz.med-hub .hub-wrap .four .find-pharmacy legend {margin-left:-.5em; color:#006699;}
+.healthaz.med-hub .hub-wrap .four .find-pharmacy .chk-postcode input {float:left; margin-right:.5em; width:auto;}
+.healthaz.med-hub .hub-wrap .four .find-pharmacy .chk-postcode label {float:left; width:18em; padding-top:.2em;}
+.healthaz.med-hub .hub-wrap .four .find-pharmacy .submit {margin-top:1em;}
+
+.med-hub .article li.child-item {zoom:1;}
+
+/* SAT Phase 1 hub */
+.sat .col.four {padding:0; width:72.2em;}
+.sat .col.four .two-sm {width:34.9em;}
+.sat .col.four .two-sm .one-sm.symptom-list {width:16.9em;}
+.sat .sat-main .box .crnr.tr, .sat .sat-main .box .crnr.br {right:-1px;}
+.sat .sat-main .common-symptoms .one-sm.symptom-list {width:9em; margin-right:2.6em;}
+/* WebParts*/
+.healthaz .one.last .panel.sat-panel .panel-top {float:left; clear:right; width:90%;}
+.healthaz .one.last .panel.sat-panel .panel-top h2 {width:60%;}
+
+/* Health AZ tab WP*/
+
+.med-panel-top.az-webpart {width:35em; margin:0; padding-bottom:1em;}
+.az-webpart .box .tab-container .content-bl, .az-webpart .box .tab-container .content-br {bottom:-2px;}
+.az-webpart .box ul.med-hub-tabs li div {margin-left:0; margin-right:0; border:0;}
+.carers .az-webpart .box .tab-container .content-br {right:-2px;} 
+.carers .az-webpart #haz-mod1 ul{width:33.8em}
+.carers .panel .az-webpart .box .tab-container {width:34.8em;}
+.carers .az-webpart .box h3 {font-size:1.2em;}
+.panel .az-webpart .med-hub-az {margin-left:0.5em}
+.healthaz-index .col.two.az-wp-shd {width:37.1em; }
+.healthaz-index .az-wp-shd .bx-in .az-webpart {width:37.1em; height:25.3em}
+.healthaz-index .az-wp-shd .bx-in .az-webpart .box .tab-container {width:34em; }
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 {margin-bottom:0}
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul{width:33em; margin-bottom:0;}
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul li, .healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul li.first{padding-right:0.2em; height:1em; }
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul li span.no-articles {padding:0; width:1px; height:1em}
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul li.last span.no-articles {width:10px !important; display:inline; }
+.healthaz-index .az-wp-shd .bx-in .az-webpart #haz-mod1 ul li a#selected-letter:visited {width:auto; padding:0; }
+.healthaz-index .az-wp-shd .bx-in.az-webpart .med-content-container .browse-meds.med-hub-az{ padding-left:0;}
+.healthaz-index .az-wp-shd .bx-in.az-webpart .med-content-container .browse-meds.med-hub-az ul {margin-left:-5px}
+.healthaz-index .az-wp-shd.bx-shd {width:18em!important;}
+.healthaz.med-hub #haz-mod1 {margin:0 !important; clear:both}
+.med-hub #haz-mod1 ul li.last {width:3em}
+.healthaz.med-hub .tabs-nav #haz-mod1 li.first .bl{bottom:-8px; left:-11px}
+.healthaz.med-hub .tabs-nav #haz-mod1 li.last .br {right:0px; bottom:1px}
+.healthaz.med-hub #haz-mod1 #selected-letter:link, .healthaz.med-hub #haz-mod1 #selected-letter:visited { position:relative}
+.healthaz.med-hub .hub-wrap .four .bx-shd.two-sm {width:36em !important}
+.healthaz.med-hub .hub-wrap .four .bx-shd.two-sm.find-pharm {width:36em !important}
+.healthaz.med-hub .hub-wrap .four .bx-shd.two-sm.col.two {width:36.2em !important}
+
+/*CCCP*/
+.scorecard-results .refine-predictive .refine-consultant-sub p {zoom:1}
+.scorecard-results .refine-predictive .refine-consultant-sub #lstAwardsID{margin-left:1.2em}
+.fs #consultant-search p.intro {margin-left:14.3em}
+.fs .consultant-search {margin-left:17.2em; }
+.fs .consultant-search input.chk-postcode {margin:0; margin-left:-0.4em  }
+.scorecard-results .one-sm .panel .crnr.br{bottom:-1px}
+.scorecard-results .one-sm .panel .crnr.bl {bottom:-1px }
+.scorecard-results .refine-predictive .refine-consultant-sub #yesJS {z-index:102 !important;}
+.scorecard-results .refine-predictive .refine-consultant-sub #yesJS input{position:absolute;  }
+.scorecard-results .refine-predictive .refine-consultant-sub #yesJS .predictive {margin-left:-26.6em; margin-top:0; }
+.fs #yesJS .predictive {left:18.1em; margin-top:2.1em;}
+.fs .consultant-search .row {margin-bottom:0.5em !important;}
+.fs .consultant-search .row select#lstDisambiLocationsID{display:block; margin-top:1em}
+.fs .compare-box input.hospital-service-search{margin-top:-0.2em; }
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option {position:relative; width:14em;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option span.current-sort {border-right:1px solid #ccc; padding-bottom:.5em; width:11.1em;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option .crnr {clear:left;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down {width:16em;}
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option .bl, .scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-2px' : '-1px');}
+.scorecard-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .list-dropdown-icon {border:0;}
+.scorecard-results .refine-predictive .refine-consultant-sub label#for-lblTreatment {padding-left:0.5em}
+.scorecard-results .refine-predictive .refine-consultant-sub input#Id_TreatmentSearchBox{margin-left:1.2em;}
+/* self assessment tool */
+.self-assess #progress {float:left;}
+.self-assess #progress li {background-color:#8f8f8f;}
+.self-assess #progress li.last {width:5.36em;}
+.self-assess .gradient .align-right .start-checker .bl, .self-assess .gradient .align-right .start-checker .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.self-assess .gradient .align-right .start-checker .tr, .self-assess .gradient .align-right .start-checker .br {right:expression((this.offsetParent.clientWidth  % 2) ? '-1px' : 0);}
+.qtip-content {margin-bottom:0; padding-bottom:1em !important;}
+.self-assess .gradient .options .checkbox .checkbox {margin-top:-.3em;}
+.self-assess .gradient .options li .radio {bottom:.2em;}
+.self-assess .gradient ul.tabs {height:1%;}
+.self-assess .gradient ul.tabs li {bottom:-6px;}
+.self-assess #page .gradient ul.half {width:35em;}
+.self-assess #page .gradient ul.half li {margin-right:2em; width:12.5em;}
+.self-assess #page .gradient .border {padding:0;}
+.self-assess #page .gradient ul.all-checkers-list {width:74em;}
+.self-assess #page .gradient ul.all-checkers-list li {width:19.2em;}
+.self-assess .gradient .submit-buttons {clear:both; width:15em;}
+.self-assess .gradient .submit-buttons input {padding:.1em 1.6em 0 .5em;}
+.self-assess .gradient .submit-buttons .submit-previous input, .self-assess .gradient .submit-buttons .submit-goback input {background-image:url(/img/buttons/btn-back.gif); background-position:left center; padding:.1em .5em 0 1.6em;}
+.self-assess .gradient ul.half {width:34em;}
+.self-assess .gradient fieldset li .right {display:inline;}
+.self-assess .gradient span select {margin-bottom:0;}
+#fancybox-overlay {background:#fff !important; position:absolute !important; width:100% !important; z-index:1000;}
+.scorecard-results .one-sm .panel .crnr.br{bottom:-1px}
+.scorecard-results .one-sm .panel .crnr.bl {bottom:-1px }
+.self-assess .gradient .container .content {position:relative;}
+/* fix for incorrect html in the content webpart */
+.med-hub .hub-wrap .four .bx-shd .WebPartZone-Vertical .two {float:none; margin:0; width:auto !important;}
+.med-hub .hub-wrap .four .bx-shd .WebPartZone-Vertical h3 img {width:346px;}
+
+/* carers search results */
+.carers-results .results li {zoom:1;}
+.carers-results .carers-search-refine input {margin-left:-.3em;}
+
+/* health az check your symptoms webpart */
+.healthaz #webZoneRight div div.sat-panel {margin-bottom:1em;}
+
+/* Media Library R17 */
+.media-library .audio-dload {margin-left:-1.5em;}
+.media-library .media-panel .media-meta {padding-top:3em;}
+.media-library .media-panel .media-meta li span {margin-left:-1.2em;}
+.media-library .browse-media .browse-nav ul li {margin-bottom:-1.2em;}
+.media-library .media-panel .crnr.tr {right:-11px;}
+.media-library .search-bar .submit {margin-top:-2.5em;}
+.media-library .transcript .showhide-content h2.trans-heading {font-size:1.4em;}
+.media-library .browse-media .thumbnails .media-thumb {margin:0 .5em .5em 0;}
+.media-library .browse-media .thumbnails .media-thumb a {width:8em; height:9em; cursor:pointer;}
+.media-library .browse-media .thumbnails .media-thumb a span.thumb-title {width:9.4em;}
+.media-library .browse-media .thumbnails .media-thumb .thumb-title, .media-library .browse-media .thumbnails .media-thumb .media-type {font-size:.9em;}
+.media-library .browse-media ul.cat li.current, .media-library .browse-media ul.media-list li.current {margin-bottom:-1em;}
+
+/* Edit mode */
+.media-library .four .media-panel .media-info .media-meta dd .ms-formfieldvaluecontainer {background:#fff; color:#585858; width:90%;}
+
+/* embed this tool */
+.tools .tool-embed {padding-left:0;}
+.tool-embed input {behavior:url('/includes/IEButtonFixes.htc'); padding-left:14px;}
+.tool-embed input.hover {text-decoration:none;}
+
+/* eps */
+.rc-content .two .box-eps {float:left;}
+.rc-content .two .box-eps .tr, .rc-content .two .box-eps .br {right:-2px !important;}
+.about-facts .about-facts-indicator .electronic-prescription-service-bg {min-height:95px; height:auto !important; height:95px;}
+
+/* consultant results */
+.scorecard-results .consultant-results .list-dropdown-enabled .list-dropdown .consultant-drop-down .top-option span.current-sort {padding-bottom:0; width:10em;}
+.scorecard-results .consultant-results .list-dropdown-enabled .list-dropdown .list-dropdown-icon {padding-top:.4em !important}
+.scorecard-results .consultant-filter {bottom:auto; position:relative; right:auto; width:auto;}
+.scorecard-results .filter-consultant .refine-predictive .refine-consultant-sub label#for-lblTreatment {clear:none;}
+.scorecard-results .filter-consultant .refine-predictive .refine-consultant-sub #yesJS {margin-bottom:0;}
+.scorecard-results .filter-consultant .refine-predictive .refine-consultant-sub #yesJS .predictive {left:54.2em;}
+
+/* Social Sharing - April 2011 */
+.row.pad-tbl .social-sharing .save-list .print-ip, .row.pad-tbl .social-sharing .save-list .print-ip div p.printable-version.ip, .row.pad-tbl .social-sharing .save-list .print-ip div p.printable-version.ip a {padding:0; width:1.3em; height:1em; margin:0;}
+.carers-subcategory .carers-article .social-sharing ul {padding-left:0;}
+.carers-subcategory .carers-article .social-sharing ul li, .carers-subcategory .carers-article .social-sharing ul li a {padding:0; margin:0; width:1.6em; height:1.6em;}
+.carers-subcategory .carers-article .social-sharing ul li a {margin-left:-.5em;}
+.social-sharing p.subscribe {width:6.5em;}
+.social-sharing p.subscribe a {width:1.6em; display:block; margin-top:-1.4em; float:right;}
+.social-sharing ul.save-list li.print-ip {padding-right:.5em !important;}
+.social-sharing ul.save-list li.print-ip p.printable-version.ip a {width:1em !important;}
+.healthaz .social-sharing p.printable-version {clear:none; float:none; height:1.6em; margin:0; width:1.6em;}
+
+/* Retrieve Session Captcha */
+.retrieve-session legend {font-size:0;}
+
+/* Data validation (R19) */
+.two-sm.last.serv-info-qual-wrap {padding-top:7.5em;}
+.serv-info-qual {width:auto; float:none;}
+.about fieldset.data-report legend {margin-left:-.6em;}
+.about fieldset.data-report input.pre-pop {width:40.8em;}
+.about .data-report-instruct ol {padding-left:2.5em;}
+
+/* Header skip links (R19) */
+#mainContent {line-height:0; margin:0; padding:0; height:0; font-size:0;}
+
+/* blog signup form */
+.about fieldset.blog-signup .contact-box {margin-bottom:2em;}
+
+/* treatment option tables */
+.o-table thead th {border-left:1px dotted #d3d3d3; border-right:1px dotted #d3d3d3;}
+.o-table table {position:relative;}
+.o-table .tr {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.o-table thead th.last .tr {right: expression((this.offsetParent.clientWidth % 2) ? 0 : '-2px');}
+.o-table th.first div {float:left;}
+.optionlb .modal-top div, .optionlb .modal-bottom div {width:727px !important;}
+.optionlb .modal-content-wrap {float:left; padding-bottom:.5em;}
+
+/* new search results */
+.main-results .four .postcode-search .submit {margin-top:0;}
+.main-results .four .postcode-search .submit .bl, .main-results .four .postcode-search .submit .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.main-results .four .postcode-search .submit .tr, .main-results .four .postcode-search .submit .br {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.main-results .services-near .submit .bl, .main-results .services-near .submit .br {bottom: expression((this.offsetParent.clientHeight % 2) ? '-1px' : 0);}
+.main-results .services-near .submit .tr, .main-results .services-near .submit .br {right: expression((this.offsetParent.clientWidth % 2) ? '-1px' : 0);}
+.main-results .services-near .chk-postcode input {margin-top:-3px;}
+.main-results .panel-crnrs {width:18.1em;}
+.main-results .panel-crnrs-bottom {left:.2em;}
+.main-results .panel-crnrs .tr, .main-results .panel-crnrs .br {right: expression((this.offsetParent.clientWidth % 2) ? '-2px' : '-1px');}
+.main-results ul.healthaz-related li a {background:url(/img/search/bullet-orange.gif) left 5px no-repeat; padding-left:15px;}
+
+/* modal dialog/lightbox */
+.ui-dialog .dialog-preferences {height:1px !important;}
+
+/* a-z for medicines a-z */
+.med-hub .full-width {padding-bottom:0;}
+.med-hub .full-width #haz-mod1 ul li {width:2.92em;}
+.med-hub .full-width #haz-mod1 ul li.last {width:3.45em;}
+.med-hub .full-width #haz-mod1 li.first .bl {bottom:-6px;}
+.med-hub .full-width #haz-mod1 ul li a#selected-letter:link, .med-hub .full-width #haz-mod1 ul li a#selected-letter:visited {margin-top:1px;}
+
+/* share experience webpart */
+.share-link-container p .tl {left:-14px !important;}
+.share-link-container p .bl {bottom:8px !important; left:-14px !important;}
+.share-link-container p .br {bottom:8px !important;}
+.share-container .share-buttons ul {display:inline;}
+.healthaz .four .healthaz-content .share-wp h2 {margin-top:0;}
+.share-container .share-steps ul {list-style-position:outside;}
+
+/* innovative treatments */
+.innovative-treatments .border {width:93.5em;}
+.showIClb .modal-content-wrap {float:left;}
+.showIClb .modal-bottom {top:-10px;}
+
+/* guides */
+.guides .mmenu li:hover .mcontainer, .guides .mmenu li:focus .mcontainer, .guides .mmenu li:active .mcontainer, .guides .mmenu li.selected .mcontainer, .guides .mmenu.with-js li .mcontainer.stay {top:3.1em;}
+.guides-promo .mmenu li:hover .mcontainer, .guides-promo .mmenu li:focus .mcontainer, .guides-promo .mmenu li:active .mcontainer, .guides-promo .mmenu li.selected .mcontainer, .guides-promo .mmenu.with-js li .mcontainer.stay {top:2.9em;}
+.guides .mmenu-nojs li.selected .mcontainer {top:-2px;}
+.guides .mmenu li .mcontainer li {display:inline;}
+.guides .mmenu li .mcontainer li a {display:block; margin-bottom:.3em;}
+.guides .mmenu .mcontainer .mcol dd ul {margin-left:1.3em;}
+.guides .mmenu .mcontainer .mcol dd ul li {display:block; vertical-align:middle; zoom:1; }
+.guides .mmenu li  {overflow:hidden;}
+.guides .mmenu .items-3 li.last {width:26.75em;}
+.guides .mmenu .items-4 li.last {width:19.85em;}
+.guides .mmenu .items-5 li.last {width:15.95em;}
+.guides .mmenu .items-7 li.last {width:11.55em;}
+.guides-promo .guides .mmenu .items-3 li.last {width:25.75em;}
+.guides-promo .guides .mmenu .items-4 li.last {width:19.2em;}
+.guides-promo .guides .mmenu .items-5 li.last {width:15.6em;}
+.guides-promo .guides .mmenu .items-6 li.last {width:13.75em;}
+.guides-promo .guides .mmenu .items-7 li.last {width:11.4em;}
+.guides .mmenu .items-8 li.last {width:10.2em;}
+.guides-promo .guides .mmenu .items-8 li {width:9.4em;}
+.guides-promo .guides .mmenu .items-8 li.last {width:10.25em;}
+.guides .mmenu .items-9 li.last {width:8.95em;}
+.guides-promo .guides .mmenu .items-9 li.last {width:9.25em;}
+.guides .mmenu .items-2 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-2 li.item-2 .mcontainer {left:-39.8em;}
+.guides-promo .mmenu-nojs .items-2 li.item-2 .mcontainer {left:-39.1em;}
+.guides .mmenu .items-3 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-3 li.item-2 .mcontainer {left:-26.4em;}
+.guides .mmenu .items-3 li.item-3 .mcontainer {left:-52.85em;}
+.guides-promo .mmenu-nojs .items-3 li.item-2 .mcontainer {left:-26.1em;}
+.guides-promo .mmenu-nojs .items-3 li.item-3 .mcontainer {left:-52.2em;}
+.guides .mmenu .items-4 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-4 li.item-2 .mcontainer {left:-19.9em;}
+.guides .mmenu .items-4 li.item-3 .mcontainer {left:-39.85em;}
+.guides .mmenu .items-4 li.item-4 .mcontainer {left:-59.75em;}
+.guides-promo .mmenu-nojs .items-4 li.item-2 .mcontainer {left:-19.6em;}
+.guides-promo .mmenu-nojs .items-4 li.item-3 .mcontainer {left:-39.2em;}
+.guides-promo .mmenu-nojs .items-4 li.item-4 .mcontainer {left:-58.75em;}
+.guides .mmenu .items-5 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-5 li.item-2 .mcontainer {left:-15.9em;}
+.guides .mmenu .items-5 li.item-3 .mcontainer {left:-31.8em;}
+.guides .mmenu .items-5 li.item-4 .mcontainer {left:-47.75em;}
+.guides .mmenu .items-5 li.item-5 .mcontainer {left:-63.7em;}
+.guides-promo .mmenu-nojs .items-5 li.item-2 .mcontainer {left:-15.6em;}
+.guides-promo .mmenu-nojs .items-5 li.item-3 .mcontainer {left:-31.2em;}
+.guides-promo .mmenu-nojs .items-5 li.item-4 .mcontainer {left:-46.75em;}
+.guides-promo .mmenu-nojs .items-5 li.item-5 .mcontainer {left:-62.3em;}
+.guides .mmenu .items-6 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-6 li.item-2 .mcontainer {left:-13.25em;}
+.guides .mmenu .items-6 li.item-3 .mcontainer {left:-26.5em;}
+.guides .mmenu .items-6 li.item-4 .mcontainer {left:-39.75em;}
+.guides .mmenu .items-6 li.item-5 .mcontainer {left:-53em;}
+.guides .mmenu .items-6 li.item-6 .mcontainer {left:-66.25em;}
+.guides-promo .mmenu-nojs .items-6 li.item-2 .mcontainer {left:-12.85em;}
+.guides-promo .mmenu-nojs .items-6 li.item-3 .mcontainer {left:-25.7em;}
+.guides-promo .mmenu-nojs .items-6 li.item-4 .mcontainer {left:-38.5em;}
+.guides-promo .mmenu-nojs .items-6 li.item-5 .mcontainer {left:-51.4em;}
+.guides-promo .mmenu-nojs .items-6 li.item-6 .mcontainer {left:-64.2em;}
+.guides .mmenu .items-7 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-7 li.item-2 .mcontainer {left:-11.3em;}
+.guides .mmenu .items-7 li.item-3 .mcontainer {left:-22.7em;}
+.guides .mmenu .items-7 li.item-4 .mcontainer {left:-34em;}
+.guides .mmenu .items-7 li.item-5 .mcontainer {left:-45.35em;}
+.guides .mmenu .items-7 li.item-6 .mcontainer {left:-56.7em;}
+.guides .mmenu .items-7 li.item-7 .mcontainer {left:-68em;}
+.guides-promo .mmenu-nojs .items-7 li.item-2 .mcontainer {left:-11.1em;}
+.guides-promo .mmenu-nojs .items-7 li.item-3 .mcontainer {left:-22.2em;}
+.guides-promo .mmenu-nojs .items-7 li.item-4 .mcontainer {left:-33.25em;}
+.guides-promo .mmenu-nojs .items-7 li.item-5 .mcontainer {left:-44.3em;}
+.guides-promo .mmenu-nojs .items-7 li.item-6 .mcontainer {left:-55.4em;}
+.guides-promo .mmenu-nojs .items-7 li.item-7 .mcontainer {left:-66.5em;}
+.guides .mmenu .items-8 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-8 li.item-2 .mcontainer {left:-9.9em;}
+.guides .mmenu .items-8 li.item-3 .mcontainer {left:-19.8em;}
+.guides .mmenu .items-8 li.item-4 .mcontainer {left:-29.8em;}
+.guides .mmenu .items-8 li.item-5 .mcontainer {left:-39.7em;}
+.guides .mmenu .items-8 li.item-6 .mcontainer {left:-49.6em;}
+.guides .mmenu .items-8 li.item-7 .mcontainer {left:-59.5em;}
+.guides .mmenu .items-8 li.item-8 .mcontainer {left:-69.4em;}
+.guides-promo .mmenu-nojs .items-8 li.item-2 .mcontainer {left:-9.7em;}
+.guides-promo .mmenu-nojs .items-8 li.item-3 .mcontainer {left:-19.3em;}
+.guides-promo .mmenu-nojs .items-8 li.item-4 .mcontainer {left:-29em;}
+.guides-promo .mmenu-nojs .items-8 li.item-5 .mcontainer {left:-38.7em;}
+.guides-promo .mmenu-nojs .items-8 li.item-6 .mcontainer {left:-48.3em;}
+.guides-promo .mmenu-nojs .items-8 li.item-7 .mcontainer {left:-58em;}
+.guides-promo .mmenu-nojs .items-8 li.item-8 .mcontainer {left:-67.7em;}
+.guides .mmenu .items-9 li.item-1 .mcontainer {left:0;}
+.guides .mmenu .items-9 li.item-2 .mcontainer {left:-8.8em;}
+.guides .mmenu .items-9 li.item-3 .mcontainer {left:-17.7em;}
+.guides .mmenu .items-9 li.item-4 .mcontainer {left:-26.5em;}
+.guides .mmenu .items-9 li.item-5 .mcontainer {left:-35.3em;}
+.guides .mmenu .items-9 li.item-6 .mcontainer {left:-44.2em;}
+.guides .mmenu .items-9 li.item-7 .mcontainer {left:-53em;}
+.guides .mmenu .items-9 li.item-8 .mcontainer {left:-61.8em;}
+.guides .mmenu .items-9 li.item-9 .mcontainer {left:-70.7em;}
+.guides-promo .mmenu-nojs .items-9 li.item-2 .mcontainer {left:-8.6em;}
+.guides-promo .mmenu-nojs .items-9 li.item-3 .mcontainer {left:-17.2em;}
+.guides-promo .mmenu-nojs .items-9 li.item-4 .mcontainer {left:-25.75em;}
+.guides-promo .mmenu-nojs .items-9 li.item-5 .mcontainer {left:-34.3em;}
+.guides-promo .mmenu-nojs .items-9 li.item-6 .mcontainer {left:-42.9em;}
+.guides-promo .mmenu-nojs .items-9 li.item-7 .mcontainer {left:-51.5em;}
+.guides-promo .mmenu-nojs .items-9 li.item-8 .mcontainer {left:-60.1em;}
+.guides-promo .mmenu-nojs .items-9 li.item-9 .mcontainer {left:-68.7em;}
+.guides-promo .guidesheaderpanel h1 {width:16em;}
+.guides .two-sm {width:37.3em;}
+.guides .panel_rnd .pad-rl p {margin-top:0;}
+.guides .two-sm .panel_rnd .panel-top p, .planner .two-sm .panel-search .panel-top p {margin-bottom:.5em;}
+.guides .two-sm .panel-search fieldset {margin-top:.5em;}
+.guides .two-sm .panel-search fieldset .submit input {margin:0;}
+.guides .two-sm .panel-search fieldset select {width:16em;}
+.guides .two-sm .panel-search fieldset .search-field {width:15.3em;}
+.guides .three-sm .imagedivleft-1col  p.caption, .guides .three-sm .imagedivleft-2col  p.caption, .guides .three-sm .imagedivleft-3col  p.caption  {margin-top:0; padding-bottom:0;}
+.pad .guidespanel .three-sm {margin-right:-2em;}
+.guides .two-sm .content-surfacer .panel-blog .blog-bubble-tl {left:-5px !important;}
+.guides .two-sm .content-surfacer .panel-blog .blog-bubble-tr {right:-5px !important;}
+.guides .two-sm .content-surfacer .panel-blog .blog-bubble-bl {bottom:auto !important;}
+.guides .two-sm .content-surfacer .panel-blog .blog-bubble-br {bottom:auto !important; right:-5px !important; top:-2px;}
+.guides .two-sm .panel .panel-text {width:15.5em;}
+.guides .two-sm .panel-search fieldset .submit input {behavior:url('/includes/IEButtonFixes.htc');}
+.guides .three-sm .questionnaire #planner-to-do-list .saveandprint .submit input {margin-left:1px; margin-top:1px;}
+.guides .three-sm .questionnaire #planner-to-do-list .saveandprint .submit input {behavior:url('/includes/IEButtonFixes.htc');}
+.guides .three-sm .questionnaire #planner-to-do-list .panel-shdw .mid span.chbx_to_do_list input {margin-top:0;}
+.guides .three-sm .questionnaire .slider .slider-content-inner .saveandprint .submit input {behavior:url('/includes/IEButtonFixes.htc');}
+.guides .three-sm .questionnaire .pp_calc_box fieldset legend {margin-left:-.8em;}
+.guides .three-sm .questionnaire .saveandprint .submit a {margin-left:1px; margin-top:1px;}
+.guides .three-sm .questionnaire .submit input {margin-left:1px; margin-top:1px;}
+.guidesheader, .guidesheaderpanel, .guidesfooter {margin-left:.5em;}
+.guides-promo .carousels {z-index:3;}
+.guides-promo .share {z-index:2;}
+.guides-promo .share .share-ie67 {left:-999em; right:auto;}
+.guides-promo .share .share-ie67-show {left:auto; right:115px;}
+.guides-promo .share .share-list .share-close {margin-top:-30px; padding-bottom:0;}
+.guides-promo .share .share-list ul {list-style-position:outside;}
+.guides-promo .share .share-list li {float:left;}
+.guides-promo .share .share-ie67-show li {width:100%;}
+.jcarousel-prev, .jcarousel-next {behavior:url('/includes/IEFixes.htc');}
+.main-carousel-wrap {margin-top:.8em; width:92.4%;}
+.related-carousel-items {position:relative; width:98.4%;}
+.main-with-js, .jcarousel-container {width:auto;}
+.main-carousel-wrap .carousel-overlay {background:#000; filter:alpha(opacity=70);}
+.main-carousel-wrap .overlay-right {right:19px;}
+.main-carousel-wrap .main-next .jcarousel-next {right:-83px;}
+.main-carousel-wrap .main-prev .hover {background-position:0 -208px;}
+.main-carousel-wrap .main-next .hover {background-position:0 -312px;}
+.related-carousel .related-prev .hover {background-position:0 -64px;}
+.related-carousel .jcarousel-next {right:31px;}
+.related-carousel .related-next .hover {background-position:-55px -64px;}
+.related-carousel .jcarousel-next-disabled, .related-carousel .jcarousel-next:hover, .related-carousel .jcarousel-next:active, .related-carousel .jcarousel-next:focus {background-position:-55px -64px;}
+.related-carousel .related-items a span {top:32px;}
+.related-carousel .jcarousel-control ul {display:inline; zoom:1;}
+.related-carousel .jcarousel-control ul li a {float:left; margin-left:10px;}
+.related-carousel .related-items li {display:inline;}
+.related-carousel .related-items a {behavior:url('/includes/IEFixes.htc');}
+.related-carousel .related-items a:hover img, .related-carousel .related-items a.hover img {border:1px solid #2392ed; height:92px; margin:auto; width:138px;}
+.related-carousel .related-carousel-header {display:inline;}
+.related-carousel .related-carousel-more {display:inline; margin-right:4.7em;}
+.related-carousel .jcarousel-control ul li a {background:url(/img/guides/sprite-carousel-related-ie6.gif) left top no-repeat;}
+.related-carousel .jcarousel-control ul li a:hover, .related-carousel .jcarousel-control ul li.active a {background-position:0 -15px;}
+.guides .videosearch {margin:0; width:93.8em;}
+.guides .videosearch div {margin:1em 0;}
+.guides .videosearch div div, .guides-promo .guides .videosearch div {margin:0;}
+.guides .videosearch fieldset input.videosearchtext {width:34em;}
+.guides-promo .guides .videosearch {margin-bottom:.8em; width:92em;}
+.guides .videosearch fieldset {padding-top:8px; width:93.8em;}
+.guides-promo .guides .videosearch fieldset {width:91.9em;}
+.guides-promo .guides .videosearch fieldset input.videosearchtext {width:33em;}
+.guides .videosearch #results {margin-top:-2.1em; width:95.3em;}
+.guides-promo .guides .videosearch #results {margin-top:-10px;}
+.guides-promo .guides .search-replicated .search-txt {width:46.3em;}
+.guides .search-replicated {padding-bottom:1.7em;}
+.guides .videosearch div.search-video {display:block; margin-top:.7em; margin-left:1em; width:8em;}
+.guides .videosearch .search-video .bl, .guides .videosearch .search-video .br {bottom:-2px;}
+.guides .videosearch .add-question .bl, .guides .videosearch .add-question .br {bottom:-2px;}
+.guides .videosearch .add-question .tr, .guides .videosearch .add-question .br {right:-2px;}
+.guides .videosearch .search-video input {behavior:url('/includes/IEButtonFixes.htc');}
+.guides .videosearch .search-video input.hover {text-decoration:underline;}
+.guides .search-replicated .search-txt {width:47.7em;}
+.guides .two-sm .content-surfacer .recent-posting ul li.recent-post-title a {float:left;}
+.guides .two-sm .content-surfacer .recent-posting ul li.recent-post-author {margin-left:-1.3em;}
+.guides .pad .bookmark-wrap .social-sharing, .guides .guidespanel .three-sm .bookmark-wrap .social-sharing {float:right;}
+.snippets-image-text, .snippets-text, .snippets-list, .snippets-image {width:25.6em;}
+.snippets-image {padding:1.84em;}
+.guides-promo .guides .snippets-panel .snippets-box {display:inline;}
+.snippets-list ul {margin:0 0 0 1.5em; padding:0;}
+.guides .pageimage {margin-left:.5em; margin-right:0;}
+.add-question-lb .add-question h1 {float:none; position:static;}
+.add-question-lb .modal-content-wrap {float:left; width:400px;}
+.add-question-lb .add-question {float:left;}
+.add-question-lb .question-submit {display:inline; margin-left:190px;}
+.add-question-lb .question-submit input {behavior:url('/includes/IEButtonFixes.htc');}
+.add-question-lb .question-submit input.hover {text-decoration:underline;}
+.add-question-lb .question-submit .tr, .add-question-lb .question-submit .br {right:-2px;}
+.add-question-lb .modal-bottom {top:-10px;}
+.add-question-lb .add-question .add-question-close a {display:block; float:left; margin-left:250px;}
+.add-question-lb .add-question .add-question-close a .bl, .add-question-lb .add-question .add-question-close a .br {bottom:-2px;}
+/* das notification */
+.das-signup-content .das-signup-col .radio-buttons div.radio-wrap {margin-left:2.5em; margin-top:-1.5em; position:relative; top:-1em;}
+.das-signup-content .das-signup-col .radio-buttons div.radio-wrap div {margin-left:1em;}
+.das-signup-content .das-signup-col .radio-buttons div.radio-wrap input {margin-top:-.1em;}
+.das-datepicker .ui-datepicker-cover {display:none;}
+.das-signup-content legend {color:#617ac4 !important; margin-left:-6px;}
+.das-signup-content .postcode {width:28em;}
+.das-signup-content .agree label {position:relative; top:-.5em;}
+.das-signup-content .das-signup-col .radio-buttons legend {color: #666 !important;}
+.das-signup-content .postcode input {margin-bottom:2em;}
+/*  health unlocked 3rd party widget */
+.healthaz .healthunlocked_wrapper div p a {word-wrap:break-word;}
+
+/* General Site Content */
+.gsc .three .signup-form .signupsubmit input {padding-right:.6em; padding-left:.7em;}
+.gsc .three .signup-form .signupsubmit input {behavior:url(/includes/IEButtonFixes.htc);}
+.gsc .three .signup-form .signupsubmit input.hover, .gsc .three .signup-form .signupsubmit input.focus, .gsc .three .signup-form .signupsubmit input.active {background-color:#1866b5;}
+.gsc .three .signup-form .terms-conditions .text-centered {margin-left:3em;}
+.gsc .three .signup-form fieldset .email .gender-row p.radiobuttons span input {height:1.2em;}
+.gsc .three .signup-form fieldset .email .gender-row p.sub-text {padding-left:0;}
+.gsc .three .unsubscribe input {padding-right:.6em; padding-left:.7em;}
+.gsc .three .unsubscribe input {behavior:url(/includes/IEButtonFixes.htc);}
+.gsc .three .unsubscribe input.hover, .gsc .three .unsubscribe input.focus, .gsc .three .unsubscribe input.active {background-color:#1866b5;}
