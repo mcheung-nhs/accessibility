@@ -52,7 +52,7 @@ body {background:#f7f7f7 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAA
 .row-bg .find-services {background:#fff; padding:2em 2em 1.5em 2em;}
 .row-bg .box-findservices input[type="submit"] {border:2px solid #adadad; float:right; font-size:2em; font-weight:normal;}
 .row-bg .box-findservices input[type="text"] {border-color:#47515e; display:block; padding:.5em; margin:1.5em 0 1em 0; width:100%;}
-.row-bg .box-findservices input[type="radio"] {position:absolute; z-index:-1;}
+.row-bg .box-findservices input[type="radio"] {left:-1000px; position:absolute;}
 .row-bg .box-findservices label {background:#f0f1f1; border-right:1px dotted #999; display:block; float:left; font-size:1.5em; font-weight:normal; padding:10px; position:relative; text-align:center;}
 .row-bg .box-findservices label:hover {background:#578300; color:#fff;}
 .row-bg .box-findservices label.error {background:none; border:0; float:none; margin-top:1.5em; padding:0; text-align:left;}
