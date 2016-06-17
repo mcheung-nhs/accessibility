@@ -2371,6 +2371,8 @@ jQuery(document).ready(function($) {
         (url.indexOf("/homepage.aspx") != -1) ||
         (url.indexOf("/homepagerefresh.aspx") != -1) ||
         (url.indexOf("/home.aspx") != -1) ||
+        (url.indexOf("index.html") != -1) ||
+        (url.indexOf("index-before.html") != -1) ||
         (url.indexOf("/news/") != -1) ||
         (url.indexOf("/aboutnhschoices/") != -1) ||
         (url.indexOf("/nhsengland/") != -1) ||
