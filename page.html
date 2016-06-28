@@ -100,8 +100,113 @@
               </ul>
             <li>Screen reader
               <ul>
-                <li><a href="choices/index-before.html" target="_blank">Before</a></li>
-                <li><a href="choices/index.html" target="_blank">After</a></li>
+                <li>Find services widget
+                  <ul>
+                    <li><a href="" data-toggle="modal" data-target=".find-services-before">Before <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a href="" data-toggle="modal" data-target=".find-services-after">After <span class="glyphicon glyphicon-new-window"></span></a></li>
+                  </ul>
+
+                  <div class="modal fade find-services-before" tabindex="-1" role="dialog" aria-labelledby="fswBeforeLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="fswBeforeLabel">Find services widget - before</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left" width="320" height="480" controls>
+                              <source src="video/find-services-before.mp4" />
+                              <source src="video/find-services-before.webm" />
+                              <source src="video/find-services-before.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Single finger swipe to move to the next element seems to move to the next tab audibly, but double tapping does not select the tab correctly. Therefore the user can only make a GP search.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade find-services-after" tabindex="-1" role="dialog" aria-labelledby="fswAfterLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="fswAfterLabel">Find services widget - after</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left" width="320" height="480" controls>
+                              <source src="video/find-services-after.mp4" />
+                              <source src="video/find-services-after.webm" />
+                              <source src="video/find-services-after.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Single finger swipe to move to the next element correctly moves to the next tab. Double tapping correctly selects the option. Then you can swipe to the input field and enter content.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+                <li>Footer
+                  <ul>
+                    <li><a href="" data-toggle="modal" data-target=".footer-before">Before <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a href="" data-toggle="modal" data-target=".footer-after">After <span class="glyphicon glyphicon-new-window"></span></a></li>
+                  </ul>
+
+                  <div class="modal fade footer-before" tabindex="-1" role="dialog" aria-labelledby="footerBeforeLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="footerBeforeLabel">Footer - before</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left" width="320" height="480" controls>
+                              <source src="video/footer-before.mp4" />
+                              <source src="video/footer-before.webm" />
+                              <source src="video/footer-before.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Using VoiceOver, the audio wording for the footer is not very descriptive and helpful.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade footer-after" tabindex="-1" role="dialog" aria-labelledby="footerAfterLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="footerAfterLabel">Footer - after</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left" width="320" height="480" controls>
+                              <source src="video/footer-after.mp4" />
+                              <source src="video/footer-after.webm" />
+                              <source src="video/footer-after.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>The wording has been improved with the use of ARIA labels.</p>
+                              <blockquote>&quot;Site policies. Tab. One of Six. Collapsed.&quot;</blockquote>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
               </ul>
             </li>
           </ul>

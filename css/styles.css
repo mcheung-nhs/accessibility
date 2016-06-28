@@ -51,3 +51,11 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
 @media (max-width:490px) {
   .tab-pane {margin-top:9em;}
 }
+
+
+/*
+** video
+*/
+
+video {border:2px solid #efefef; border-radius:5px; margin-right:20px; padding:20px !important;}
+.media-body {padding-top:15px;}
