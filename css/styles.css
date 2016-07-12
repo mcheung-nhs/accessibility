@@ -41,6 +41,7 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
 .tab-content {padding:10px 20px;}
 .tab-pane {margin-top:6em;}
 .link__external {background-image: url(data:image/gif;base64,R0lGODlhCQAJAJEDAA9tu/D2+wBkt////yH5BAEAAAMALAAAAAAJAAkAAAITnC0px6o40gkArUEbi1Bz7zxDAQA7); background-position:right top; background-repeat:no-repeat; padding-right:12px;}
+.popoverlink span {font-size:.7em;}
 
 
 @media (max-width:700px) {
