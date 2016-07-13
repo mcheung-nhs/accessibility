@@ -48,10 +48,11 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
 
 @media (max-width:640px) {
   p, li {font-size:.8em;}
+  nav li {font-size:.78em;}
   ul {padding-left:20px;}
   li li {font-size:1em;}
-  h1 {font-size:1.4em;}
-  h2 {font-size:1.2em;}
+  h1 {font-size:1.3em;}
+  h2 {font-size:1.1em;}
   .nav > li > a {padding:5px 10px;}
   .container-fluid {padding-left:10px; padding-right:10px;}
   .navbar {margin:0; padding:10px;}
