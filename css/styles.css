@@ -11,7 +11,9 @@ ul ul {margin-top:5px;}
 li {margin-bottom:10px;}
 a:focus {outline:none;}
 .margintop40 {margin-top:40px;}
-.label-danger {font-size:1.5em;}
+.margintop20 {margin-top:20px;}
+.marginright30 {margin-right:30px;}
+.label-danger {font-size:1.6em;}
 blockquote {font-size:1em;}
 h1 {font-size:1.8em; margin-bottom:.7em; margin-top:0;}
 
@@ -59,12 +61,10 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
   .tab-content {padding:10px;}
 }
 
-@media (max-width:360px) {
-}
-
 /*
 ** video
 */
 
-video {border:2px solid #efefef; border-radius:5px; margin-right:20px; padding:20px !important;}
+video.bordered {border:2px solid #efefef; border-radius:5px; margin-right:20px; padding:20px !important;}
 .media-body {padding-top:15px;}
+.embed-responsive video {height:auto;}
