@@ -51,9 +51,6 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
   padding-right:42px;
 }
 
-@media (max-width:720px) {
-}
-
 @media (max-width:640px) {
   p, li {font-size:.8em;}
   nav li {font-size:.76em;}
@@ -74,3 +71,10 @@ li.active a {background:#0072c6 !important; color:#fff !important;}
 video.bordered {border:2px solid #efefef; border-radius:5px; margin-right:20px; padding:20px !important;}
 .media-body {padding-top:15px;}
 .embed-responsive video {height:auto;}
+
+
+@media (min-width:768px) {
+  .embed-responsive-16by9 {
+    padding-bottom:30%;
+  }
+}
