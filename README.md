@@ -45,7 +45,7 @@ Some accessibility resources that I use.
 - [Vox Product Accessibility Guidelines](http://accessibility.voxmedia.com/)
 
 ## Organisations
-- [Digital Accessibility Centre](http://digitalaccessibilitycentre.org)
+- [The Digital Accessibility Centre (DAC)](http://digitalaccessibilitycentre.org)
 - [WebAIM](https://webaim.org)
 - [Royal National Institute of Blind People (RNIB)](https://www.rnib.org.uk/)
 - [The Paciello Group](https://www.paciellogroup.com)
