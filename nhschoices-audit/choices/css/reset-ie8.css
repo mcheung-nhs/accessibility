@@ -1,0 +1,11 @@
+*, fieldset {padding:0; margin:0;}
+html {font-size:62.5%;}
+body {width:100%; font-size:101%;}
+input, textarea {font-size:1em;}
+fieldset {border:none;}
+img {display:block; border:none;}
+
+/* Typography */
+ul, ol {list-style:inside;}
+li li {font-size:inherit;}
+ol {list-style-type:decimal;}

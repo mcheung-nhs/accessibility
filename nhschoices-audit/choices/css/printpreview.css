@@ -1,0 +1,190 @@
+body {margin:0; padding:0; background:#e7e7e7; color:#000; font-family:Arial, Helvetica, sans-serif; font-size:inherit;}
+p.hidden {display:none;}
+a img {border-width:0;}
+a:link, a:visited, a:active {color:#000;}
+table td, table th {border:1px solid black; padding:0.5em;}
+.clear:after {content:".";	display:block; height:0; clear:both; visibility:hidden;}
+
+/* large-print */
+.largeprint{padding:10px;background-color:#fff; margin-bottom:10px;}
+.largePrint h1{font-size:24px; }
+.largePrint h2{font-size:20px; }
+.largePrint h3{font-size:18px; }
+.largePrint h4{font-size:16px; }
+.largePrint h5{font-size:16px; }
+.largePrint p{font-size:14px; }
+.largePrint p stong{font-size:14px;}
+.largePrint ul{font-size:14px; }
+.largePrint td{font-size:14px; }
+.normalPrint{ background-color:#fff; padding:10px; margin-bottom:10px;}
+.largePrint{ background-color:#fff;}
+#PageWrapper{background-color:#ccc;	margin:0 auto 0.3em; padding:1em 1em 3em 1em; width:100%;}
+#Logohead{padding-top:1em;clear:both;}
+.btn-holder{float:right;width:13.5em;}
+.flt{float:left; margin-bottom:2em; width:100%;}
+.leftflt{float:left; width:auto;}
+.printhead{margin-bottom:1em;}
+
+/* scorecard print */
+#PageWrapper.shortlist-print {background-color:#ccc; font-size:10pt; margin:0 auto 0.3em; width:73.3em;}
+.shortlist-print .printhead {border:0;}
+.shortlist-print .printhead h1 {color:#000; padding:0;}
+.shortlist-print .normalPrint, .shortlist-print .largePrint {margin-bottom:10px; width:auto;}
+.shortlist-print .normalPrint h2, .shortlist-print .largePrint h2 {border:0; font-size:1.5em; margin:0 .4em 0 0; padding:0;}
+.shortlist-print #Logohead {border:0; height:auto;}
+.shortlist-print #Logohead img {float:none;}
+.shortlist-print .print-footer h2 {padding:.9em 0 .2em 0;}
+.shortlist-print .organisation {font-family:arial,helvetica,sans-serif; width:100%;}
+.shortlist-print .organisation h3 {display:inline; margin-right:.5em;}
+.shortlist-print .organisation .trust {display:inline; font-style:italic;}
+.shortlist-print .organisation ul.address li {background:url(/img/scorecards/bullet-round.gif) left no-repeat; border:0; display:inline; float:left; margin-right:0.5em; padding:0 0 0 9px; white-space:nowrap; width:auto;}
+.shortlist-print .organisation ul.address li.first-item {background:none; padding-left:0;}
+.shortlist-print .organisation .metric {border-left:1px dotted #d8d8d8; float:left; margin-top:0; padding-left:0.9em; padding-right:0.9em; width:9.2em;}
+.shortlist-print .organisation .metric img {display:block; margin-bottom:0.5em;}
+.shortlist-print .organisation .metric.metric-image {border-left:0; padding-left:0;}
+.shortlist-print .organisation .metric.metric-image img {width:9.1em;}
+.shortlist-print .organisation .metric.big-value-left p {margin-left:4em;}
+.shortlist-print .organisation .metric.big-value-left .value-left {float:left; font-size:1.4em; font-weight:bold; margin-left:0; margin-right:.5em;}
+.shortlist-print .organisation .metric.big-value-above .value-above {font-size:1.4em; font-weight:bold; padding-bottom:0;}
+/* simple list view */
+.shortlist-print .scorecard-list-view {border-bottom:1px solid #dedede;}
+.shortlist-print .scorecard-views {position:relative;}
+.shortlist-print .scorecard-views .organisation-wrapper {border:1px solid #dedede; margin-top:1em;}
+.shortlist-print .scorecard-views .organisation {border-top:6px solid #f3f3f3; padding:2em 0 1em 0;}
+.shortlist-print .scorecard-views .organisation .organisation-header {margin:0 1em;}
+.shortlist-print .scorecard-views .organisation .service-name {padding:0 .9em;}
+/* organisation profile showing metrics */
+.shortlist-print .scorecard-views .organisation h2 {display:inline; font-size:1.5em; font-weight:normal; margin-right:.4em;}
+.shortlist-print .scorecard-views .organisation h2 a {color:#900; text-decoration:none;}
+.shortlist-print .scorecard-views .organisation h2 a:hover, .map-popup .organisation h2 a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .organisation .address {margin-left:0; padding:0 1em; width:100%;}
+.shortlist-print .scorecard-views .organisation .metric {min-height:10em; height:auto !important; height:10em; width:16em;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-left p {margin-left:5.2em;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-left .value-left {font-size:2.2em; margin-left:0;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-above .value-above {font-size:2.2em;}
+.shortlist-print .scorecard-views .organisation .metric a {background:transparent url(/img/chevron-grey.gif) 0 4px no-repeat; color:#585858; display:block; padding-left:10px; text-decoration:none;} 
+.shortlist-print .scorecard-views .organisation .metric a:hover {text-decoration:underline;} 
+.shortlist-print .scorecard-views .organisation .metric-image {padding-left:1em;}
+.shortlist-print .scorecard-views .organisation .metric-image a {background:none; padding:0; text-decoration:none;}
+.shortlist-print .scorecard-views .organisation .metric-image img {width:16em;}
+/* key facts */
+.shortlist-print .scorecard-views .key-facts {border:1px solid #dedede; border-top:0; clear:left;}
+.shortlist-print .scorecard-views .key-facts .metric-group {border-top:1px dotted #d8d8d8; padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact {border-top:1px dotted #dedede;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-content {border:1px solid #fff; border-bottom:0;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-compare-link a {background:url(/img/chevron-red.gif) 0 4px no-repeat; color:#900; display:block; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-compare-link a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts .metric-group .stripe {background:#f3f3f3;}
+.shortlist-print .scorecard-views .key-facts .metric-group .metric-facts {border-bottom:1px solid #fff;}
+.shortlist-print .scorecard-views .key-facts .metric-group .metric-group-content .about-these-facts-div {border-left:1px solid #fff; border-right:1px solid #fff; padding-top:1em; margin-top:-1px;}
+.shortlist-print .scorecard-views .key-facts h4 {font-size:1.2em; padding-left:.7em; padding-right:1em;}
+.shortlist-print .scorecard-views .key-facts p {margin:0; padding:.3em .7em;}
+.shortlist-print .scorecard-views .key-facts .comments {border-top:1px dotted #d8d8d8; padding-bottom:.7em; padding-top:.5em;}
+.shortlist-print .scorecard-views .key-facts .comments a {background:url(/img/chevron-red.gif) left no-repeat; color:#900; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .comments a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts .further-detail a {background:url(/img/chevron-red.gif) left no-repeat; color:#900; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .further-detail a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts h3 {background:transparent; color:#585858; height:1%; margin:0; padding:0 0.8em 0.5em 0.6em; position:relative;}
+.shortlist-print .scorecard-views .key-facts h3 span {background:transparent; color:#585858; font-size:1.2em; position:relative; display:block;}
+.shortlist-print .scorecard-views .key-facts h3 a {background:url(/img/chevron-grey-down.gif) left no-repeat; cursor:pointer; display:block; font-size:0.9em; font-weight:normal;	padding-left:14px; position:absolute; right:1em; text-align:right; text-decoration:none; top:1em;}
+.shortlist-print .scorecard-views .key-facts h3 a.show {background:url(/img/chevron-grey.gif) left no-repeat;	padding-left:10px;}
+.shortlist-print .scorecard-views .key-facts h3 a:hover {cursor:pointer; text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts .next-steps {background:#f3f3f3; border-top:1px dotted #d8d8d8; padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header {padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 {background:#f7f7f7 url(/img/scorecards/caption-bg.gif) bottom left repeat-x; padding:.5em 1em .5em .4em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 a {background:transparent url(/img/scorecards/arrow-grey-down.gif) 3px center no-repeat; color:#585858; font-size:1.1em; font-weight:bold; padding:0 0 0 20px; position:relative; right:auto; text-align:left; text-decoration:none; top:auto;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 a.show {background:url(/img/scorecards/arrow-grey-right.gif) 3px center no-repeat;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header .next-steps-link  {background:url(/img/chevron-red.gif) left 3px no-repeat; color:#900; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header .next-steps-link:hover {text-decoration:underline;} 
+.shortlist-print .scorecard-views .key-facts .next-steps-header .italic {font-style:italic;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 {background:none;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 span {display:inline; float:left; width:35em;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 a {float:right; font-size:.9em; font-weight:normal; width:auto;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts .fact-compare-link a {background:url(/img/chevron-red.gif) left 3px no-repeat; color:#900; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .fact-compare-link a:hover {text-decoration:underline;}
+.shortlist-print .print-footer {margin-top:2em;}
+#PageWrapper.shortlist-print hr {border-style:solid; color:#ccc; margin:0;}
+.shortlist-print .scorecard-views .key-facts .shortlist-header h3 {background:#f7f7f7 url(/img/scorecards/caption-bg.gif) left bottom repeat-x; height:auto; margin:0; padding:.5em; position:static;}
+.shortlist-print .scorecard-views .key-facts .shortlist-header h3 a {background:transparent url(/img/scorecards/arrow-grey-down.gif) 3px center no-repeat; font-size:.7em; font-weight:bold; padding-left:20px; position:relative; right:auto; text-align:left; top:auto;}
+.shortlist-print .print-footer h2 {font-size:1.8em; padding-bottom:0; padding-top:.8em;}
+
+/* Health A-Z print */
+.printhead {border-bottom:1px solid #000;}
+.printhead h1 {color:#069; padding:1em 0;}
+.printhead p {clear:left;}
+#Logohead {border-bottom:1px solid #000; height:7em;}
+#Logohead img {float:right;}
+#Logohead .date-created {line-height:1em; margin-top:4.3em;}
+.largePrint #Logohead .date-created {margin-top:3.6em;}
+#PageWrapper {background:#fff; width:95.5em; margin:0;}
+#PageWrapper hr {border-style:none; margin-top:0.5em;}
+.usefulOrgs {border-bottom:1px solid #000; padding-bottom:1em;}
+.buttons {float:left; padding-bottom:1em;}
+.normalPrint, .largePrint {width:50em; margin:0 auto;}
+/* .normalPrint h1, .largePrint h1 {margin-bottom:1em;} */
+.largePrint h1 {font-size:2.5em;}
+.normalPrint h2, .largePrint h2 {border-top:1px solid #000; border-bottom:1px solid #000; padding:.1em 0 .1em 0; margin:0.5em 0; font-size:2.4em;}
+.largePrint h2 {font-size:2.6em;}
+.normalPrint h3, .largePrint h3 {font-size:1.8em; margin:1em 0 0.5em 0;}
+.normalPrint .service-details-wrap h3 {margin:0; clear:left; padding-top:1em;}
+.normalPrint h4, .largePrint h4 {font-size:1.3em; margin-bottom:0.3em;}
+.largePrint h4 {font-size:1.7em;}
+.prnt-prev-footer {background:#fff; padding:1em 0; border-top:1px solid #000;}
+.usefulOrgs h3 {margin:1em 0 0.5em 0;}
+.usefulOrgs .org {display:inline; float:left; width:22em; margin-right:3em;}
+.usefulOrgs .org br {margin-bottom:0.8em;}
+.statement {padding-bottom:2em; border-top:1px solid #000; clear:left;}
+.statement h2 {border-top:0; border-bottom:0;}
+.printMain {margin-top:3em;}
+.printMain h2 {margin-bottom:1em;}
+.printMain ul {list-style-position:outside; margin-left:1em; padding:0.5em 0 1em 2em;}
+.printMain ul li {margin:0 0 0.5em 0;}
+.print-main-content {margin-top:-1em;}
+.printMain p, .printMain li {line-height:1.6em;}
+.col-image img, .printLeft img {margin:2em 0;}
+/* Action buttons */
+/* Print (default) */
+#PageWrapper .printable-version {clear:none; margin:0 1em 0 0; height:4em; width:15.6em; cursor:pointer; float:left; line-height:1em; display:inline-block;}
+#PageWrapper .printable-version a {display:inline-block; background-image:url(/img/print-bttn-end.jpg); background-position:left 0; background-repeat:no-repeat; text-decoration:none; padding:0 0 0 3.5em; font-size:1.4em; font-weight:bold;}
+#PageWrapper .printable-version a span {cursor:pointer; text-align:left; width:7.1em; background-image:url(/img/print-bttn-wrap.jpg); background-repeat:no-repeat; background-position:top right; margin:0 0 0 -0.9em; padding:1em 0 1.2em 1.2em; display:inline-block; color:#585858;}
+#PageWrapper .printable-version a:hover {background-position:0 -50px; color:#fff;}
+#PageWrapper .printable-version a:hover span {background-position:-460px -49px; color:#fff;}
+/* IP */
+#PageWrapper .printable-version.ip a {background-position:0 -99px;}
+#PageWrapper .printable-version.ip a:hover {background-position:0 -148px;}
+/* Save */
+#PageWrapper .printable-version.save a {background-position:0 -197px;}
+#PageWrapper .printable-version.save a:hover {background-position:0 -247px;}
+/* Save as PDF */
+#PageWrapper .printable-version.savepdf a {background-position:0 -297px;}
+#PageWrapper .printable-version.savepdf a:hover {background-position:0 -347px;}
+/* Email */
+#PageWrapper .printable-version.email a {background-position:0 -397px;}
+#PageWrapper .printable-version.email a:hover {background-position:0 -447px;}
+/* Treatment Options Table */
+table.tot {border-collapse:collapse;}
+table.tot th {width:33%;}
+table.tot tr td {text-align:left; vertical-align:top;}
+table.tot tr.tot-hdr th {font-size:17px; font-weight:bold; text-align:left;}
+table.tot tr.tot-treat th {font-size:14px; text-align:left; } 
+table.tot tr.tot-treat td.center {border-right:0;}
+table.tot tr td {font-size:12px;}
+table.tot tr td p, table.tot tr td li  {font-size:12px;}
+table.tot tr.innov-treat th{ font-style:italic; font-size:14px; text-align:left; } 
+table.tot tr.innov-treat td {font-style:italic;}
+table.tot tr.innov-treat img {float:left; display:inline; margin-right:3px;}
+table.tot tr.treat-avail td div {float:left; display:inline; margin-right:5px;}
+.tot-ftr .col {width:100%; display:block; clear:both;}
+
+/* add useful addresses */
+#PageWrapper .printhead .submit, #PageWrapper .prnt-prev-footer .submit {float:right; margin-top:1.7em;}
+#PageWrapper .printhead .submit a, #PageWrapper .prnt-prev-footer .submit a {color:#fff;}
+
+/*IPG print*/
+.ipg-print p, .ipg-print li {font-size:12pt;}
+.ipg-print ul {padding-bottom:15px;}
+.ipg-print li {list-style-type:disc !important;}
+.ipg-print .printMain h2 {margin:60px 0 10px 0 !important; font-size:20pt; color:#006699; border-top:1px solid #000; border-bottom:1px solid #000; padding:0.3em 0;}
+.ipg-print h3 {font-size:18pt; margin-top:10pt;}
+.ipg-print h4 {font-size:12pt;}

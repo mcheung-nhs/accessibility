@@ -1,0 +1,16 @@
+body {font-family:Arial, Helvetica, sans-serif; color:#585858; background:#fff;}
+input, textarea {font-family:Arial, Helvetica, sans-serif; color:#585858;}
+
+a {text-decoration:underline;}
+a:hover, a:focus, a:active {text-decoration:none;}
+
+/* Header and Lists */
+ul li {line-height:1.4em;}
+ul.info-nav li, ul.personal-header li, #nav-bar ul li, .footer ul li, #hazMod1 ul li {display:inline; margin-right:0.5em;}
+ul#main-navigation li {font-weight:bold; display:block;}
+ul#main-navigation li ul li {display:inline; font-weight:normal;}
+
+/* Fieldsets */
+fieldset {padding:1em;}
+legend {font-weight:bold;}
+textarea {width:25em; height:8em;}

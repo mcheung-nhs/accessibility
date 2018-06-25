@@ -1,0 +1,8 @@
+/* if ie9+ specific style sheet */
+
+.mmenu > ul {table-layout:auto;}
+.mmenu > ul > li {width:auto;}
+
+.carousel-content {background:#e2e1e2;}
+.carousel-content > ul > li > a {margin:0 0 6px 0;}
+.carousel-text {background:#fff;}
