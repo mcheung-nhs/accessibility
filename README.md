@@ -44,6 +44,7 @@ Some accessibility resources that I use.
 - [18F Accessibility Guide](https://accessibility.18f.gov/checklist/)
 - [Vox Product Accessibility Guidelines](http://accessibility.voxmedia.com/)
 - [Wuhcag - Web accessibility for developers](https://www.wuhcag.com/)
+- [Accessibility for Teams guide - US Government](https://accessibility.digital.gov)
 
 ## Organisations
 - [The Digital Accessibility Centre (DAC)](http://digitalaccessibilitycentre.org)
