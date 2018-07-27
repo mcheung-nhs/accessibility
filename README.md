@@ -45,7 +45,7 @@ Some accessibility resources that I use.
 - [Vox Product Accessibility Guidelines](http://accessibility.voxmedia.com/)
 - [Wuhcag - Web accessibility for developers](https://www.wuhcag.com/)
 - [Accessibility for Teams guide - US Government](https://accessibility.digital.gov)
-- [GOV.UK WCAG2.0 Primer (alpha)](https://alphagov.github.io/wcag-primer/)
+- [GOV.UK WCAG 2.0 Primer (alpha)](https://alphagov.github.io/wcag-primer/)
 
 ## Organisations
 - [The Digital Accessibility Centre (DAC)](http://digitalaccessibilitycentre.org)
