@@ -8,7 +8,8 @@
   padding: 0;
   position: absolute;
   width: 1px; }
-
+.nhs-hide {
+    display: none; }
 .clear:after {
   clear: both;
   content: '';
