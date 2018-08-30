@@ -134,6 +134,14 @@
 
     <h2>Callout box with aria label</h2>
 
+
+    <!--  NOTES:
+          - the aria-label content doesn't get read if put on the <h3>
+          - it requires the role attribute for it to be read out in the <div>
+          - JAWS reads this as: "Alert information for note", then "Heading level 3..."
+          - after reading the content, it says "alert information for note end"
+    --->
+
     <div class="nhsuk-c-panel nhsuk-c-panel__warning" role="note" aria-label="Alert: information for">
       <h3 class="nhsuk-c-panel__header">School, nursery or work</h3>
       <p>You'll need to stay away from school, nursery or work until all the spots have crusted over. This is usually 5 days after the spots first appeared.</p>
@@ -143,8 +151,12 @@
 
     <h2>Callout box with hidden text</h2>
 
+    <!--  NOTES:
+          - adding role="text" means that voiceover doesn't pause when it reaches the span, so reads the whole heading uninterrupted
+    -->
+
     <div class="nhsuk-c-panel nhsuk-c-panel__warning">
-      <h3 class="nhsuk-c-panel__header"><span class="visually-hidden">Alert: information for </span>School, nursery or work</h3>
+      <h3 class="nhsuk-c-panel__header" role="text"><span class="visually-hidden">Alert: information for </span>School, nursery or work</h3>
       <p>You'll need to stay away from school, nursery or work until all the spots have crusted over. This is usually 5 days after the spots first appeared.</p>
     </div>
 
