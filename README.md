@@ -6,6 +6,8 @@ Some accessibility talks/presentations that I've done.
 - [Accessibility and visual impairment and design considerations](https://mcheung-nhs.github.io/accessibility/visual-impairment/)
 - [Accessibility and assistive technology (.pptx)](https://mcheung-nhs.github.io/accessibility/assistive-tech/web-accessibility-assistive-technologies.pptx)
 
+***
+
 # Accessibility resources
 
 Some accessibility resources that I use.
