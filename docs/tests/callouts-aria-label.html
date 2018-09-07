@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Callout boxes and aria labels</title>
+
+    <style>
+
+      body {
+        background-color: #f0f4f5;
+        font-size: 19px;
+        line-height: 28px;
+        padding: 20px;
+      }
+
+      .nhsuk-c-panel__warning {
+        background: #FFFBCE;
+        color: #212B32;
+      }
+      .nhsuk-c-panel {
+        margin: 36px 0;
+        padding: 24px;
+        padding-top: 0;
+        position: relative;
+      }
+
+      .nhsuk-c-panel__warning .nhsuk-c-panel__header {
+        background: #FFED00;
+        color: #212B32;
+      }
+
+      .nhsuk-c-panel__header {
+        font-size: 1.26316em;
+        line-height: 32px;
+        background: #005EB8;
+        color: #FFFFFF;
+        display: inline-block;
+        margin: 0 -24px 8px;
+        padding: 8px 24px;
+        position: relative;
+        top: -16px;
+        font-size: 1.25em;
+      }
+
+      .nhsuk-c-care-card {
+        margin: 20px 0 30px 0;
+      }
+
+      .nhsuk-c-care-card .nhsuk-c-care-card__heading::after {
+        border-left: 16px solid transparent;
+        border-right: 16px solid transparent;
+        border-top: 16px solid #005EB8;
+        bottom: -16px;
+        content: '';
+        display: block;
+        height: 0;
+        position: absolute;
+        width: 0;
+      }
+
+      .nhsuk-c-care-card .nhsuk-c-care-card__heading {
+        padding: 16px 24px;
+      }
+
+      .nhsuk-c-care-card .nhsuk-c-care-card__heading {
+        background: #005EB8;
+        color: #FFFFFF;
+        position: relative;
+      }
+
+      .nhsuk-heading-m {
+        font-size: 1.26316em;
+        line-height: 32px;
+        margin: 0;
+      }
+
+      .nhsuk-c-care-card .nhsuk-c-care-card__content {
+        background: #FFFFFF;
+        padding: 36px 24px 32px;
+      }
+
+
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        border: 0;
+        white-space: nowrap;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Callouts/care cards with aria labels and hidden text</h1>
+
+    <hr>
+
+    <h2>Callout box</h2>
+
+    <div class="nhsuk-c-panel nhsuk-c-panel__warning">
+      <h3 class="nhsuk-c-panel__header">School, nursery or work</h3>
+      <p>You'll need to stay away from school, nursery or work until all the spots have crusted over. This is usually 5 days after the spots first appeared.</p>
+    </div>
+
+    <hr>
+
+    <h2>Care card</h2>
+
+    <div class="nhsuk-c-care-card nhsuk-c-care-card--blue">
+      <div class="nhsuk-c-care-card__heading">
+        <h2 class="nhsuk-heading-m">Speak to a GP if:</h2>
+      </div>
+      <div class="nhsuk-c-care-card__content">
+        <ul>
+          <li>you're not sure it's chickenpox</li>
+          <li>the skin around the blisters is red, hot or painful (signs of infection)</li>
+          <li>your child is <a href="/conditions/dehydration/">dehydrated</a></li>
+          <li>you're concerned about your child or they get worse</li>
+        </ul>
+        <p>Tell the receptionist you think it's chickenpox before going in. They may recommend a special appointment time if other patients are at risk.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <h2>Callout box with aria label</h2>
+
+
+    <!--  NOTES:
+          - the aria-label content doesn't get read if put on the <h3>
+          - it requires the role attribute for it to be read out in the <div>
+          - JAWS reads this as: "Alert information for note", then "Heading level 3..."
+          - after reading the content, it says "alert information for note end"
+    --->
+
+    <div class="nhsuk-c-panel nhsuk-c-panel__warning" role="note" aria-label="Alert: information for">
+      <h3 class="nhsuk-c-panel__header">School, nursery or work</h3>
+      <p>You'll need to stay away from school, nursery or work until all the spots have crusted over. This is usually 5 days after the spots first appeared.</p>
+    </div>
+
+    <hr>
+
+    <h2>Callout box with hidden text</h2>
+
+    <!--  NOTES:
+          - adding role="text" means that voiceover doesn't pause when it reaches the span, so reads the whole heading uninterrupted
+    -->
+
+    <div class="nhsuk-c-panel nhsuk-c-panel__warning">
+      <h3 class="nhsuk-c-panel__header" role="text"><span class="visually-hidden">Alert: information for </span>School, nursery or work</h3>
+      <p>You'll need to stay away from school, nursery or work until all the spots have crusted over. This is usually 5 days after the spots first appeared.</p>
+    </div>
+
+
+  </body>
+</html>

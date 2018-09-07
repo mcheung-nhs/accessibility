@@ -1,0 +1,36 @@
+.ie9 .nhsuk-global-header__logo a img {
+  border: 0; }
+
+.ie9 .c-search-menu {
+  display: none !important; }
+
+.ie9 .c-nav-primary__list {
+  display: table; }
+
+.ie9 .c-nav-primary__item {
+  display: table-cell; }
+
+@media (max-width: 61.865em) {
+  .ie9 .c-nav-primary__list, .ie9 .c-nav-primary__item {
+    display: block; } }
+
+@media (max-width: 40.0525em) {
+  .ie9 .nhsuk-global-header .search-container.js-show {
+    display: block; }
+  .ie9 .nhsuk-global-header .c-search {
+    float: left;
+    width: 85%; }
+  .ie9 .nhsuk-global-header .search-close {
+    float: left;
+    width: 15%; }
+  .ie9 .nhsuk-global-header .c-search__input {
+    float: left;
+    margin-bottom: 15px;
+    width: 78%; }
+  .ie9 .nhsuk-global-header .c-search__submit {
+    float: left;
+    height: 52px; } }
+
+@media (min-width: 61.875em) {
+  .ie9 .c-nav-primary__item--mobile {
+    display: none; } }

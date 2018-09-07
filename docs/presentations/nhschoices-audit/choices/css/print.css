@@ -1,0 +1,347 @@
+/*GLOBAL*/
+body {margin:0; padding:0; background:white; color:black; font-family:Arial, Helvetica, sans-serif; font-size:12pt;}
+p.hidden, .pagination {display:none;}
+a img {border-width:0;}
+a:link, a:visited, a:active {color:black;}
+table td, table th {border:1px solid black; padding:0.5em;}
+.no-print, .rss-link, .video-container, .report-comment, 
+.more-articles, .save-choices-account, .bookmarks-annotation, 
+.tabs, .sub-tabs, .social-bookmarks, .sub-nav, fieldset, 
+.pagination, p.printable-version, .breadcrumbs, .video-panel, 
+.slider h3 .show, .slider h3 .hide,
+.hidden, .pageLinks, .login-comment, .report-comment, .alert-top, .comments-wrap, .bookmark-wrap, .skip-link, ul.translate, .mmenu, .videosearch, .carousels .share, .related-carousel-more, .jcarousel-control, .guides .col.two-sm, .popup-alert, .guides .guidespanel .videoplayer {display:none;}
+.clear:after {content:".";	display:block; height:0; clear:both; visibility:hidden;}
+/* Sliders and Carousel */
+#carousel .hidden, .care .carers-section.hidden, .pathways .pathways-section.hidden, .planner .planner-path-wrap.hidden, .nhsdirect .slider-content-wrap.hidden {display:block;}
+
+/*HEAD*/
+.header{width:73.6em; height:4.05em !important;}
+.info-nav, .personal-header,.header .search-panel, .header .main-nav, .header fieldset, .login-comment, .back-to-the-top{display:none;}
+/****/
+.heading a img, .heading img, .heading h1 {display:block; float:none; color:#f60;}
+.heading p.choices-logo {color:#f60; font-size:1.9em; padding:0; margin:0;}
+
+/*FOOTER*/
+.footer, .personal-footer{display:none}
+
+/*....large-print...............*/
+.largePrint h1 {font-size:50pt !important;}
+.largePrint h2 {font-size:34pt !important;}
+.largePrint h3 {font-size:26pt !important;}
+.largePrint h4 {font-size:24pt !important;}
+.largePrint h5 {font-size:24pt !important;}
+.largePrint p {font-size:22pt !important;}
+.largePrint p stong {font-size:22pt !important;}
+.largePrint ul {font-size:22pt !important;}
+.largePrint li {font-size:22pt !important;}
+.largePrint td {font-size:22pt !important;}
+.printhead {display:none;}
+.flt {display:none}
+
+/*NHSD*/
+.nhsdirect .last {display:none;}
+/*FIND SERVICES*/
+.result-listings .search-again, .result-listings .tabs, .result-listings .one, .result-listings ul.results li.submit, .result-listings .refine, .result-listings h2.faux-tab {display:none;}
+.result-listings ul.results, .result-listings ul.results ul {list-style-type:none; padding:0;}
+.result-listings ul.results ul {margin:3em 0 0 0;}
+.result-listings ul.results ul.tick-list {margin:1em 0 0 0;}
+.results li h3 {margin:0;}
+/*dispencing*/
+.fs .fs-a-z, .fs .links-box {display:none;}
+.fs .listings ul {list-style-type:none; padding:0; margin:0 0 1em 0}
+/*net pharmacies*/
+.fsHighlight .ServiceTabHead {display:none;}
+
+/*SCORECARD*/ 	
+.scorecard .moreChoice, .scorecard .tab-wrapper, .scorecard .headIntro, .scorecard .back-to-top {display:none;}
+.scorecard-results .comparison-table table, .scorecard-results .comparison-table tbody, .scorecard-results .comparison-table tbody tr {display:block !important;}
+.scorecard-results .comparison-table table td, .scorecard-results .comparison-view td, .scorecard-results .comparison-view td.image, .scorecard-results .comparison-view th {width:20% !important;}
+.scorecard-results .comparison-table table, .scorecard-results .comparison-view table, .scorecard-results .comparison-view table.top-table, .scorecard-results .comparison-view table caption {width:100% !important;}
+.scorecard-results .comparison-view table tr.hidden {display:none !important;}
+.scorecard-results table.top-table tbody tr td.image img {height:100px !important; width:150px !important;}
+
+/*SERVICE PROFILES*/
+/*GPs*/
+.gp-content .gp-header .set-service, .gp-content .gp-subcontent1, .gp-content .tabs, .gp-content .subhead, .gp-content h4.hidden, .gp-content .tabnav, .gp-content .media {display:none;}
+/*Hospitals*/
+.fs .intro, .fs .link-list, .fs .submit, .fs .our-rules, .fs .resultPagination {display:none;}
+/*Dentists*/
+.fs .set-service {display:none;}
+/*Additional Services*/
+.fs .nearby {display:none;}
+
+/*LIVEWELL*/
+.live-well .link-list, .live-well .rnd-button-list, .live-well .panel, .live-well .ugcBox, .sub-nav-az, .live-well .promo {display:none;}
+.comments-header p {display:none;}
+/*GSC*/
+.about .link-block {display:none;}
+/*CARERS*/
+.carers-home .panel, .carers .carers-head span {display:none;}
+/*HEALTH AZ*/
+.healthaz-index #haz-mod1, .healthaz .useful_linksusefullinks, .carers .panel, .healthaz .panel, .healthaz .page-links {display:none;} 
+/*BTH*/
+.bth-hub .panel, .bth .panel {display:none;}
+/*MEDIA*/
+.tomedia .panel, .tomedia .swfplayer {display:none;}
+/*USEFUL LINKS*/
+.tomedia .alphabeticPagination, .tomedia .info-box-mid, .tomedia .panel, .about .panel {display:none;}
+/*PLANNER-PATHWAYS*/
+.planner .col.two-sm.last {display:none;}
+.pathways .col.two-sm.last {display:none;}
+.pathway-nav-pp, .pathway-nav, .planner-nav {display:none;}
+.pathways .slider .back-to-top {display:none;}
+.pathways .print {display:none;}
+.planner fieldset, .planner .hidden {display:block!important;}
+/*Rating and Comments */
+.rc-content .rc-header .one, .rc-content .rc-wrap .rc-sub-1,  .rc-content .rc-wrap  p.chevron-red , 
+.rc-content .rc-wrap .two .rc-comments-outer .submit,  .rc-content .rc-wrap p.rss, .rc-content .rc-wrap .comment-sort,
+.rc-content .rc-wrap .rc-main .add-your-views, .rc-content .rc-wrap  .rc-sub-2 .your-views
+{display:none;}
+
+
+/* scorecard print */
+.shortlist-print .organisation {font-family:arial,helvetica,sans-serif; width:100%;}
+.shortlist-print .organisation h3 {display:inline; margin-right:.5em;}
+.shortlist-print .organisation .trust {display:inline; font-size:10pt; font-style:italic;}
+.shortlist-print .organisation ul.address li {background:url(/img/scorecards/bullet-round.gif) left no-repeat; border:0; display:inline; float:left; margin-right:0.5em; padding:0 0 0 9px; white-space:nowrap; width:auto;}
+.shortlist-print .organisation ul.address li.first-item {background:none; padding-left:0;}
+.shortlist-print .organisation .metric {border-right:1px dotted #d8d8d8; float:left; margin-top:0; padding-left:0.9em; padding-right:0.9em; width:9.2em;}
+.shortlist-print .organisation .metric img {display:block; margin-bottom:0.5em;}
+.shortlist-print .organisation .metric.metric-image {border-left:0; padding-left:0;}
+.shortlist-print .organisation .metric.metric-image img {width:9.1em;}
+.shortlist-print .organisation .metric.big-value-left p {margin-left:4em;}
+.shortlist-print .organisation .metric.big-value-left .value-left {float:left; font-size:1.4em; font-weight:bold; margin-left:0; margin-right:.5em;}
+.shortlist-print .organisation .metric.big-value-above .value-above {font-size:1.4em; font-weight:bold; padding-bottom:0;}
+/* simple list view */
+.shortlist-print .scorecard-list-view {border-bottom:1px solid #dedede;}
+.shortlist-print .scorecard-views {position:relative;}
+.shortlist-print .scorecard-views .organisation-wrapper {border:1px solid #dedede; margin-top:1em;}
+.shortlist-print .scorecard-views .organisation {border-top:6px solid #f3f3f3; padding:10px 0}
+.shortlist-print .scorecard-views .organisation .organisation-header {margin:0 1em;}
+.shortlist-print .scorecard-views .organisation .service-name {padding:0 .9em;}
+/* organisation profile showing metrics */
+.shortlist-print .scorecard-views .organisation h2 {display:inline; font-size:15pt; font-weight:normal; margin:0 10pt 0 0; padding:0;}
+.shortlist-print .scorecard-views .organisation h2 a {color:#900; text-decoration:none;}
+.shortlist-print .scorecard-views .organisation .address {margin-left:0; padding:0 1em; width:100%;}
+.shortlist-print .scorecard-views .organisation .metric {min-height:100px; width:135px;}
+.shortlist-print .scorecard-views .organisation .metric.metric-image {padding-left:1em;}
+.shortlist-print .scorecard-views .organisation .metric.metric-image img {width:135px;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-left p {margin-left:5.2em;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-left .value-left {font-size:2.2em; margin-left:0;}
+.shortlist-print .scorecard-views .organisation .metric.big-value-above .value-above {font-size:2.2em;}
+.shortlist-print .scorecard-views .organisation .metric a {color:#000; display:block; text-decoration:none;}
+.shortlist-print .scorecard-views .organisation .metric a:before {content:"> ";}
+/* key facts */
+.shortlist-print .scorecard-views .key-facts {border:1px solid #dedede; border-top:0; clear:left;}
+.shortlist-print .scorecard-views .key-facts .metric-group {border-top:1px dotted #d8d8d8; padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact {border-top:1px dotted #dedede;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-content {border:1px solid #fff; border-bottom:0;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-compare-link a {background:url(/img/chevron-red.gif) 0 4px no-repeat; color:#900; display:block; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .metric-group .fact-compare-link a:hover {text-decoration:underline;}
+.shortlist-print .scorecard-views .key-facts .metric-group .stripe {background:#f3f3f3;}
+.shortlist-print .scorecard-views .key-facts .metric-group .metric-facts {border-bottom:1px solid #fff;}
+.shortlist-print .scorecard-views .key-facts .metric-group .metric-group-content .about-these-facts-div {border-left:1px solid #fff; border-right:1px solid #fff; padding-top:1em; margin-top:-1px;}
+.shortlist-print .scorecard-views .key-facts h4 {font-size:1.2em; padding-left:.7em; padding-right:1em;}
+.shortlist-print .scorecard-views .key-facts p {margin:0; padding:.3em .7em;}
+.shortlist-print .scorecard-views .key-facts .comments {border-top:1px dotted #d8d8d8; padding-bottom:.7em; padding-top:.5em;}
+.shortlist-print .scorecard-views .key-facts .comments a {background:url(/img/chevron-red.gif) left no-repeat; color:#900; padding-left:10px; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .further-detail a {color:#900; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .further-detail a:before {content:"> ";}
+.shortlist-print .scorecard-views .key-facts h3 {background:transparent; color:#000; height:1%; padding:1em 0.8em 0.5em 0.6em; position:relative;}
+.shortlist-print .scorecard-views .key-facts h3 span {background:transparent; color:#000; font-size:1.2em; position:relative; display:block;}
+.shortlist-print .scorecard-views .key-facts h3 a {background:url(/img/chevron-grey-down.gif) left no-repeat; cursor:pointer; display:block; font-size:0.9em; font-weight:normal;	padding-left:14px; position:absolute; right:1em; text-align:right; text-decoration:none; top:1em;}
+.shortlist-print .scorecard-views .key-facts h3 a.show {background:url(/img/chevron-grey.gif) left no-repeat;	padding-left:10px;}
+.shortlist-print .scorecard-views .key-facts .next-steps {background:#f3f3f3; border-top:1px dotted #d8d8d8; padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header {padding-top:1em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 {background:#f7f7f7 url(/img/scorecards/caption-bg.gif) bottom left repeat-x; padding:.5em 1em .5em .4em;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 a {background:transparent url(/img/scorecards/arrow-grey-down.gif) 3px center no-repeat; color:#000; font-size:1.1em; font-weight:bold; padding:0 0 0 20px; position:relative; right:auto; text-align:left; text-decoration:none; top:auto;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header h3 a.show {background:url(/img/scorecards/arrow-grey-right.gif) 3px center no-repeat;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header .next-steps-link {color:#900; text-decoration:none;}
+.shortlist-print .scorecard-views .key-facts .next-steps-header .next-steps-link:before {content:"> ";}
+.shortlist-print .scorecard-views .key-facts .next-steps-header .italic {font-style:italic;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 {background:none;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 span {display:inline; float:left; width:35em;}
+.shortlist-print .scorecard-views .key-facts .key-facts-header h3 a {float:right; font-size:.9em; font-weight:normal; width:auto;}
+.shortlist-print .print-footer {margin-top:2em;}
+.shortlist-print hr {color:#ccc;}
+.shortlist-print .scorecard-views .key-facts .shortlist-header h3 {background:#f7f7f7 url(/img/scorecards/caption-bg.gif) left bottom repeat-x; height:auto; margin:0; padding:.5em; position:static;}
+.shortlist-print .scorecard-views .key-facts .shortlist-header h3 a {background:transparent url(/img/scorecards/arrow-grey-down.gif) 3px center no-repeat; font-weight:bold; padding-left:0; position:relative; right:auto; text-align:left; top:auto;}
+
+/* Guides print */
+.printhead {border-bottom:1px solid #000;}
+.printhead h1 {color:#069; padding:1em 0;}
+.printhead p {clear:left;}
+#Logohead {border-bottom:1px solid #000; margin-bottom:2em; height:7em;}
+#Logohead img {float:right;}
+#Logohead .date-created {line-height:1em; margin-top:4.3em;}
+.largePrint #Logohead .date-created {margin-top:3.6em;}
+#PageWrapper {background:#fff; width:100%; margin:0;}
+#PageWrapper hr {border:0; margin-top:0.5em;}
+.usefulOrgs {border-bottom:1px solid #000; padding-bottom:1em;}
+.buttons {float:left; padding-bottom:1em;}
+.normalPrint, .largePrint {width:100%;}
+.normalPrint h1, .largePrint h1 {margin-bottom:1em; padding:0 !important;}
+.largePrint h1 {font-size:2.5em;}
+.normalPrint h2, .largePrint h2 {border-top:1px solid #000; border-bottom:1px solid #000; padding:0.3em 0 0.3em 0; margin:0.5em 0; font-size:1.8em;}
+.largePrint h2 {font-size:2.1em;}
+.normalPrint h3, .largePrint h3 {font-size:1.4em; margin:1em 0 0.5em 0;}
+.normalPrint .service-details-wrap h3 {margin-top:0.5em;}
+.normalPrint h4, .largePrint h4 {font-size:1.3em; margin-bottom:0.3em;}
+.largePrint h4 {font-size:1.7em;}
+.prnt-prev-footer {background:#fff; padding:1em 0; border-top:1px solid #000;}
+.usefulOrgs h3 {margin:1em 0 0.5em 0;}
+.usefulOrgs .org, .service-details-item {float:left; width:22em; margin-right:3em;}
+.usefulOrgs .org br {margin-bottom:0.8em;}
+#PageWrapper .service-details {float:left; width:17.5em; margin-right:2em;}
+.statement {padding-bottom:2em; float:left; border-top:1px solid #000;}
+.statement h2 {border-top:0; border-bottom:0;}
+.printMain ul, .printLeft ul {padding:0.5em 0 1em 2em;}
+.printMain ul li, .printLeft ul li {margin:0 0 0.5em 0;}
+#PageWrapper .newMap {border:1px solid #000; padding:1em; float:left; margin:2em 0; width:47.9em; page-break-before:auto;}
+#PageWrapper .newMap .map {width:100%;}
+#PageWrapper .newMap .map img {width:100%;}
+#PageWrapper .newMap div.map-key ul {padding:0; margin:0;}
+#PageWrapper .newMap div.map-key ul li {margin:0 0 1em 0; list-style-type:none;}
+#PageWrapper .newMap div.map-key ul li img {float:left;}
+.statement, .newMap, .service-details-wrap {clear:left;}
+#PageWrapper .prnt-prev-footer .submit {display:none;}
+.healthaz-print hr {display:none !important;}
+.healthaz-print #Logohead {height:5em;}
+.healthaz-print #Logohead .date-created {float:left; margin-top:3em;}
+.healthaz-print h1 {line-height:0;}
+.healthaz-print h2 {font-size:1.6em;}
+.healthaz-print .usefulOrgs .org {display:block; float:none; margin:0 0 1.5em 0; width:auto;}
+.healthaz-print .usefulOrgs .org h4 {font-size:1.1em; line-height:1em; margin:0 0 .5em 0; padding:0;}
+.healthaz-print .usefulOrgs .org p {line-height:1em; margin:0; padding:0;}
+.healthaz-print #PageWrapper .service-list .service-details-item {clear:both; display:block; float:none !important; margin:0; width:100%;}
+.healthaz-print #PageWrapper .service-list .service-details-item p {margin:0; padding:0;}
+.healthaz-print #PageWrapper .service-list .service-details-item .serviceIcon {float:none !important; margin:1em 0 0 0;}
+.healthaz-print #PageWrapper .service-list .service-details-item .service-details {float:none !important; margin:0; width:auto;}
+.healthaz-print #PageWrapper .service-list br {display:none !important;}
+.healthaz-print .service-details-wrap h3 {margin-top:1em;}
+.healthaz-print #PageWrapper .newMap {float:none; width:85%;}
+.healthaz-print #PageWrapper .newMap .map-key li img {margin-right:1em;}
+
+/* Concertinas - over-ride .hidden so they display when printed */
+/* Currently only applied to HealthAZ Template C pages (shudson 01/2010)*/
+.healthaz.temp-c .slider-content-wrap.hidden {display:block !important; left:0 !important; font-size:inherit !important; height:auto !important; line-height:inherit !important; overflow:visible !important; position:relative !important; width:auto !important;}
+/* Treatment Options Table */
+table.tot {border-collapse:collapse;}
+table.tot th {width:33%;}
+table.tot tr td {text-align:left; vertical-align:top;}
+table.tot tr.tot-hdr th {font-size:17px; font-weight:bold; text-align:left;}
+table.tot tr.tot-treat th {font-size:14px; text-align:left; } 
+table.tot tr.tot-treat td.center {border-right:0;}
+table.tot tr td {font-size:12px;}
+table.tot tr td p, table.tot tr td li  {font-size:12px;}
+table.tot tr.innov-treat th{ font-style:italic; font-size:14px; text-align:left; } 
+table.tot tr.innov-treat td {font-style:italic;}
+table.tot tr.innov-treat img {float:left; display:inline; margin-right:3px;}
+table.tot tr.treat-avail td div {float:left; display:inline; margin-right:5px;}
+.tot-ftr .col {width:100%; display:block; clear:both;}
+
+/* pims print */
+.pims .three-sm .panel.contact-details .two-sm .map {display:inline-block !important; height:26em; position:relative; width:32em;}
+/* PIMS patient acceptance module - override hidden class so print displays yes/no/not answered */
+.pims.profile .patient-acceptance ul li span.hidden, .pims .panel-content .facility .facility-list li span.hidden {display:inline; width:auto !important; font-size:inherit !important; height:1em !important; line-height:1em !important; position:relative !important; left:0 !important; overflow:auto !important;}
+
+/*IPG print*/
+.ipg-print p, .ipg-print li {font-size:12pt;}
+.ipg-print ul {padding-bottom:15px;}
+.ipg-print li {list-style-type:disc !important;}
+.ipg-print .printMain h2 {margin:60px 0 10px 0 !important; font-size:20pt; color:#006699; border-top:1px solid #000; border-bottom:1px solid #000; padding:0.3em 0;}
+.ipg-print h3 {font-size:18pt; margin-top:10pt;}
+.ipg-print h4 {font-size:12pt;}
+
+/* PIMS maternity scorecard override hidden */
+.pims .maternity .unit-info ul.tick-list li span.hidden {display:inline; width:auto !important; font-size:inherit !important; height:1em !important; line-height:1em !important; position:relative !important; left:0 !important; overflow:auto !important;}
+
+/* modules homepage */
+#featurepanel .thumbnail-wrap {display:none !important;}
+#featurepanel .feature-panel, #featurepanel #feature-panel, #featurepanel .jFlowSlideContainer, #featurepanel .features, #featurepanel .features .feature-current .feature-content, #featurepanel .feature-links-wrap, .homepage .column, .homepage .column .module, .homepage .campaigns .campaign-wrap {clear:left; display:block !important; float:none !important; height:auto !important; position:relative !important; right:auto !important; top:auto !important; width:auto !important;}
+#featurepanel .feature-wrap {border-top:1px solid #000; padding:20px 0 10px 0}
+.homepage .module, .homepage .campaigns .campaign-wrap {border-top:1px solid #000;}
+.homepage .module .module-header a.module-open, .homepage .module .module-header a.module-edit, .homepage .module .module-edit-wrap, .homepage .module .module-list-header ul, .homepage .module .module-videos .video-prev, .homepage .module .module-videos .video-next, .homepage .module .comment-holder .arrow, .feature-announcement .preferences {display:none;}
+.homepage .campaigns .campaign-wrap {padding:10px 0 20px 0;}
+
+/* self assessment tool */
+.self-assess ol#progress, .self-assess .gradient .outer .inner h2, .self-assess .gradient .outer .inner fieldset, .self-assess .gradient .outer .inner h4, .self-assess .gradient .outer .inner p, .self-assess .gradient .outer .inner .submit-buttons, .self-assess #page, .self-assess .one, .self-assess .print_answers {display:none;}
+.self-assess .gradient .outer .inner #previousQuestions p {display:block; font-weight:bold;}
+.self-assess .gradient .outer .inner #previousQuestions ol {list-style-type:none;}
+.self-assess .gradient .outer .inner #previousQuestions ol li p span {padding-right:5px;}
+
+/* search results */
+.main-results {font-size:10pt;}
+.main-results .four .postcode-search {display:none;}
+.column-main h1 {font-size:16pt;}
+.main-results .four h2 {font-size:12pt;}
+
+/* find services results */
+.results-panel .profile-panel .two-smaller .map {height:26em; position:relative; width:32em;}
+
+/* find and compare */
+/* comparison view, shortlist view, list view */
+.banner-message-distance p.close, .banner-message p.close, .fcresultopts, .fcsearches, .fcshowmap, .fcshortlist, .fcresultsperpage, td.fcaddtoshortlist label, td.fcaddtoshortlist input, tr.fcinfo td, .fcdetails input, .fcdetails .fcgetdirections, .fcresultsperpage input, .findcompare-results caption {display:none;}
+.fcresultsinfo, .list-view .fcopeningtimes ul {list-style:none; list-style-position:outside; margin:0; padding:0;}
+.fcresultsinfo {margin-bottom:1em;}
+.list-view .fcopeningtimes ul {padding:0;}
+.list-view .fcopeningtimes ul span {display:block; float:left; width:90px;}
+.findcompare-results table {font-size:8pt;}
+.findcompare-results table th {font-size:9pt;}
+th.fctitle {text-align:left;}
+th.fctitle a {font-size:12pt; text-decoration:none;}
+.findcompare-results table select {width:12em;}
+.findcompare-results table td.fcdetails p span {display:none;}
+/* consultant search */
+.findcompare-results-consultants .fcresultsperpage, .findcompare-results-consultants .fcsortby {display:none;}
+.findcompare-results-consultants .consultants-list {margin:0; padding:0;}
+.findcompare-results-consultants .consultants-list li {border-bottom:1px solid #000; list-style:none; padding-bottom:2em;}
+.findcompare-results-consultants .consultants-list li li {border-bottom:0; list-style-type:disc; padding-bottom:0;}
+/* map view */
+.mapview .back {display:none;}
+.mapview-container {position:relative;} 
+.mapview-details-container {clear:both; float:right; margin-top:610px; width:100%;}
+.mapview .map {float:none; position:absolute; height:610px; width:100%;}
+.mapview-details-container ul {list-style-position:outside; padding:0; margin:0;}
+.mapview-details-container li {border-bottom:1px solid #000; list-style:none; padding-bottom:1em;}
+.mapview-details-container li h2 {font-size:1.2em;}
+.mapview-details-container li h2 a {text-decoration:none;}
+.mapview-details-container li p {margin:0 !important; padding:0 !important;}
+.mapview-details-container li p a, .mapview-details-container ul li .fcdetailsright .fcdirections span {display:none;}
+/* urgent care finder */
+.urgent-care .mapview-area-container .uc-services {padding-top:3em !important;}
+.urgent-care .mapview-area-container .uc-services a {display:none;}
+/* Patient feedback - Reviews and Ratings Tab */
+.fs.pims .leave-review p.leavereviewlink {display:none;}
+.pims .five-sm .reviews-ratings .ratingsrow {border-bottom:1px solid #ccc;}
+.pims .five-sm .reviews-ratings .ratingsrow .ratingspanel .paneltop p {font-weight:bold;}
+.pims .five-sm .reviews-ratings .comments .panel {margin:0; border-bottom:1px solid #ccc;}
+.pims .five-sm .reviews-ratings .comments .panel .panelmiddle .content p a {display:none;}
+.pims .five-sm .reviews-ratings .comments .panel .panelbottom {display:none;}
+
+/* google directions for PIMS and GSD */
+.no-dir-print #section-top,
+.no-dir-print .contact-header,
+.no-dir-print .leave-review,
+.no-dir-print .five .two-sm.last,
+.no-dir-print .panel-profile-site,
+.no-dir-print .last-updated,
+.no-dir-print .pals-info,
+.no-dir-print .other-trust,
+.no-dir-print .box-list,
+.no-dir-print .travel-modes,
+.no-dir-print .adp-list,
+.no-dir-print h3.no-dir-print,
+.no-dir-print .get-directions-header,
+.no-dir-print .directions-inputs,
+.no-dir-print .catchment-area,
+.no-dir-print a.back,
+.no-dir-print .serv-info-qual,
+.no-dir-print .generic-service .two-sm.last {display:none;} 
+.no-dir-print .generic-service dt {display:inline; font-weight:bold; margin:0; padding:0;}
+.no-dir-print .generic-service dd {display:inline; margin:0; padding:0;}
+.no-dir-print .adp-step, .no-dir-print .adp-substep {border:0;}
+.no-dir-print .adp-directions {border:0; border-color:#fff; width:100%;}
+.no-dir-print .adp-directions tr {border-top:1px solid #000;}
+.no-dir-print .adp-placemark, .no-dir-print .adp-placemark td {border:0;}
+.no-dir-print .adp-placemark {border-bottom:1px solid #000; border-top:1px solid #000;}

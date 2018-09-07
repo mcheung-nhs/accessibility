@@ -1,0 +1,608 @@
+@charset "UTF-8";
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 22pt;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h1 {
+      font-size: 48px;
+      line-height: 64px; } }
+  @media (min-width: 925px) {
+    h1 {
+      font-size: 64px;
+      line-height: 80px; } }
+
+h2 {
+  font-family: sans-serif;
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h2 {
+      font-size: 32px;
+      line-height: 48px; } }
+  @media (min-width: 925px) {
+    h2 {
+      font-size: 36px;
+      line-height: 48px; } }
+
+h3 {
+  font-family: sans-serif;
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h3 {
+      font-size: 24px;
+      line-height: 32px; } }
+  @media (min-width: 925px) {
+    h3 {
+      font-size: 24px;
+      line-height: 32px; } }
+
+h4 {
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h4 {
+      font-size: 20px;
+      line-height: 32px; } }
+  @media (min-width: 925px) {
+    h4 {
+      font-size: 20px;
+      line-height: 32px; } }
+
+h5 {
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h5 {
+      font-size: 16px;
+      line-height: 24px; } }
+  @media (min-width: 925px) {
+    h5 {
+      font-size: 16px;
+      line-height: 24px; } }
+
+h6 {
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    h6 {
+      font-size: 16px;
+      line-height: 24px; } }
+  @media (min-width: 925px) {
+    h6 {
+      font-size: 16px;
+      line-height: 24px; } }
+
+ul {
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: none;
+  list-style: disc outside;
+  padding-left: 1em; }
+  @media (min-width: 641px) {
+    ul {
+      font-size: 20px;
+      line-height: 32px; } }
+  @media (min-width: 925px) {
+    ul {
+      font-size: 20px;
+      line-height: 32px; } }
+
+ol {
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: none;
+  list-style: decimal outside;
+  padding-left: 1em; }
+  @media (min-width: 641px) {
+    ol {
+      font-size: 20px;
+      line-height: 32px; } }
+  @media (min-width: 925px) {
+    ol {
+      font-size: 20px;
+      line-height: 32px; } }
+  ol li {
+    padding-left: .2em; }
+
+dl {
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: none; }
+  @media (min-width: 641px) {
+    dl {
+      font-size: 20px;
+      line-height: 32px; } }
+  @media (min-width: 925px) {
+    dl {
+      font-size: 20px;
+      line-height: 32px; } }
+  dl dt {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: none; }
+    @media (min-width: 641px) {
+      dl dt {
+        font-size: 20px;
+        line-height: 32px; } }
+    @media (min-width: 925px) {
+      dl dt {
+        font-size: 20px;
+        line-height: 32px; } }
+
+.local-header dd,
+.page-section dd,
+.global-footer dd {
+  margin-top: 8px; }
+
+.local-header li + li,
+.page-section li + li,
+.global-footer li + li {
+  margin-top: 8px; }
+
+.local-header li > ul,
+.local-header li > ol,
+.local-header li > dl,
+.page-section li > ul,
+.page-section li > ol,
+.page-section li > dl,
+.global-footer li > ul,
+.global-footer li > ol,
+.global-footer li > dl {
+  margin-top: 8px; }
+
+.list--chevron {
+  list-style: none;
+  padding-left: 32px; }
+  .list--chevron li {
+    position: relative; }
+    .list--chevron li:before, .list--chevron li:after {
+      border-style: solid;
+      content: "";
+      display: block;
+      height: 0;
+      position: absolute;
+      top: 6px;
+      width: 0; }
+    .list--chevron li:before {
+      border-color: transparent transparent transparent #425563;
+      border-width: 10px 0 10px 10px;
+      left: -32px; }
+      .callout--warning .list--chevron li:before {
+        border-left-color: #231f20; }
+      .callout--severe .list--chevron li:before {
+        border-left-color: #fff; }
+    .list--chevron li:after {
+      border-color: transparent transparent transparent #fff;
+      border-width: 10px 0 10px 10px;
+      left: -38px; }
+      .callout--info .list--chevron li:after,
+      .panel .list--chevron li:after {
+        border-left-color: #f0f4f5; }
+      .callout--warning .list--chevron li:after {
+        border-left-color: #fdf2d5; }
+      .callout--alert .list--chevron li:after {
+        border-left-color: #f5e6e4; }
+      .callout--severe .list--chevron li:after {
+        border-left-color: #da291c; }
+
+.list--check,
+.list--cross {
+  list-style: none;
+  padding-left: 32px; }
+  .list--check li,
+  .list--cross li {
+    position: relative; }
+    .list--check li::before, .list--check li::after,
+    .list--cross li::before,
+    .list--cross li::after {
+      content: "";
+      left: -32px;
+      position: absolute;
+      zoom: 1; }
+
+.list--check li::before {
+  background: transparent;
+  border: solid;
+  border-color: #007f3b;
+  border-width: 0 0 5px 5px;
+  height: 12px;
+  top: 7px;
+  transform: rotate(-45deg);
+  width: 22px; }
+
+.list--cross li::before, .list--cross li::after {
+  background: #da291c;
+  height: 5px;
+  top: 12px;
+  transform: rotate(45deg);
+  width: 24px; }
+
+.list--cross li::after {
+  transform: rotate(-45deg); }
+
+a:link {
+  color: #005eb8; }
+
+a:visited {
+  color: #003087; }
+
+a:hover {
+  color: #4c92d9; }
+
+a:active {
+  color: #4c92d9; }
+
+a:focus {
+  outline: 3px solid #ffb81c; }
+
+.link--reverse-polarity:link {
+  color: #fff; }
+
+.link--reverse-polarity:visited {
+  color: #fff; }
+
+.link--reverse-polarity:hover {
+  color: #d4efff; }
+
+.link--reverse-polarity:active {
+  color: #d4efff; }
+
+.link--reverse-polarity:focus {
+  outline: 3px solid #ffb81c; }
+
+blockquote {
+  quotes: "“" "”"; }
+  blockquote p:before {
+    content: open-quote; }
+  blockquote p:after {
+    content: no-close-quote; }
+  blockquote p:last-of-type {
+    margin-bottom: 0; }
+    blockquote p:last-of-type:after {
+      content: close-quote; }
+
+body {
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  @media (min-width: 641px) {
+    body {
+      font-size: 16px;
+      line-height: 24px; } }
+  @media (min-width: 925px) {
+    body {
+      font-size: 16px;
+      line-height: 24px; } }
+
+a {
+  color: #231f20 !important;
+  font-weight: 700;
+  text-decoration: none; }
+  a::after {
+    font-weight: 400; }
+  a:visited {
+    word-wrap: break-word; }
+  a[href^="/"]:after {
+    content: " (https://www.nhs.uk" attr(href) ")";
+    font-size: 90%; }
+  a[href^="http://"]:after, a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%; }
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+
+img {
+  max-width: 15cm; }
+
+.media__caption {
+  font-size: .9em;
+  font-style: italic;
+  margin-top: 0; }
+
+select {
+  background: #fff; }
+
+hr {
+  border: 1mm solid #aeb7bd;
+  margin: .8cm 0;
+  width: 15%; }
+
+.global-header__link::after {
+  content: none !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1cm 0 .5cm;
+  page-break-after: avoid; }
+
+p,
+figure {
+  margin: .5cm 0; }
+
+details {
+  margin: 1cm 0; }
+  details summary {
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: none;
+    margin-bottom: .5cm; }
+    @media (min-width: 641px) {
+      details summary {
+        font-size: 24px;
+        line-height: 32px; } }
+    @media (min-width: 925px) {
+      details summary {
+        font-size: 24px;
+        line-height: 32px; } }
+    details summary::-webkit-details-marker {
+      display: none; }
+
+.tabs-panel,
+.callout {
+  page-break-inside: avoid; }
+
+.callout--compact {
+  display: inline-block; }
+
+body footer,
+.visuallyhidden,
+.skiplinks,
+.local-header .link-list {
+  display: none; }
+
+/* Temporary print stylesheet
+   Refactor into individual components
+*/
+@media print {
+  .nhsuk-global-header__menusearch,
+  .c-nav-primary,
+  .nhsuk-global-header,
+  .nhsuk-c-breadcrumb,
+  .nhsuk-page-nav,
+  .nhsuk-global-footer,
+  .nhsuk-c-skiplink,
+  .visually-hidden {
+    display: none; }
+  .nhsuk-page-heading {
+    padding: 0; }
+  .nhsuk-c-care-card__heading,
+  .nhsuk-c-care-card__content,
+  .nhsuk-c-panel h2 {
+    color: #212B32 !important; }
+  .nhsuk-c-care-card__heading,
+  .nhsuk-c-care-card__content {
+    padding: 10px !important; }
+  .nhsuk-c-care-card__heading {
+    padding-bottom: 0 !important; }
+    .nhsuk-c-care-card__heading:after {
+      display: none !important; }
+  .nhsuk-c-panel {
+    border: 1px solid #212B32;
+    margin: 40px 0 !important;
+    padding: 10px !important; }
+    .nhsuk-c-panel .list--check,
+    .nhsuk-c-panel .list--cross {
+      padding-left: 0 !important; }
+  .nhsuk-c-care-card {
+    border: 6px solid #212B32;
+    margin: 40px 0 !important; }
+    .nhsuk-c-care-card .nhsuk-c-care-card__content {
+      padding-top: 0; }
+  .nhsuk-o-grid__item--one-half {
+    width: 50% !important;
+    float: left; }
+  .nhsuk-o-grid__item--one-third {
+    width: 33.33333% !important;
+    float: left; }
+  .nhsuk-o-grid__item--two-thirds {
+    width: 66.66667% !important;
+    float: left; }
+  .nhsuk-o-grid__item--one-quarter {
+    width: 25% !important;
+    float: left; }
+  .nhsuk-o-grid__item--three-quarters {
+    width: 75% !important;
+    float: left; } }
+
+.callout {
+  padding: 16px;
+  background-color: #fdf2d5;
+  border: solid #fada8b;
+  border-width: 4px 0; }
+  @media (min-width: 925px) {
+    .callout {
+      padding: 32px; } }
+  .callout:focus {
+    outline: 3px solid #ffb81c; }
+  .callout--information, .callout--find-a-service {
+    background-color: #f0f4f5;
+    border: solid #768692;
+    border-width: 0 0 0 4px; }
+  .callout--find-a-service {
+    display: inline-block; }
+    @media (min-width: 925px) {
+      .callout--find-a-service {
+        padding: 16px 24px; } }
+  .callout--primary-care {
+    background-color: transparent;
+    border: 8px solid #0072ce; }
+  .callout--urgent {
+    background-color: #f5e6e4;
+    border: none;
+    border-top: 8px solid #da291c; }
+  .callout--emergency {
+    background-color: #da291c;
+    border: none;
+    color: #fff; }
+    .callout--emergency a:link {
+      color: #fff; }
+    .callout--emergency a:visited {
+      color: #fff; }
+    .callout--emergency a:hover {
+      color: #d4efff; }
+    .callout--emergency a:active {
+      color: #d4efff; }
+    .callout--emergency a:focus {
+      outline: 3px solid #ffb81c; }
+  .callout--error {
+    border: 4px solid #da291c;
+    background-color: transparent; }
+  .callout--muted {
+    background-color: #d8dde0;
+    border: none; }
+
+@page {
+  margin: 1.5cm; }
+
+body {
+  line-height: 1.3;
+  background: #fff; }
+
+.local-header__title {
+  font-size: 30pt; }
+
+h1 {
+  font-size: 24pt; }
+
+h2 {
+  font-size: 14pt; }
+
+h3 {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.healthunlocked_wrapper,
+.nhsuk-skip-links,
+.breadcrumb,
+.footer,
+.site-header,
+.nhsuk-page-nav,
+.tab-navigation,
+.article-pagination,
+.survey-banner-wrap,
+.page-sections-navigation,
+.nhsuk-c-page-nav-left,
+.nhsuk-c-page-nav-bottom,
+.core-video,
+.nhsuk-c-page-contents,
+.nhsuk-c-pagination__list {
+  display: none; }
+
+figure,
+form,
+.panel__content,
+.callout,
+.treatment-card,
+.treatment-table {
+  page-break-inside: avoid; }
+
+fieldset {
+  border: none;
+  line-height: 2.0; }
+
+.form__legend--accessible-only, .form__button-submit {
+  display: none; }
+
+form, .panel, .treatment-card, .treatment-table {
+  border: 1pt solid #231f20;
+  padding: 0.9em;
+  margin-top: 12pt; }
+
+.callout {
+  border-style: solid;
+  border-width: 1pt;
+  border-top-width: 10pt;
+  border-bottom-width: 10pt;
+  padding: 0.9em;
+  margin-top: 12pt;
+  background: #fff; }
+
+.callout--emergency, .callout--urgent {
+  border-width: 1pt; }
+
+.callout--urgent {
+  border: 1pt solid #da291c;
+  border-top-width: 10pt; }
+
+.callout--emergency {
+  border: 10pt solid #da291c;
+  color: #231f20; }
+
+.callout--information, .callout--find-a-service {
+  border-width: 1pt;
+  border-left-width: 10pt; }
+
+.callout--primary-care {
+  border: 5pt solid #005eb8; }
+
+.local-header {
+  background: transparent;
+  padding: 0; }
+
+.local-header:before {
+  content: url("/static/nhsuk_shared/img/nhs-logo.f53b8739bd07.png");
+  float: right; }
+
+.list--check li:after, .list--cross li:after {
+  display: none; }
+
+.list--check li::before {
+  border: none;
+  position: static;
+  margin-right: 0.5em;
+  color: #007f3b;
+  content: "\2713";
+  transform: none;
+  background: transparent; }
+
+.list--cross li::before {
+  border: none;
+  position: static;
+  margin-right: 0.5em;
+  color: #da291c;
+  content: "\2717";
+  transform: none;
+  background: transparent; }

@@ -1,0 +1,12 @@
+<PUBLIC:ATTACH EVENT="onfocus" ONEVENT="DoFocus()" />
+<PUBLIC:ATTACH EVENT="onblur"   ONEVENT="RestoreFocus()" />
+<script type="text/javascript">
+//<![CDATA[
+function DoFocus() { 
+  element.className += ' ie-focus';
+}
+function RestoreFocus() { 
+  element.className = element.className.replace(/\bie-focus\b/,'');
+}
+//]]>
+</script>

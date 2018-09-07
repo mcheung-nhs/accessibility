@@ -1,0 +1,80 @@
+/*Survey*/
+.survey-banner-wrap {background:#578300; padding:1em 0; position:fixed; bottom:0; width:100%; z-index:50;}
+.survey-banner-wrap .survey-banner-content { margin:0 auto; width:97.5em;}
+.survey-banner-wrap .survey-banner-content .survey-invite {float:left;  width:42%;}
+.survey-banner-wrap .survey-banner-content p {color:#fff;  font-weight:bold; padding-bottom:0;}
+.survey-banner-wrap .survey-banner-content p span{font-size: 1.3em}
+.survey-banner-content a {color:#fff;}
+.survey-banner-content ul {float:left; list-style:none; width:58%;}
+.survey-banner-content ul li {float:left; margin-top:.6em; margin-right:1em}
+.survey-banner-content ul li a {background:#fff; border-radius:5px; color:#333; display:block; font-weight:bold; padding:5px 15px; text-decoration:none;}
+.survey-banner-content ul li a:hover, .survey-banner-content ul li a:active, .survey-banner-content ul li a:focus {text-decoration:underline;}
+.survey-banner-content .go-back {float:left;}
+
+/*Alpha*/
+.alpha-banner-wrap {background:#eeb027; padding:1em 0; position:fixed; bottom:0; width:100%; z-index:1;}
+.alpha-banner-wrap .alpha-visit-content {margin:0 auto; width:97.5em;}
+.alpha-banner-wrap .alpha-visit-content .survey-invite {float:left;  width:50%;}
+.alpha-banner-wrap .alpha-visit-content p {padding-bottom:0; position:relative;}
+.alpha-banner-wrap .alpha-visit-content p span {font-weight:bold;}
+.alpha-visit-content a {color:#fff;}
+.alpha-visit-content ul {float:left; list-style:none; width:50%;}
+.alpha-visit-content ul li {float:left; margin-top:.6em; margin-right:1em}
+.alpha-visit-content ul li a {background:#fff; border-radius:5px; color:#333; display:block; font-weight:bold; padding:5px 15px; text-align:center; text-decoration:none;}
+.alpha-visit-content ul li a:hover, .alpha-visit-content ul li a:active, .alpha-visit-content ul li a:focus {text-decoration:underline;}
+.alpha-visit-content .go-back {float:left;}
+.alpha-banner-wrap .alpha-visit-content a.agree {background:#3c3c3c; border-radius:0; color:#fff; font-weight:bold; padding:5px 20px;}
+.alpha-banner-wrap .alpha-visit-content a.postpone, .alpha-banner-wrap .alpha-visit-content a.disagree {background:#d7d7d7; border:1px solid #999; border-radius:0; color:#3c3c3c; font-weight:normal; padding:5px 25px;}
+
+/* alert banner stuff */
+
+.banner, .nojs-alerts {border:none; min-height: 150px; padding: 24px; position:relative; background-color:#FFED00; margin: 0 auto 0; width:auto;}
+.nojs-alerts {padding:0;}
+.nojs-alerts .alert-header {padding:20px}
+.banner h1, .nojs-alerts h1 {font-size: 40px; margin:0 0 15px;}
+.banner h2, .nojs-alerts h2 {font-size: 32px; margin:0 0 15px;}
+.banner h3, .nojs-alerts h3 {font-size: 20px; margin:0 0 15px;}
+.nojs-alerts h1, .nojs-alerts h2, .nojs-alerts h3 {clear:both;}
+.banner *, .nojs-alerts h1, .nojs-alerts * {color:black;}
+.banner a, .nojs-alerts a {text-decoration:underline;}
+.banner a:hover {text-decoration:none;}
+.banner *, .nojs-alerts p, .nojs-alerts span, .nojs-alerts a, .nojs-alerts strong {font-size:16px; margin-top: 0;}
+.banner p.updated {position:absolute; top: 20px; right:20px; text-align:right;}
+.banner span { background-color:#3c3c3c; color:white; display: block; line-height:40px; width:180px; text-align:center; margin-top: 16px;}
+.banner span:hover {cursor:pointer;}
+.banner.no-js {min-height: auto; padding: 0;}
+.banner.no-js p {padding: 10px 20px; font-weight:bold;}
+@media (max-width: 640px) {
+  .banner {width:95.5%;}
+  .banner p.updated, .banner span {position:relative; top:0; left:0;}
+  .banner p.updated {text-align:left; margin-top:10px; font-size:12px !important;}
+}
+@media (max-width: 924px) {
+  .survey-banner-wrap { box-sizing: content-box; width:99.5%; }
+  .alpha-banner-wrap { box-sizing: content-box; width:99.5%; }
+  .survey-invite { padding-left: 3%; }
+}
+
+#alertBtn {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+@media (min-width: 990px) {
+  #alertBtn {
+    top: 133px;
+  }
+}
+
+#alertBtn a {
+  background-color:#f9b710;
+  text-align: center;
+  color: #000000;
+  display: block;
+  padding: 0.5em 1em;
+  width: 100%;
+  text-decoration: none;
+  margin: 0;
+  font-size: 1.4em;
+}

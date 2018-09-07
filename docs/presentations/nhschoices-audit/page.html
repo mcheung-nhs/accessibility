@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessibility - NHS Choices</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body class="bg">
+    <div class="container-fluid">
+      <p class="branding"><a href="index.html"><img src="data:image/png;base64,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" alt="NHS Choices" width="212" height="35" /></a><br />Accessibility</p>
+    </div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#intro" aria-controls="intro" role="tab" data-toggle="tab">Introduction</a></li>
+          <li role="presentation"><a href="#why" aria-controls="why" role="tab" data-toggle="tab">What and why?</a></li>
+          <li role="presentation"><a href="#issues" aria-controls="examples" role="tab" data-toggle="tab">Issues</a></li>
+          <li role="presentation"><a href="#examples" aria-controls="settings" role="tab" data-toggle="tab">Examples</a></li>
+          <li role="presentation"><a href="#conclusions" aria-controls="settings" role="tab" data-toggle="tab">Conclusions</a></li>
+        </ul>
+      </nav>
+
+      <div class="tab-content">
+
+        <!-- Intro -->
+        <div role="tabpanel" class="tab-pane fade in active" id="intro">
+          <h1>Introduction</h1>
+          <p>Last October (2015), a selection of pages on the NHS Choices website was audited by <a href="http://www.abilitynet.org.uk" class="link__external" title="Link open in new window">AbilityNet</a> for conformance against:</p>
+          <ul>
+            <li><a href="https://www.w3.org/TR/WCAG20/" class="link__external" title="Link open in new window">W3C Web Content Accessibility Guidelines version 2.0</a> (WCAG 2.0)</li>
+            <li><a href="https://www.w3.org/TR/mobile-bp/" class="link__external" title="Link open in new window">Mobile Web Best Practices</a> (MWBP 1.0).</li>
+          </ul>
+
+          <h2 class="margintop40"><a href="#collapseContent" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" role="button">Findings </a>&rarr;</h2>
+
+          <div class="collapse" id="collapseContent">
+
+            <p class="margintop40 marginright30 pull-left"><span class="label label-danger">&#x2718; Failed</span</p>
+
+            <blockquote class="margintop20 pull-left">
+              <p>Based on this evaluation, the Website does not meet WCAG 2.0, conformance level AA.</p>
+              <footer>AbilityNet</footer>
+            </blockquote>
+
+          </div>
+
+
+        </div>
+
+        <!-- What and why -->
+        <div role="tabpanel" class="tab-pane fade" id="why">
+
+          <h1>What is web accessibility?</h1>
+          <blockquote>
+            <p>Web accessibility means that people with disabilities can use the web</p>
+            <footer><a href="https://www.w3.org/WAI/intro/accessibility.php" class="link__external" title="Link open in new window">W3C</a></footer>
+          </blockquote>
+          <ul>
+            <li>&quot;Disabilities&quot; -
+              <a class="popoverlink" role="button" data-container="body" data-toggle="popover" data-placement="top" data-content="2 million people in the UK have sight loss. Approx. 360,000 are registered as blind or partially sighted. Colour blindness affects approx. 1 in 12 men, and 1 in 200 women" title="Extra information">visual <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></a>,
+              <a class="popoverlink" role="button" data-container="body" data-toggle="popover" data-placement="top" data-content="More than 11 million people in the UK have some form of hearing loss. More than 900,000 people are severely or profoundly deaf. Estimated 24,000 people use sign language as their main language." title="Extra information">auditory <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></a>,
+              <a class="popoverlink" role="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Examples include amputation and deformity, arthritis, rheumatism, repetitive stress injury (RSI), tremors and spasms" title="Extra information">physical <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></a>,
+              speech,
+              <a class="popoverlink" role="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Dyslexia affects approx. 10% of the population. Autism - estimated 1 in 100 people in the UK have autism spectrum disorder (ASD)" title="Extra information">cognitive and neurological <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></a>
+            </li>
+            <li>&quot;Use&quot; - people can perceive, understand, navigate, interact, and contribute to the web</li>
+
+          </ul>
+
+          <h1 class="margintop40">Why care?</h1>
+  				<ul>
+  					<li>11 million people in Great Britain have a limiting long term illness, impairment or disability - <a href="https://www.gov.uk/government/publications/disability-facts-and-figures/disability-facts-and-figures" class="link__external" title="Link opens in new window">gov.uk</a></li>
+            <li><a href="http://www.legislation.gov.uk/ukpga/2010/15/contents" class="link__external">The Equality Act 2010</a> (formerly the <a href="http://www.legislation.gov.uk/ukpga/1995/50/contents" class="link__external">Disability Discrimination Act 1995</a>)
+  						<ul>
+  							<li>Discrimination against people with disabilities is prohibited by law.<br>This includes websites.</li>
+              </ul>
+			      </li>
+          </ul>
+        </div>
+
+
+        <!-- issues -->
+        <div role="tabpanel" class="tab-pane fade" id="issues">
+
+          <h1>The issues</h1>
+          <ul>
+            <li>Screen reader and keyboard only users may find it difficult to navigate the site</li>
+            <li>Lists, accordions, tabs, error messages not declared properly for screen reader users</li>
+            <li>Missing <abbr title="Alternative">ALT</abbr> text on images</li>
+            <li>No audio description or captions for videos</li>
+            <li>Visually impaired users not able to resize font size with <abbr title="Internet Explorer">IE</abbr></li>
+          </ul>
+
+          <p class="margintop40"><a href="docs/Accessibility Desktop and iOS Audit_NHSC_20151026.pdf" class="pdf">AbilityNet Report (pdf, 45.2mb)</a></p>
+
+        </div>
+
+
+        <!-- examples -->
+        <div role="tabpanel" class="tab-pane fade" id="examples">
+
+          <h1>Examples</h1>
+          <ul>
+            <li>Navigation and tabbed content
+              <ul>
+                <li><a href="choices/index-before.html" class="link__external" title="Example link opens in new window" target="_blank">Before</a></li>
+                <li><a href="choices/index.html" class="link__external" title="Example link opens in new window" target="_blank">After</a></li>
+              </ul>
+            <li>Screen reader
+              <ul>
+                <li>Find services widget
+                  <ul>
+                    <li><a href="" data-toggle="modal" data-target=".find-services-before" title="Link opens popup window">Before <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a href="" data-toggle="modal" data-target=".find-services-after" title="Link opens popup window">After <span class="glyphicon glyphicon-new-window"></span></a></li>
+                  </ul>
+
+                  <div class="modal fade find-services-before" tabindex="-1" role="dialog" aria-labelledby="fswBeforeLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="fswBeforeLabel">Find services widget - before</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left bordered" width="320" height="480" controls>
+                              <source src="video/find-services-before.mp4" />
+                              <source src="video/find-services-before.webm" />
+                              <source src="video/find-services-before.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Single finger swipe to move to the next element seems to move to the next tab audibly, but double tapping does not select the tab correctly. Therefore the user can only make a GP search.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade find-services-after" tabindex="-1" role="dialog" aria-labelledby="fswAfterLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="fswAfterLabel">Find services widget - after</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left bordered" width="320" height="480" controls>
+                              <source src="video/find-services-after.mp4" />
+                              <source src="video/find-services-after.webm" />
+                              <source src="video/find-services-after.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Single finger swipe to move to the next element correctly moves to the next tab. Double tapping correctly selects the option. Then you can swipe to the input field and enter content.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+                <li>Footer
+                  <ul>
+                    <li><a href="" data-toggle="modal" data-target=".footer-before" title="Link opens popup window">Before <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a href="" data-toggle="modal" data-target=".footer-after" title="Link opens popup window">After <span class="glyphicon glyphicon-new-window"></span></a></li>
+                  </ul>
+
+                  <div class="modal fade footer-before" tabindex="-1" role="dialog" aria-labelledby="footerBeforeLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="footerBeforeLabel">Footer - before</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left bordered" width="320" height="480" controls>
+                              <source src="video/footer-before.mp4" />
+                              <source src="video/footer-before.webm" />
+                              <source src="video/footer-before.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>Using VoiceOver, the audio wording for the footer is not very descriptive and helpful.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade footer-after" tabindex="-1" role="dialog" aria-labelledby="footerAfterLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h2 class="modal-title" id="footerAfterLabel">Footer - after</h2>
+                        </div>
+                        <div class="modal-body">
+                          <div class="media">
+                            <video id="btt" class="pull-left bordered" width="320" height="480" controls>
+                              <source src="video/footer-after.mp4" />
+                              <source src="video/footer-after.webm" />
+                              <source src="video/footer-after.ogg" />
+                            </video>
+                            <div class="media-body">
+                              <p>The wording has been improved with the use of <abbr title="Accessible Rich Internet Applications">ARIA</abbr> labels.</p>
+                              <blockquote>&quot;Site policies. Tab. One of Six. Collapsed.&quot;</blockquote>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+
+
+        <!-- conclusions -->
+        <div role="tabpanel" class="tab-pane fade" id="conclusions">
+
+          <h1>Conclusions</h1>
+
+          <p>Most of the issues found were fixed.</p>
+          <p>A few outstanding issues still exist and are being investigated, such as adding captions, transcripts and audio descriptions to videos.</p>
+
+          <h2 class="margintop40">Funnelback</h2>
+          <p>An automated accessibility audit gets generated every week by Funnelback, so there is work taking place to have a look and fix these as part of our regular release cycle.</p>
+
+          <h2 class="margintop40">User research</h2>
+          <p>There are plans to do more user research around the area of accessibility and usability.</p>
+
+          <h2 class="margintop40">Accessibility does matter</h2>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 embed-responsive embed-responsive-16by9">
+                <video width="480" height="270" controls>
+                  <source src="video/accessibility-interview.mp4" />
+                  <source src="video/accessibility-interview.webm" />
+                  <source src="video/accessibility-interview.ogg" />
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <p class="margintop20"><a href="http://www.digitalaccessibilitycentre.org/index.php/videos/42-screen-magnification-demo" class="link__external">Longer version of video</a></p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="footer">&nbsp;</footer>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+
+  </body>
+</html>
