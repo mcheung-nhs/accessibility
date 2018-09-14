@@ -10998,11 +10998,11 @@ NHSUK.typeahead =
 (function ($) {
   var maxResultCount = 10,
           hideLinkId = 'hide-link',
-         suggestHost = window.NHSUK_SETTINGS.SUGGESTIONS_TEST_HOST
-                     ? window.NHSUK_SETTINGS.SUGGESTIONS_TEST_HOST
+         suggestHost = 'nhs.funnelback.co.uk'
+                     ? 'nhs.funnelback.co.uk'
                      : location.hostname,
-          searchHost = window.NHSUK_SETTINGS.SEARCH_TEST_HOST
-                     ? window.NHSUK_SETTINGS.SEARCH_TEST_HOST
+          searchHost = 'www.nhs.uk'
+                     ? 'www.nhs.uk'
                      : location.hostname,
            searchUrl = 'https://' + searchHost + '/search?collection=nhs-meta',
           suggestUrl = 'https://' + suggestHost
