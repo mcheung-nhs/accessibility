@@ -56,6 +56,7 @@ Some accessibility resources that I use.
 - [Wuhcag - Web accessibility for developers](https://www.wuhcag.com/)
 - [Accessibility for Teams guide - US Government](https://accessibility.digital.gov)
 - [GOV.UK WCAG 2.0 Primer (alpha)](https://alphagov.github.io/wcag-primer/)
+- [Nutrition cards for accessible components](https://davatron5000.github.io/a11y-nutrition-cards/)
 
 ## Organisations
 - [The Digital Accessibility Centre (DAC)](http://digitalaccessibilitycentre.org)
