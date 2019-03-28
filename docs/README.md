@@ -5,6 +5,7 @@ Some accessibility talks/presentations that I've done.
 - [NHS Choices accessibility audit and fixes](https://mcheung-nhs.github.io/accessibility/presentations/nhschoices-audit/)
 - [Accessibility and visual impairment and design considerations](https://mcheung-nhs.github.io/accessibility/presentations/visual-impairment/)
 - [Accessibility and assistive technology (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/assistive-tech/web-accessibility-assistive-technologies.pptx)
+- [Vine workshop (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop.pptx)
 
 ***
 
@@ -20,6 +21,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Micrograms symbol](https://mcheung-nhs.github.io/accessibility/tests/micrograms.html)
 - [Internal links to lists](https://mcheung-nhs.github.io/accessibility/tests/internal-links.html)
 - [Internal links to content](https://mcheung-nhs.github.io/accessibility/tests/internal-links-content.html)
+- [Degrees symbol](https://mcheung-nhs.github.io/accessibility/tests/degrees.html)
 
 ## NHS.uk
 
