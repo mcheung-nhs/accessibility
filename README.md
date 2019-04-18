@@ -22,7 +22,6 @@ Some accessibility resources that I use.
 - [NoCoffee vision simulator for Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
 - [pa11y](http://pa11y.org/)
 - [HeadingsMap](https://www.learningapps.co.uk/moodle/xertetoolkits/play.php?template_id=1309)
-- <a href="javascript:(function(){%20var%20style%20=%20document.createElement(%27style%27),%20styleContent%20=%20document.createTextNode(%27*%20{%20line-height:%201.5%20!important;%20letter-spacing:%200.12em%20!important;%20word-spacing:%200.16em%20!important;%20}%20p{%20margin-bottom:%202em%20!important;%20}%20%27);%20style.appendChild(styleContent%20);%20var%20caput%20=%20document.getElementsByTagName(%27head%27);%20caput[0].appendChild(style);%20})();">Text spacing bookmarklet</a>
 - [NHS.UK frontend library testing notes](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/testing.md)
 
 ## Assistive technologies (AT)
