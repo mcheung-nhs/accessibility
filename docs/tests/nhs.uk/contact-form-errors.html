@@ -306,18 +306,18 @@
 
         <p class="nhsuk-body-l nhsuk-u-margin-bottom-8">The NHS website team cannot help with medical problems</p>
 
-        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
-          <label class="nhsuk-label nhsuk-label--l" for="FormFields_0__Value">
+        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8 nhsuk-form-group--error">
+          <label class="nhsuk-label nhsuk-label--l" for="FormFields_15__Value">
             Your message for us
           </label>
-          <span class="nhsuk-hint" id="FormFields_0__Hint">
+          <span class="nhsuk-hint" id="FormFields_15__Hint">
             Do not include confidential or medical information in your message.
 
             <details class="nhsuk-details nhsuk-u-margin-top-3">
-              <summary class="nhsuk-details__summary" role="button" aria-controls="details-content-0" aria-expanded="false">
+              <summary class="nhsuk-details__summary" role="button" aria-controls="details-content-1" aria-expanded="false">
                 <span class="nhsuk-details__summary-text">Examples of confidential or medical information</span>
               </summary>
-              <div class="nhsuk-details__text" id="details-content-0" aria-hidden="true">
+              <div class="nhsuk-details__text" id="details-content-1" aria-hidden="true">
                 <ul class="nhsuk-contents-list__list">
                   <li class="nhsuk-contents-list__item">NHS number</li>
                   <li class="nhsuk-contents-list__item">Home address</li>
@@ -330,8 +330,12 @@
             </details>
 
           </span>
-          <textarea class="nhsuk-textarea" id="FormFields_0__Value" name="FormFields[0].Value" rows="5" aria-describedby="FormFields_0__Hint"></textarea>
+          <span class="nhsuk-error-message" id="textarea-error">
+            <span class="nhsuk-u-visually-hidden">Error:</span> Please leave a message
+          </span>
+          <textarea class="nhsuk-textarea nhsuk-textarea--error" id="FormFields_15__Value" name="FormFields[15].Value" rows="5" aria-describedby="FormFields_15__Hint textarea-error"></textarea>
         </div>
+
 
         <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
           <label class="nhsuk-label nhsuk-label--l" for="FormFields_1__Value">
@@ -344,53 +348,59 @@
         </div>
 
 
-        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
-          <label class="nhsuk-label nhsuk-label--l" for="FormFields_13__Value">
+        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8 nhsuk-form-group--error">
+          <label class="nhsuk-label nhsuk-label--l" for="FormFields_14__Value">
             Email address
           </label>
-          <span class="nhsuk-hint" id="FormFields_13__Hint">
+          <span class="nhsuk-hint" id="FormFields_14__Hint">
             We will use your email address to reply and invite you to complete a voluntary short satisfaction survey. We will not use your email address for any other purpose.
           </span>
-          <input class="nhsuk-input" id="FormFields_13__Value" name="FormFields[13].Value" type="text" aria-describedby="FormFields_13__Hint" autocomplete="email">
+          <span class="nhsuk-error-message" id="input-with-error-message-error">
+            <span class="nhsuk-u-visually-hidden">Error:</span> You must enter an email address
+          </span>
+          <input class="nhsuk-input nhsuk-input--error" id="FormFields_14__Value" name="FormFields[14].Value" type="text" aria-describedby="FormFields_14__Hint input-with-error-message-error" autocomplete="email">
         </div>
 
 
-        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
-          <fieldset class="nhsuk-fieldset">
+        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8 nhsuk-form-group--error">
+          <fieldset class="nhsuk-fieldset" aria-describedby="radios-error">
             <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
               What are you contacting us about?
             </legend>
+            <span class="nhsuk-error-message" id="radios-error">
+              <span class="nhsuk-u-visually-hidden">Error:</span> Please select an option
+            </span>
             <div class="nhsuk-radios">
               <div class="nhsuk-radios__item">
-                <input class="nhsuk-radios__input" id="FormFields_2__Value" name="contact" type="radio" value="Editing a profile">
-                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_2__Value">
+                <input class="nhsuk-radios__input" id="FormFields_18__Value" name="contact" type="radio" value="Editing a profile">
+                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_18__Value">
                   Editing a profile
                 </label>
               </div>
               <div class="nhsuk-radios__item">
-                <input class="nhsuk-radios__input" id="FormFields_3__Value" name="contact" type="radio" value="Rights and permissions">
-                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_3__Value">
+                <input class="nhsuk-radios__input" id="FormFields_19__Value" name="contact" type="radio" value="Rights and permissions">
+                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_19__Value">
                   Rights and permissions
                 </label>
               </div>
               <div class="nhsuk-radios__item">
-                <input class="nhsuk-radios__input" id="FormFields_4__Value" name="contact" type="radio" value="Rights and permissions">
-                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_4__Value">
+                <input class="nhsuk-radios__input" id="FormFields_20__Value" name="contact" type="radio" value="Rights and permissions" aria-describedby="FormFields_20__Hint">
+                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_20__Value">
                   Cannot log in or want to create an account?
                 </label>
-                <span class="nhsuk-hint nhsuk-radios__hint" id="FormFields_4__hint">
+                <span class="nhsuk-hint nhsuk-radios__hint" id="FormFields_20__Hint">
                   <a target="_blank" href="https://www.nhs.uk/Personalisation/ResetPassword.aspx">To reset your password click here</a>
                 </span>
               </div>
               <div class="nhsuk-radios__item">
-                <input class="nhsuk-radios__input" id="FormFields_5__Value" name="contact" type="radio" value="Rights and permissions">
-                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_5__Value">
+                <input class="nhsuk-radios__input" id="FormFields_21__Value" name="contact" type="radio" value="Rights and permissions">
+                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_21__Value">
                   Responding to a comment
                 </label>
               </div>
               <div class="nhsuk-radios__item">
-                <input class="nhsuk-radios__input" id="FormFields_6__Value" name="contact" type="radio" value="Rights and permissions">
-                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_6__Value">
+                <input class="nhsuk-radios__input" id="FormFields_22__Value" name="contact" type="radio" value="Rights and permissions">
+                <label class="nhsuk-label nhsuk-radios__label" for="FormFields_22__Value">
                   Uploading assets
                 </label>
               </div>
@@ -445,11 +455,14 @@
         </div>
 
 
-        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
-          <label class="nhsuk-label nhsuk-label--l" for="FormFields_16__Value">
+        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8 nhsuk-form-group--error">
+          <label class="nhsuk-label nhsuk-label--l" for="FormFields_17__Value">
             NHS organisation postcode
           </label>
-          <input class="nhsuk-input" id="FormFields_16__Value" name="FormFields[16].Value" type="text" autocomplete="postal-code">
+          <span class="nhsuk-error-message" id="FormFields_17__Error">
+            <span class="nhsuk-u-visually-hidden">Error:</span> You must input a value
+          </span>
+          <input class="nhsuk-input nhsuk-input--error" id="FormFields_17__Value" name="FormFields[17].Value" type="text" aria-describedby="FormFields_17__Error" autocomplete="postal-code">
         </div>
 
 
@@ -461,18 +474,21 @@
         </div>
 
 
-        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8">
-          <fieldset class="nhsuk-fieldset" aria-describedby="FormFields_12__Hint">
+        <div class="nhsuk-form-group nhsuk-u-margin-bottom-8 nhsuk-form-group--error">
+          <fieldset class="nhsuk-fieldset" aria-describedby="FormFields_23__Hint">
             <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
               Privacy policy agreement
             </legend>
-            <span class="nhsuk-hint" id="FormFields_12__Hint">
+            <span class="nhsuk-hint" id="FormFields_23__Hint">
               You must confirm you have read and understood our privacy policy before sending.
+            </span>
+            <span class="nhsuk-error-message" id="waste-error">
+              <span class="nhsuk-u-visually-hidden">Error:</span> Check the box to confirm you have read and understood our privacy policy
             </span>
             <div class="nhsuk-checkboxes">
               <div class="nhsuk-checkboxes__item">
-                <input class="nhsuk-checkboxes__input" id="FormFields_12__Value" name="FormFields[12].Value" type="checkbox" value="true">
-                <label class="nhsuk-label nhsuk-checkboxes__label" for="FormFields_12__Value">
+                <input class="nhsuk-checkboxes__input" id="FormFields_23__Value" name="FormFields[23].Value" type="checkbox" value="true">
+                <label class="nhsuk-label nhsuk-checkboxes__label" for="FormFields_23__Value">
                   I have read and understood the privacy policy
                 </label>
               </div>
