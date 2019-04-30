@@ -51,6 +51,7 @@ Some accessibility resources that I use.
 - [UK Home Office accessibility posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 - [Ontario.ca Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
 - [NHS Digital service manual - make your service accessible](https://beta.nhs.uk/service-manual/practices/make-your-service-accessible)
+- [BBC GEL | How to design for accessibility](http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility)
 
 ## Guidelines
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
