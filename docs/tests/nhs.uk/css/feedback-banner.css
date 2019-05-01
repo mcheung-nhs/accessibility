@@ -1,0 +1,111 @@
+/* ==========================================================================
+    COMPONENTS / #FEEDBACK-BANNER
+   ========================================================================== */
+/**
+ * 1. Hide the banner until it is triggered by Javascript.
+ * 2. Bring banner in front of rest of page content.
+ * 3. Avoid the banner title overlapping close button.
+ * 4. Avoid the banner title overlapping close button on
+ *    small mobile devices (below 320px).
+ * 5. Change the cursor to a pointer on hover.
+ * 6. Repositions the banner into the normal flow of the page, ie not fixed.
+ */
+.nhsuk-feedback-banner {
+  background-color: #ffffff;
+  bottom: 0;
+  box-shadow: 0 -4px 0 0 rgba(33, 43, 50, 0.16);
+  display: none;
+  /* [1] */
+  margin: 0 auto;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  /* [2] */ }
+  @media print {
+    .nhsuk-feedback-banner {
+      display: none; } }
+  .nhsuk-feedback-banner.js-inview {
+    /* [6] */
+    bottom: auto;
+    position: relative; }
+
+.nhsuk-feedback-banner__heading {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 0;
+  padding-right: 40px;
+  /* [3] */ }
+  @media (min-width: 40.0625em) {
+    .nhsuk-feedback-banner__heading {
+      font-size: 24px;
+      font-size: 1.5rem;
+      line-height: 1.33333; } }
+  @media print {
+    .nhsuk-feedback-banner__heading {
+      font-size: 18pt;
+      line-height: 1.15; } }
+
+.nhsuk-feedback-banner__content {
+  position: relative; }
+  .nhsuk-feedback-banner__content:after {
+    clear: both;
+    content: '';
+    display: block; }
+
+.nhsuk-feedback-banner__message {
+  margin-bottom: 0;
+  margin-top: 8px;
+  padding-bottom: 24px;
+  /* [4] */ }
+  @media (min-width: 20em) {
+    .nhsuk-feedback-banner__message {
+      padding-bottom: 0; } }
+
+.nhsuk-feedback-banner__close {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.66667;
+  color: #005eb8;
+  background: none;
+  border: 0;
+  color: #212b32;
+  cursor: pointer;
+  /* [5] */
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-decoration: underline;
+  top: 0; }
+  @media (min-width: 40.0625em) {
+    .nhsuk-feedback-banner__close {
+      font-size: 14px;
+      font-size: 0.875rem;
+      line-height: 1.71429; } }
+  @media print {
+    .nhsuk-feedback-banner__close {
+      font-size: 12pt;
+      line-height: 1.2; } }
+  .nhsuk-feedback-banner__close:visited {
+    color: #330072; }
+  .nhsuk-feedback-banner__close:focus {
+    background-color: #ffb81C;
+    box-shadow: 0 0 0 4px #ffb81C;
+    color: #212b32;
+    outline: 4px solid transparent;
+    outline-offset: 4px; }
+  .nhsuk-feedback-banner__close:hover {
+    background-color: #ffcd60;
+    box-shadow: 0 0 0 4px #ffcd60;
+    color: #212b32;
+    text-decoration: none; }
+  .nhsuk-feedback-banner__close:active {
+    color: #374047; }
+  @media (max-width: 19.99em) {
+    .nhsuk-feedback-banner__close {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+      top: auto; } }
