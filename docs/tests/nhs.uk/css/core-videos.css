@@ -1,0 +1,14 @@
+.core-video {
+  padding: 4px;
+  background-color: #E7EEF8; }
+  .core-video * {
+    margin-top: 0px; }
+
+.core-video--information {
+  padding: 20px 15px;
+  margin-top: 0px; }
+  .core-video--information .content-divider {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .core-video--information p {
+    margin-top: 0px; }
