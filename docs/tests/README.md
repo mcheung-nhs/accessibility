@@ -10,6 +10,10 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Micrograms symbol](https://mcheung-nhs.github.io/accessibility/tests/micrograms.html)
 - [Internal links to lists](https://mcheung-nhs.github.io/accessibility/tests/internal-links.html)
 - [Internal links to content](https://mcheung-nhs.github.io/accessibility/tests/internal-links-content.html)
+- [Degrees symbol](https://mcheung-nhs.github.io/accessibility/tests/degrees.html)
+- [Months](https://mcheung-nhs.github.io/accessibility/tests/months.html)
+- [OK, okay](https://mcheung-nhs.github.io/accessibility/tests/ok.html)
+- [Ordinals](https://mcheung-nhs.github.io/accessibility/tests/ordinals.html)
 
 ***
 
