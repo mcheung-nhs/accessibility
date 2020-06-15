@@ -14,6 +14,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Months](https://mcheung-nhs.github.io/accessibility/tests/months.html)
 - [OK, okay](https://mcheung-nhs.github.io/accessibility/tests/ok.html)
 - [Ordinals](https://mcheung-nhs.github.io/accessibility/tests/ordinals.html)
+- [Error alerts and skip link](https://mcheung-nhs.github.io/accessibility/tests/error-alert.html)
 
 ***
 
