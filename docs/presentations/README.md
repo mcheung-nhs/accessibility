@@ -7,4 +7,4 @@ Some accessibility talks/presentations that I've done.
 - [Web accessibility and assistive technologies (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/assistive-tech/web-accessibility-assistive-technologies.pptx)
 - [Visual impairment workshop - Speech and language therapy inservice, Airedale General Hospital, June 1019 (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop-airedale.pptx)
 - [Accessibility and VINE glasses workshop - Content away day, March 2019 (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop.pptx)
-- [Public Health EnglandVINE Glasses Workshop, March 2019 (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop-PHE.pptx)
+- [Public Health England VINE Glasses Workshop, March 2019 (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop-PHE.pptx)
