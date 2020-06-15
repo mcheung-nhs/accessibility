@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Error alerts and skip link focusing</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {padding: 15px;}
+            .nhsuk-skip-link {
+              left: -9999px;
+              padding: 8px;
+              position: absolute;
+            }
+            .nhsuk-skip-link:active,
+            .nhsuk-skip-link:focus {
+              left: 12px;
+              top: 12px;
+              z-index: 2;
+            }
+        </style>
+    </head>
+    <body>
+
+      <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+
+      <main>
+
+        <h1>Error message and alerts and skip link</h1>
+        <p>Test to show how screen readers deal with error messages with the alert role and skip link on the same page, with the skip link the first item on the page.</p>
+
+        <div aria-labelledby="error-summary-title" role="alert" tabindex="-1">
+          <h2 id="error-summary-title">
+            There is a problem
+          </h2>
+          <p>
+            Describe the errors and how to correct them
+          </p>
+          <ul>
+            <li>
+              <a href="#example">Enter your name</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <label class="nhsuk-label" for="example">
+          What is your name?
+        </label>
+        <input class="nhsuk-input" id="example" name="example" type="text">
+
+      </main>
+
+    </body>
+</html>
