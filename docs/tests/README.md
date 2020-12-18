@@ -17,6 +17,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Error alerts and skip link](https://mcheung-nhs.github.io/accessibility/tests/error-alert.html)
 - [Short URLs](https://mcheung-nhs.github.io/accessibility/tests/urls.html)
 - [Hyphens or spaces](https://mcheung-nhs.github.io/accessibility/tests/hyphens-spaces.html)
+- [Aria label](https://mcheung-nhs.github.io/accessibility/tests/aria-label.html)
 
 ***
 
