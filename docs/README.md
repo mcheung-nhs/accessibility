@@ -29,6 +29,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Ordinals](https://mcheung-nhs.github.io/accessibility/tests/ordinals.html)
 - [Error alerts and skip link](https://mcheung-nhs.github.io/accessibility/tests/error-alert.html)
 - [Short URLs](https://mcheung-nhs.github.io/accessibility/tests/urls.html)
+- [Hyphens or spaces](https://mcheung-nhs.github.io/accessibility/tests/hyphens-spaces.html)
 
 ## NHS.uk
 
