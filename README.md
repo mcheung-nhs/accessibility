@@ -17,8 +17,9 @@ Some accessibility resources that I use.
 
 ## Developer tools and resources
 - [WebAim  WAVE extension for Chrome](http://wave.webaim.org/extension/)
-- [Google Accessibility Developer Tools for Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+- [ARC Toolkit](https://www.paciellogroup.com/toolkit/)
 - [aXe](https://www.deque.com/axe/)
+- [Accessibility Insights](https://accessibilityinsights.io/en/)
 - [Tenon](https://tenon.io/)
 - [Funkify - disability simulator](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
 - [NoCoffee vision simulator for Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
@@ -33,6 +34,9 @@ Some accessibility resources that I use.
 - [Dragon speech recognition software](https://www.nuance.com/en-gb/dragon.html)
 - [VoiceOver - part of iOS/macOS](https://www.apple.com/uk/accessibility/mac/vision/)
 - [TalkBack - part of Android](https://support.google.com/accessibility/android/answer/6283677?hl=en-GB)
+
+## NHS.UK Digital service manual
+- [Accessibility - How to make digital services in the NHS work for everyone](https://service-manual.nhs.uk/accessibility)
 
 ## GOV.UK Service Manual
 - [Making your service accessible: an introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
@@ -71,3 +75,4 @@ Some accessibility resources that I use.
 - [WebAIM](https://webaim.org)
 - [Royal National Institute of Blind People (RNIB)](https://www.rnib.org.uk/)
 - [The Paciello Group](https://www.paciellogroup.com)
+- [Nomensa](https://www.nomensa.com)
