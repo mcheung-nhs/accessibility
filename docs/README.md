@@ -31,6 +31,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Short URLs](https://mcheung-nhs.github.io/accessibility/tests/urls.html)
 - [Hyphens or spaces](https://mcheung-nhs.github.io/accessibility/tests/hyphens-spaces.html)
 - [Aria label](https://mcheung-nhs.github.io/accessibility/tests/aria-label.html)
+- [Lang](https://mcheung-nhs.github.io/accessibility/tests/lang.html)
 
 ## NHS.uk
 
