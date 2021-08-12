@@ -76,3 +76,5 @@ Some accessibility resources that I use.
 - [Royal National Institute of Blind People (RNIB)](https://www.rnib.org.uk/)
 - [The Paciello Group](https://www.paciellogroup.com)
 - [Nomensa](https://www.nomensa.com)
+
+Testing browser codespaces functionality.
