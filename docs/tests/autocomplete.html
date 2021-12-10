@@ -10,9 +10,11 @@
     <body>
 
         <h1>Autocomplete</h1>
-        <p>Testing autocomplete=off on the form element and autocomplete values on the input fields so see browser beahviour.</p>
+        <p>Testing autocomplete=off on the form element and autocomplete values on the input fields so see browser behaviour.</p>
 
         <hr>
+
+        <p>autocomplete=off is on the form and aappropriate autocomplete values on the first and last name.</p>
 
         <form method="post" action="" autocomplete="off">
 
@@ -26,6 +28,26 @@
             </fieldset>
 
         </form>
+
+
+        <hr>
+
+        <p>No autocomplete on the form and random autocomplete values on the first and last name.</p>
+
+        <form method="post" action="">
+
+            <fieldset>
+                <legend>What is your name?</legend>
+                <p><label for="abc123">First name</label><br>
+                <input autocomplete="abc123" type="text" id="abc123" maxlength="35" name="abc123" value=""></p>
+
+                <p><label for="xyz789">Last name</label><br>
+                <input autocomplete="xyz789" type="text" id="xyz789" maxlength="35" name="xyz789" value=""></p>
+            </fieldset>
+
+        </form>
+
+        <p>This seems to stop autocomplete on Chrome (tested on v96.0.4664.93). However, having invalid autocomplete values violates WCAG 2.1 success criterion 1.3.5 Identify Input Purpose.</p>
 
     </body>
 </html>
