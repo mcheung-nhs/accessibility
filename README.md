@@ -18,14 +18,15 @@ Some accessibility resources that I use.
 ## Developer tools and resources
 - [WebAim  WAVE extension for Chrome](http://wave.webaim.org/extension/)
 - [ARC Toolkit](https://www.paciellogroup.com/toolkit/)
-- [aXe](https://www.deque.com/axe/)
+- [axe](https://www.deque.com/axe/)
+- [axe-core](https://github.com/dequelabs/axe-core)
 - [Accessibility Insights](https://accessibilityinsights.io/en/)
-- [Tenon](https://tenon.io/)
 - [Funkify - disability simulator](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
-- [NoCoffee vision simulator for Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
+- [NoCoffee vision simulator for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/)
 - [pa11y](http://pa11y.org/)
 - [HeadingsMap](https://www.learningapps.co.uk/moodle/xertetoolkits/play.php?template_id=1309)
 - [NHS.UK frontend library testing notes](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/testing.md)
+- [WebAIM Colour contrast checker](https://webaim.org/resources/contrastchecker/)
 
 ## Assistive technologies (AT)
 - [JAWS](https://www.freedomscientific.com/Products/Blindness/JAWS)
@@ -61,12 +62,12 @@ Some accessibility resources that I use.
 
 ## Guidelines
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [BBC Accessibility Standards and Guidelines](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/index.shtml)
+- [BBC Accessibility for Products](https://www.bbc.co.uk/accessibility/forproducts/)
 - [18F Accessibility Guide](https://accessibility.18f.gov/checklist/)
 - [Vox Product Accessibility Guidelines](http://accessibility.voxmedia.com/)
 - [Wuhcag - Web accessibility for developers](https://www.wuhcag.com/)
 - [Accessibility for Teams guide - US Government](https://accessibility.digital.gov)
-- [GOV.UK WCAG 2.0 Primer (alpha)](https://alphagov.github.io/wcag-primer/)
+- [GOV.UK WCAG 2.1 Primer (alpha)](https://alphagov.github.io/wcag-primer/)
 - [Nutrition cards for accessible components](https://davatron5000.github.io/a11y-nutrition-cards/)
 - [WCAG 2.1 map](https://intopia.digital/articles/intopia-launches-wcag-2-1-map/)
 
@@ -74,5 +75,5 @@ Some accessibility resources that I use.
 - [The Digital Accessibility Centre (DAC)](http://digitalaccessibilitycentre.org)
 - [WebAIM](https://webaim.org)
 - [Royal National Institute of Blind People (RNIB)](https://www.rnib.org.uk/)
-- [The Paciello Group](https://www.paciellogroup.com)
+- [TPGi](https://www.tpgi.com/)
 - [Nomensa](https://www.nomensa.com)
