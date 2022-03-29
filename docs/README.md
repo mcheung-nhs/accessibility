@@ -34,6 +34,7 @@ Testing markup and content to hear how screenreaders read stuff.
 - [Lang](https://mcheung-nhs.github.io/accessibility/tests/lang.html)
 - [Percent symbol](https://mcheung-nhs.github.io/accessibility/tests/percent.html)
 - [Autocomplete](https://mcheung-nhs.github.io/accessibility/tests/autocomplete.html)
+- [Aria-current](https://mcheung-nhs.github.io/accessibility/tests/aria-current.html)
 
 ## NHS.uk
 

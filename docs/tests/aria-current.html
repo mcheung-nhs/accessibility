@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Aria current</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {padding: 15px;}
+        </style>
+    </head>
+    <body>
+
+        <h1>Aria current</h1>
+        <p>Check usage of aria current on 'a' and 'li' elements, and using different values: 'aria-current=page' and 'aria-current=true'</p>
+
+        <hr>
+
+        <ul>
+          <li><a href="https://www.nhs.uk/">The NHS website</a></li>
+          <li><a href="https://www.nhs.uk/" aria-current="page">The NHS website</a> (aria-current="page")</li>
+          <li><a href="https://www.nhs.uk/" aria-current="true">The NHS website</a> (aria-current="true")</li>
+          <li>The NHS website</li>
+          <li aria-current="page">The NHS website (aria-current="page")</li>
+          <li aria-current="true">The NHS website (aria-current="true")</li>
+        </ul>
+
+    </body>
+</html>
