@@ -60,9 +60,10 @@ Some accessibility resources that I use.
 - [NHS Digital service manual - make your service accessible](https://beta.nhs.uk/service-manual/practices/make-your-service-accessible)
 - [BBC GEL | How to design for accessibility](http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility)
 
-## Guidelines
+## Guidelines and guides
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [BBC Accessibility for Products](https://www.bbc.co.uk/accessibility/forproducts/)
+- [BBC News Accessibility](https://bbc.github.io/accessibility-news-and-you/)
 - [18F Accessibility Guide](https://accessibility.18f.gov/checklist/)
 - [Vox Product Accessibility Guidelines](http://accessibility.voxmedia.com/)
 - [Wuhcag - Web accessibility for developers](https://www.wuhcag.com/)
