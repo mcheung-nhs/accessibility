@@ -77,3 +77,4 @@ Some accessibility resources that I use.
 - [Royal National Institute of Blind People (RNIB)](https://www.rnib.org.uk/)
 - [TPGi](https://www.tpgi.com/)
 - [Nomensa](https://www.nomensa.com)
+- [Hassell Inclusion](https://www.hassellinclusion.com/)
