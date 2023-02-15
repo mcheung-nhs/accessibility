@@ -44,8 +44,8 @@ Some accessibility resources that I use.
 - [Designing for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices)
 - [Testing for accessibility](https://www.gov.uk/service-manual/technology/testing-for-accessibility)
 - [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
-- [Understanding WCAG 2.0](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20)
-- [Accessibility for developers: an introduction](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
+- [Understanding WCAG 2.1](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
+- [Making your frontend accessible](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
 
 ## GOV.UK articles
 - [GOV.UK Accessibility blog](https://accessibility.blog.gov.uk)
