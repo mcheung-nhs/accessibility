@@ -22,6 +22,9 @@ Testing markup and content to hear how screen readers read stuff.
 - [Percent symbol](https://mcheung-nhs.github.io/accessibility/tests/percent.html)
 - [Autocomplete](https://mcheung-nhs.github.io/accessibility/tests/autocomplete.html)
 - [Aria-current](https://mcheung-nhs.github.io/accessibility/tests/aria-current.html)
+- [Emails](https://mcheung-nhs.github.io/accessibility/tests/emails.html)
+- [Be Part of Research widget - self closing tag](https://mcheung-nhs.github.io/accessibility/tests/bpor.html)
+- [Be Part of Research widget - separate closing tag](https://mcheung-nhs.github.io/accessibility/tests/bpor.html)
 
 ***
 

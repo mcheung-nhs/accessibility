@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Mark element</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {padding: 15px;}
+
+            code {
+                color: #212b32;
+            }
+            .highlight {
+                border-radius: 3px;
+                padding: 0.1rem 0.3rem;
+            }
+            .highlight--yellow {
+                background-color: #fff759;
+            }
+            .highlight--orange {
+                background-color: #ffb459;
+            }
+            .highlight--green {
+                background-color: #a3ff59;
+            }
+            mark::before, mark::after {
+                clip-path: inset(100%);
+                clip: rect(1px, 1px, 1px, 1px);
+                height: 1px;
+                overflow: hidden;
+                position: absolute;
+                white-space: nowrap;
+                width: 1px;
+            }
+
+            mark.highlight--yellow::before {
+                content: " [yellow highlight start] ";
+            }
+
+            mark.highlight--yellow::after {
+                content: " [yellow highlight end] ";
+            }
+
+            mark.highlight--orange::before {
+                content: " [orange highlight start] ";
+            }
+
+            mark.highlight--orange::after {
+                content: " [orange highlight end] ";
+            }
+
+            mark.highlight--green::before {
+                content: " [green highlight start] ";
+            }
+
+            mark.highlight--green::after {
+                content: " [green highlight end] ";
+            }
+
+            .highlight--comment {
+                display: inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>&lt;ark&gt; element</h1>
+        <p>Check how screen readers announce the &lt;ark&gt; element which can be used to highlight text.</p>
+        <p>Also testing the use of the ::before and ::after pseudo elements to give an indication of marked text.</p>
+
+        <hr>
+
+        <code><pre>curl -X GET 'https://<mark class="highlight highlight--yellow" aria-details="yellow-comment">api.nhs.uk</mark>/conditions/' \
+            -H 'Content-Type: application/json' \
+            -H '<mark class="highlight highlight--orange" aria-details="orange-comment">subscription-key</mark>: <mark class="highlight highlight--green" aria-details="green-comment">YOUR_OLD_SUBSCRIPTION_KEY_WENT_HERE</mark>'</pre></code>
+
+            <div role="comment" id="yellow-comment">
+                <h3 class="nhsuk-u-visually-hidden">Sub domain and path (Highlighted in yellow)</h3>
+                <p class="highlight highlight--yellow highlight--comment">The sub domain and path to the endpoint has changed.</p>
+              </div>
+
+              <div role="comment" id="orange-comment">
+                <h3 class="nhsuk-u-visually-hidden">Header key (Highlighted in orange)</h3>
+                <p class="highlight highlight--orange highlight--comment">The header key for authentication has changed.</p>
+              </div>
+
+              <div role="comment" id="green-comment">
+                <h3 class="nhsuk-u-visually-hidden">Header value (Highlighted in green)</h3>
+                <p class="highlight highlight--green highlight--comment">Your header value for authentication will be new.</p>
+              </div>
+            </div>
+    
+        </body>
+</html>
