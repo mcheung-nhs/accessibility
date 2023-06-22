@@ -21,19 +21,18 @@ Some accessibility resources that I use.
 - [axe](https://www.deque.com/axe/)
 - [axe-core](https://github.com/dequelabs/axe-core)
 - [Accessibility Insights](https://accessibilityinsights.io/en/)
-- [Funkify - disability simulator](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg?hl=en)
 - [NoCoffee vision simulator for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/)
 - [pa11y](http://pa11y.org/)
-- [HeadingsMap](https://www.learningapps.co.uk/moodle/xertetoolkits/play.php?template_id=1309)
+- [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
 - [NHS.UK frontend library testing notes](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/testing.md)
 - [WebAIM Colour contrast checker](https://webaim.org/resources/contrastchecker/)
 
 ## Assistive technologies (AT)
-- [JAWS](https://www.freedomscientific.com/Products/Blindness/JAWS)
-- [ZoomText](https://www.zoomtext.com/products/zoomtext-magnifierreader/)
+- [JAWS](https://www.freedomscientific.com/Products/software/JAWS/)
+- [ZoomText](https://www.freedomscientific.com/products/software/zoomtext/)
 - [NVDA](https://www.nvaccess.org/)
 - [Dragon speech recognition software](https://www.nuance.com/en-gb/dragon.html)
-- [VoiceOver - part of iOS/macOS](https://www.apple.com/uk/accessibility/mac/vision/)
+- [VoiceOver - part of iOS/macOS](https://www.apple.com/uk/accessibility/vision/)
 - [TalkBack - part of Android](https://support.google.com/accessibility/android/answer/6283677?hl=en-GB)
 
 ## NHS.UK Digital service manual
@@ -44,8 +43,8 @@ Some accessibility resources that I use.
 - [Designing for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices)
 - [Testing for accessibility](https://www.gov.uk/service-manual/technology/testing-for-accessibility)
 - [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
-- [Understanding WCAG 2.0](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20)
-- [Accessibility for developers: an introduction](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
+- [Understanding WCAG 2.1](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
+- [Making your frontend accessible](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
 
 ## GOV.UK articles
 - [GOV.UK Accessibility blog](https://accessibility.blog.gov.uk)
