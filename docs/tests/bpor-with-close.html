@@ -4,7 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Be Part Of Research widget test</title> 
-    <script type="module" src="https://unpkg.com/bpor-dev-resource@0.1.24/dist/bpor-widget/bpor-widget.esm.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/bpor-dev-resource@0.1.2-4.dev/dist/bpor-widget/bpor-widget.esm.js"></script> -->
+    <script type="module" src="https://unpkg.com/bpor-dev-resource@0.25.1/dist/bpor-widget/bpor-widget.esm.js"></script>
+
+    <style>
+        .vishid {
+            border: 0;
+            clip: rect(0 0 0 0);
+            -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: 0;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -12,13 +30,16 @@
 
     <p>A paragraph before the widget. There is a paragraph after the widget. The widget code is as follows:</p>
     
-    <code><pre>&lt;script type="module" src="https://unpkg.com/bpor-dev-resource@0.1.24/dist/bpor-widget/bpor-widget.esm.js"&gt;&lt;/script&gt;</pre></code>
+    <code><pre>&lt;script type="module" src="https://unpkg.com/bpor-dev-resource@0.25.1/dist/bpor-widget/bpor-widget.esm.js"&gt;&lt;/script&gt;</pre></code>
     
     <code><pre>&lt;bpor-widget distance="20" query="cancer" location="York" /&gt;&lt;/bpor-widget&gt;</pre></code>
 
-    <bpor-widget distance="20" query="cancer" location="York"></bpor-widget>
+    <bpor-widget distance="20" query="cancer" location="York" headinglevel="h4"></bpor-widget>
     
     <p>Some content below the widget.</p>
+
+
+<p>Here is a link with <a href="https://www.nhs.uk/" target="_blank">visually hidden text <span class="vishid">(Opens in new window)</span></a> to see what is read by screen readers and what needs to be said with speech recognition.</p>
 
 </body>
 
