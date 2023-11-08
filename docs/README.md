@@ -2,6 +2,7 @@
 
 Some accessibility talks/presentations that I've done.
 
+- [Visual impairment simulation workshop - Airedale NHS Foundation Trust Inservice, October 2023 (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/vine-workshop/vine-workshop-airedale-oct-2023.pptx)
 - [NHS Choices accessibility audit and fixes](https://mcheung-nhs.github.io/accessibility/presentations/nhschoices-audit/)
 - [Accessibility and visual impairment and design considerations](https://mcheung-nhs.github.io/accessibility/presentations/visual-impairment/)
 - [Web accessibility and assistive technologies (.pptx)](https://mcheung-nhs.github.io/accessibility/presentations/assistive-tech/web-accessibility-assistive-technologies.pptx)
