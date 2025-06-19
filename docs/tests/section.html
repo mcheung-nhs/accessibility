@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Section</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {padding: 15px;}
+        </style>
+    </head>
+    <body>
+
+        <h1>Section</h1>
+        <p>Check support for aria attributes, roles and other bits when using the Section element</p>
+
+        <hr>
+
+        <section>
+            <p>Using a section tag with no attributes, just content in the section.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Regular section</h2>
+            <p>Using a section tag with no attributes, just a header and content in the section.</p>
+        </section>
+
+        <hr>
+
+        <section aria-label="Section with aria label">
+            <p>Using a section tag with aria-label="Section with aria label" and no header.</p>
+        </section>
+
+        <hr>
+
+        <section aria-label="Section with aria label">
+            <h2>Section with aria label</h2>
+            <p>Using a section tag with aria-label="Section with aria label" and a header with the same label.</p>
+        </section>
+
+        <hr>
+
+        <section aria-label="Section with aria label">
+            <h2>Section with different title to the aria label</h2>
+            <p>Using a section tag with aria-label="Section with aria label" but a header with a different label.</p>
+        </section>
+
+        <hr>
+
+        <section aria-labelledby="section-heading">
+            <h2 id="section-heading">Section with aria-labelledby</h2>
+            <p>Using a section tag with aria-label="Section with aria label" but a header with a different label.</p>
+        </section>
+
+        <hr>
+
+        <section title="Section with title attribute">
+            <h2>Section with title attribute</h2>
+            <p>Using a section tag with a title attribute.</p>
+        </section>
+
+
+    </body>
+</html>
