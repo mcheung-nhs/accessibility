@@ -26,6 +26,8 @@ Testing markup and content to hear how screen readers read stuff.
 - [Mark](https://mcheung-nhs.github.io/accessibility/tests/mark.html)
 - [Be Part of Research widget - self closing tag](https://mcheung-nhs.github.io/accessibility/tests/bpor.html)
 - [Be Part of Research widget - separate closing tag](https://mcheung-nhs.github.io/accessibility/tests/bpor-with-close.html)
+- [Section](https://mcheung-nhs.github.io/accessibility/tests/section.html)
+- [Star ratings](https://mcheung-nhs.github.io/accessibility/tests/star-rating.html)
 
 ***
 
