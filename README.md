@@ -17,7 +17,7 @@ Some accessibility talks/presentations that I've done.
 Some accessibility resources that I use.
 
 ## Developer tools and resources
-- [WebAim  WAVE extension for Chrome](http://wave.webaim.org/extension/)
+- [WebAim  WAVE extension](http://wave.webaim.org/extension/)
 - [ARC Toolkit](https://www.paciellogroup.com/toolkit/)
 - [axe](https://www.deque.com/axe/)
 - [axe-core](https://github.com/dequelabs/axe-core)
